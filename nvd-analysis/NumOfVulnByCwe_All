@@ -1,0 +1,123 @@
+CWE-ID:	CWE Name:					# of Vulnerabilities
+------
+CWE-824: Access of Uninitialized Pointer: 2
+CWE-407: Algorithmic Complexity: 0
+CWE-774: Allocation of File Descriptors or Handles Without Limits or Throttling: 0
+CWE-88: Argument Injection or Modification: 0
+CWE-405: Asymmetric Resource Consumption (Amplification): 0
+CWE-287: Authentication Issues: 1032
+CWE-119: Buffer Errors: 7720
+CWE-417: Channel and Path Errors: 1
+CWE-171: Cleansing, Canonicalization, and Comparison Errors: 0
+CWE-17: Code: 169
+CWE-94: Code Injection: 2092
+CWE-77: Command Injection: 93
+CWE-16: Configuration: 268
+CWE-216: Containment Errors (Container Errors): 0
+CWE-255: Credentials Management: 656
+CWE-352: Cross-Site Request Forgery (CSRF): 1225
+CWE-79: Cross-Site Scripting (XSS): 6935
+CWE-310: Cryptographic Issues: 2303
+CWE-19: Data Handling: 156
+CWE-502: Deserialization of Untrusted Data: 11
+CWE-369: Divide By Zero: 12
+CWE-415: Double Free: 12
+CWE-172: Encoding Error: 4
+CWE-2: Environment: 0
+CWE-388: Error Handling: 12
+CWE-749: Exposed Dangerous Method or Function: 1
+CWE-668: Exposure of Resource to Wrong Sphere: 0
+CWE-472: External Control of Assumed-Immutable Web Parameter: 0
+CWE-642: External Control of Critical State Data: 0
+CWE-610: Externally Controlled Reference to a Resource in Another Sphere: 0
+CWE-538: File and Directory Information Exposure: 0
+CWE-769: File Descriptor Exhaustion: 0
+CWE-552: Files or Directories Accessible to External Parties: 0
+CWE-134: Format String Vulnerability: 166
+CWE-284: Improper Access Control: 849
+CWE-118: Improper Access of Indexable Resource (&#39;Range Error&#39;): 0
+CWE-285: Improper Authorization: 17
+CWE-295: Improper Certificate Validation: 5
+CWE-754: Improper Check for Unusual or Exceptional Conditions: 0
+CWE-664: Improper Control of a Resource Through its Lifetime: 0
+CWE-913: Improper Control of Dynamically-Managed Code Resources: 0
+CWE-99: Improper Control of Resource Identifiers (&#39;Resource Injection&#39;): 0
+CWE-116: Improper Encoding or Escaping of Output: 0
+CWE-665: Improper Initialization: 0
+CWE-93: Improper Neutralization of CRLF Sequences (&#39;CRLF Injection&#39;): 6
+CWE-113: Improper Neutralization of CRLF Sequences in HTTP Headers (&#39;HTTP Response Splitting&#39;): 5
+CWE-943: Improper Neutralization of Special Elements in Data Query Logic: 0
+CWE-90: Improper Neutralization of Special Elements used in an LDAP Query (&#39;LDAP Injection&#39;): 2
+CWE-404: Improper Resource Shutdown or Release: 0
+CWE-611: Improper Restriction of XML External Entity Reference (&#39;XXE&#39;): 23
+CWE-129: Improper Validation of Array Index: 2
+CWE-297: Improper Validation of Certificate with Host Mismatch: 2
+CWE-347: Improper Verification of Cryptographic Signature: 0
+CWE-358: Improperly Implemented Security Check for Standard: 1
+CWE-326: Inadequate Encryption Strength: 8
+CWE-184: Incomplete Blacklist: 0
+CWE-444: Inconsistent Interpretation of HTTP Requests (&#39;HTTP Request Smuggling&#39;): 0
+CWE-682: Incorrect Calculation: 1
+CWE-185: Incorrect Regular Expression: 2
+CWE-669: Incorrect Resource Transfer Between Spheres: 1
+CWE-704: Incorrect Type Conversion or Cast: 6
+CWE-398: Indicator of Poor Code Quality: 0
+CWE-534: Information Exposure Through Debug Log Files: 0
+CWE-532: Information Exposure Through Log Files: 10
+CWE-200: Information Leak / Disclosure: 3304
+CWE-199: Information Management Errors: 4
+CWE-74: Injection: 32
+CWE-20: Input Validation: 4236
+CWE-485: Insufficient Encapsulation: 1
+CWE-331: Insufficient Entropy: 0
+CWE-332: Insufficient Entropy in PRNG: 2
+CWE-613: Insufficient Session Expiration: 0
+CWE-345: Insufficient Verification of Data Authenticity: 28
+CWE-190: Integer Overflow or Wraparound: 90
+CWE-191: Integer Underflow (Wrap or Wraparound): 5
+CWE-435: Interaction Error: 0
+CWE-436: Interpretation Conflict: 0
+CWE-320: Key Management Errors: 5
+CWE-59: Link Following: 431
+CWE-1: Location: 0
+CWE-306: Missing Authentication for Critical Function: 0
+CWE-775: Missing Release of File Descriptor or Handle after Effective Lifetime: 1
+CWE-471: Modification of Assumed-Immutable Data (MAID): 0
+CWE-476: NULL Pointer Dereference: 99
+CWE-189: Numeric Errors: 1370
+CWE-346: Origin Validation Error: 0
+CWE-78: OS Command Injections: 221
+CWE-125: Out-of-bounds Read: 147
+CWE-787: Out-of-bounds Write: 54
+CWE-21: Path Equivalence: 2
+CWE-22: Path Traversal: 1955
+CWE-275: Permission Issues: 12
+CWE-264: Permissions, Privileges, and Access Control: 5180
+CWE-693: Protection Mechanism Failure: 1
+CWE-362: Race Conditions: 412
+CWE-137: Representation Errors: 0
+CWE-399: Resource Management Errors: 2850
+CWE-254: Security Features: 324
+CWE-220: Sensitive Data Under FTP Root: 0
+CWE-918: Server-Side Request Forgery (SSRF): 10
+CWE-384: Session Fixation: 5
+CWE-18: Source Code: 6
+CWE-89: SQL Injection: 4287
+CWE-371: State Issues: 0
+CWE-361: Time and State: 3
+CWE-400: Uncontrolled Resource Consumption (&#39;Resource Exhaustion&#39;): 20
+CWE-427: Uncontrolled Search Path Element: 1
+CWE-441: Unintended Proxy or Intermediary (&#39;Confused Deputy&#39;): 0
+CWE-428: Unquoted Search Path or Element: 4
+CWE-434: Unrestricted Upload of File with Dangerous Type: 17
+CWE-426: Untrusted Search Path: 10
+CWE-601: URL Redirection to Untrusted Site (&#39;Open Redirect&#39;): 21
+CWE-416: Use After Free: 187
+CWE-327: Use of a Broken or Risky Cryptographic Algorithm: 2
+CWE-338: Use of Cryptographically Weak Pseudo-Random Number Generator (PRNG): 1
+CWE-798: Use of Hard-coded Credentials: 18
+CWE-330: Use of Insufficiently Random Values: 1
+CWE-694: Use of Multiple Resources with Duplicate Identifier: 0
+CWE-640: Weak Password Recovery Mechanism for Forgotten Password: 5
+CWE-123: Write-what-where Condition: 0
+CWE-91: XML Injection (aka Blind XPath Injection): 3
