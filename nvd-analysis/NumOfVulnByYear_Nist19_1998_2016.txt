@@ -1,0 +1,361 @@
+CWE-287: Authentication Issues: 1998:0
+CWE-287: Authentication Issues: 1999:3
+CWE-287: Authentication Issues: 2000:0
+CWE-287: Authentication Issues: 2001:2
+CWE-287: Authentication Issues: 2002:4
+CWE-287: Authentication Issues: 2003:7
+CWE-287: Authentication Issues: 2004:6
+CWE-287: Authentication Issues: 2005:5
+CWE-287: Authentication Issues: 2006:13
+CWE-287: Authentication Issues: 2007:68
+CWE-287: Authentication Issues: 2008:146
+CWE-287: Authentication Issues: 2009:210
+CWE-287: Authentication Issues: 2010:75
+CWE-287: Authentication Issues: 2011:55
+CWE-287: Authentication Issues: 2012:100
+CWE-287: Authentication Issues: 2013:107
+CWE-287: Authentication Issues: 2014:144
+CWE-287: Authentication Issues: 2015:33
+CWE-287: Authentication Issues: 2016:50
+CWE-119: Buffer Errors: 1998:2
+CWE-119: Buffer Errors: 1999:5
+CWE-119: Buffer Errors: 2000:1
+CWE-119: Buffer Errors: 2001:10
+CWE-119: Buffer Errors: 2002:42
+CWE-119: Buffer Errors: 2003:56
+CWE-119: Buffer Errors: 2004:28
+CWE-119: Buffer Errors: 2005:73
+CWE-119: Buffer Errors: 2006:142
+CWE-119: Buffer Errors: 2007:440
+CWE-119: Buffer Errors: 2008:564
+CWE-119: Buffer Errors: 2009:564
+CWE-119: Buffer Errors: 2010:537
+CWE-119: Buffer Errors: 2011:662
+CWE-119: Buffer Errors: 2012:723
+CWE-119: Buffer Errors: 2013:759
+CWE-119: Buffer Errors: 2014:769
+CWE-119: Buffer Errors: 2015:986
+CWE-119: Buffer Errors: 2016:1192
+CWE-94: Code Injection: 1998:0
+CWE-94: Code Injection: 1999:3
+CWE-94: Code Injection: 2000:1
+CWE-94: Code Injection: 2001:2
+CWE-94: Code Injection: 2002:8
+CWE-94: Code Injection: 2003:14
+CWE-94: Code Injection: 2004:7
+CWE-94: Code Injection: 2005:21
+CWE-94: Code Injection: 2006:184
+CWE-94: Code Injection: 2007:302
+CWE-94: Code Injection: 2008:319
+CWE-94: Code Injection: 2009:323
+CWE-94: Code Injection: 2010:261
+CWE-94: Code Injection: 2011:102
+CWE-94: Code Injection: 2012:137
+CWE-94: Code Injection: 2013:138
+CWE-94: Code Injection: 2014:192
+CWE-94: Code Injection: 2015:50
+CWE-94: Code Injection: 2016:23
+CWE-16: Configuration: 1998:0
+CWE-16: Configuration: 1999:7
+CWE-16: Configuration: 2000:1
+CWE-16: Configuration: 2001:0
+CWE-16: Configuration: 2002:9
+CWE-16: Configuration: 2003:11
+CWE-16: Configuration: 2004:4
+CWE-16: Configuration: 2005:3
+CWE-16: Configuration: 2006:5
+CWE-16: Configuration: 2007:33
+CWE-16: Configuration: 2008:36
+CWE-16: Configuration: 2009:56
+CWE-16: Configuration: 2010:24
+CWE-16: Configuration: 2011:31
+CWE-16: Configuration: 2012:22
+CWE-16: Configuration: 2013:20
+CWE-16: Configuration: 2014:6
+CWE-16: Configuration: 2015:0
+CWE-16: Configuration: 2016:0
+CWE-255: Credentials Management: 1998:0
+CWE-255: Credentials Management: 1999:3
+CWE-255: Credentials Management: 2000:0
+CWE-255: Credentials Management: 2001:0
+CWE-255: Credentials Management: 2002:8
+CWE-255: Credentials Management: 2003:8
+CWE-255: Credentials Management: 2004:6
+CWE-255: Credentials Management: 2005:2
+CWE-255: Credentials Management: 2006:5
+CWE-255: Credentials Management: 2007:24
+CWE-255: Credentials Management: 2008:52
+CWE-255: Credentials Management: 2009:67
+CWE-255: Credentials Management: 2010:53
+CWE-255: Credentials Management: 2011:38
+CWE-255: Credentials Management: 2012:52
+CWE-255: Credentials Management: 2013:89
+CWE-255: Credentials Management: 2014:115
+CWE-255: Credentials Management: 2015:76
+CWE-255: Credentials Management: 2016:47
+CWE-352: Cross-Site Request Forgery (CSRF): 1998:0
+CWE-352: Cross-Site Request Forgery (CSRF): 1999:0
+CWE-352: Cross-Site Request Forgery (CSRF): 2000:0
+CWE-352: Cross-Site Request Forgery (CSRF): 2001:0
+CWE-352: Cross-Site Request Forgery (CSRF): 2002:1
+CWE-352: Cross-Site Request Forgery (CSRF): 2003:0
+CWE-352: Cross-Site Request Forgery (CSRF): 2004:0
+CWE-352: Cross-Site Request Forgery (CSRF): 2005:1
+CWE-352: Cross-Site Request Forgery (CSRF): 2006:3
+CWE-352: Cross-Site Request Forgery (CSRF): 2007:36
+CWE-352: Cross-Site Request Forgery (CSRF): 2008:78
+CWE-352: Cross-Site Request Forgery (CSRF): 2009:113
+CWE-352: Cross-Site Request Forgery (CSRF): 2010:75
+CWE-352: Cross-Site Request Forgery (CSRF): 2011:55
+CWE-352: Cross-Site Request Forgery (CSRF): 2012:153
+CWE-352: Cross-Site Request Forgery (CSRF): 2013:120
+CWE-352: Cross-Site Request Forgery (CSRF): 2014:245
+CWE-352: Cross-Site Request Forgery (CSRF): 2015:241
+CWE-352: Cross-Site Request Forgery (CSRF): 2016:81
+CWE-79: Cross-Site Scripting (XSS): 1998:0
+CWE-79: Cross-Site Scripting (XSS): 1999:0
+CWE-79: Cross-Site Scripting (XSS): 2000:1
+CWE-79: Cross-Site Scripting (XSS): 2001:0
+CWE-79: Cross-Site Scripting (XSS): 2002:34
+CWE-79: Cross-Site Scripting (XSS): 2003:33
+CWE-79: Cross-Site Scripting (XSS): 2004:22
+CWE-79: Cross-Site Scripting (XSS): 2005:35
+CWE-79: Cross-Site Scripting (XSS): 2006:114
+CWE-79: Cross-Site Scripting (XSS): 2007:349
+CWE-79: Cross-Site Scripting (XSS): 2008:790
+CWE-79: Cross-Site Scripting (XSS): 2009:821
+CWE-79: Cross-Site Scripting (XSS): 2010:594
+CWE-79: Cross-Site Scripting (XSS): 2011:454
+CWE-79: Cross-Site Scripting (XSS): 2012:721
+CWE-79: Cross-Site Scripting (XSS): 2013:616
+CWE-79: Cross-Site Scripting (XSS): 2014:1028
+CWE-79: Cross-Site Scripting (XSS): 2015:724
+CWE-79: Cross-Site Scripting (XSS): 2016:472
+CWE-310: Cryptographic Issues: 1998:0
+CWE-310: Cryptographic Issues: 1999:0
+CWE-310: Cryptographic Issues: 2000:1
+CWE-310: Cryptographic Issues: 2001:4
+CWE-310: Cryptographic Issues: 2002:3
+CWE-310: Cryptographic Issues: 2003:9
+CWE-310: Cryptographic Issues: 2004:2
+CWE-310: Cryptographic Issues: 2005:3
+CWE-310: Cryptographic Issues: 2006:6
+CWE-310: Cryptographic Issues: 2007:28
+CWE-310: Cryptographic Issues: 2008:46
+CWE-310: Cryptographic Issues: 2009:93
+CWE-310: Cryptographic Issues: 2010:71
+CWE-310: Cryptographic Issues: 2011:62
+CWE-310: Cryptographic Issues: 2012:99
+CWE-310: Cryptographic Issues: 2013:130
+CWE-310: Cryptographic Issues: 2014:1585
+CWE-310: Cryptographic Issues: 2015:90
+CWE-310: Cryptographic Issues: 2016:63
+CWE-134: Format String Vulnerability: 1998:0
+CWE-134: Format String Vulnerability: 1999:0
+CWE-134: Format String Vulnerability: 2000:0
+CWE-134: Format String Vulnerability: 2001:0
+CWE-134: Format String Vulnerability: 2002:1
+CWE-134: Format String Vulnerability: 2003:2
+CWE-134: Format String Vulnerability: 2004:3
+CWE-134: Format String Vulnerability: 2005:3
+CWE-134: Format String Vulnerability: 2006:17
+CWE-134: Format String Vulnerability: 2007:30
+CWE-134: Format String Vulnerability: 2008:24
+CWE-134: Format String Vulnerability: 2009:28
+CWE-134: Format String Vulnerability: 2010:15
+CWE-134: Format String Vulnerability: 2011:10
+CWE-134: Format String Vulnerability: 2012:11
+CWE-134: Format String Vulnerability: 2013:9
+CWE-134: Format String Vulnerability: 2014:7
+CWE-134: Format String Vulnerability: 2015:4
+CWE-134: Format String Vulnerability: 2016:2
+CWE-200: Information Leak / Disclosure: 1998:1
+CWE-200: Information Leak / Disclosure: 1999:7
+CWE-200: Information Leak / Disclosure: 2000:4
+CWE-200: Information Leak / Disclosure: 2001:1
+CWE-200: Information Leak / Disclosure: 2002:14
+CWE-200: Information Leak / Disclosure: 2003:25
+CWE-200: Information Leak / Disclosure: 2004:5
+CWE-200: Information Leak / Disclosure: 2005:20
+CWE-200: Information Leak / Disclosure: 2006:30
+CWE-200: Information Leak / Disclosure: 2007:96
+CWE-200: Information Leak / Disclosure: 2008:192
+CWE-200: Information Leak / Disclosure: 2009:162
+CWE-200: Information Leak / Disclosure: 2010:159
+CWE-200: Information Leak / Disclosure: 2011:297
+CWE-200: Information Leak / Disclosure: 2012:220
+CWE-200: Information Leak / Disclosure: 2013:253
+CWE-200: Information Leak / Disclosure: 2014:347
+CWE-200: Information Leak / Disclosure: 2015:604
+CWE-200: Information Leak / Disclosure: 2016:705
+CWE-20: Input Validation: 1998:0
+CWE-20: Input Validation: 1999:8
+CWE-20: Input Validation: 2000:3
+CWE-20: Input Validation: 2001:3
+CWE-20: Input Validation: 2002:27
+CWE-20: Input Validation: 2003:25
+CWE-20: Input Validation: 2004:16
+CWE-20: Input Validation: 2005:29
+CWE-20: Input Validation: 2006:53
+CWE-20: Input Validation: 2007:237
+CWE-20: Input Validation: 2008:387
+CWE-20: Input Validation: 2009:313
+CWE-20: Input Validation: 2010:305
+CWE-20: Input Validation: 2011:386
+CWE-20: Input Validation: 2012:369
+CWE-20: Input Validation: 2013:501
+CWE-20: Input Validation: 2014:556
+CWE-20: Input Validation: 2015:395
+CWE-20: Input Validation: 2016:551
+CWE-59: Link Following: 1998:0
+CWE-59: Link Following: 1999:2
+CWE-59: Link Following: 2000:1
+CWE-59: Link Following: 2001:1
+CWE-59: Link Following: 2002:3
+CWE-59: Link Following: 2003:2
+CWE-59: Link Following: 2004:1
+CWE-59: Link Following: 2005:6
+CWE-59: Link Following: 2006:2
+CWE-59: Link Following: 2007:22
+CWE-59: Link Following: 2008:174
+CWE-59: Link Following: 2009:32
+CWE-59: Link Following: 2010:25
+CWE-59: Link Following: 2011:34
+CWE-59: Link Following: 2012:17
+CWE-59: Link Following: 2013:18
+CWE-59: Link Following: 2014:59
+CWE-59: Link Following: 2015:23
+CWE-59: Link Following: 2016:7
+CWE-189: Numeric Errors: 1998:0
+CWE-189: Numeric Errors: 1999:0
+CWE-189: Numeric Errors: 2000:0
+CWE-189: Numeric Errors: 2001:0
+CWE-189: Numeric Errors: 2002:6
+CWE-189: Numeric Errors: 2003:3
+CWE-189: Numeric Errors: 2004:1
+CWE-189: Numeric Errors: 2005:15
+CWE-189: Numeric Errors: 2006:35
+CWE-189: Numeric Errors: 2007:103
+CWE-189: Numeric Errors: 2008:159
+CWE-189: Numeric Errors: 2009:158
+CWE-189: Numeric Errors: 2010:161
+CWE-189: Numeric Errors: 2011:131
+CWE-189: Numeric Errors: 2012:151
+CWE-189: Numeric Errors: 2013:145
+CWE-189: Numeric Errors: 2014:115
+CWE-189: Numeric Errors: 2015:130
+CWE-189: Numeric Errors: 2016:49
+CWE-78: OS Command Injections: 1998:0
+CWE-78: OS Command Injections: 1999:0
+CWE-78: OS Command Injections: 2000:0
+CWE-78: OS Command Injections: 2001:0
+CWE-78: OS Command Injections: 2002:1
+CWE-78: OS Command Injections: 2003:0
+CWE-78: OS Command Injections: 2004:1
+CWE-78: OS Command Injections: 2005:1
+CWE-78: OS Command Injections: 2006:2
+CWE-78: OS Command Injections: 2007:6
+CWE-78: OS Command Injections: 2008:3
+CWE-78: OS Command Injections: 2009:18
+CWE-78: OS Command Injections: 2010:13
+CWE-78: OS Command Injections: 2011:14
+CWE-78: OS Command Injections: 2012:14
+CWE-78: OS Command Injections: 2013:33
+CWE-78: OS Command Injections: 2014:48
+CWE-78: OS Command Injections: 2015:34
+CWE-78: OS Command Injections: 2016:31
+CWE-22: Path Traversal: 1998:0
+CWE-22: Path Traversal: 1999:0
+CWE-22: Path Traversal: 2000:0
+CWE-22: Path Traversal: 2001:4
+CWE-22: Path Traversal: 2002:14
+CWE-22: Path Traversal: 2003:17
+CWE-22: Path Traversal: 2004:12
+CWE-22: Path Traversal: 2005:11
+CWE-22: Path Traversal: 2006:23
+CWE-22: Path Traversal: 2007:160
+CWE-22: Path Traversal: 2008:352
+CWE-22: Path Traversal: 2009:319
+CWE-22: Path Traversal: 2010:273
+CWE-22: Path Traversal: 2011:105
+CWE-22: Path Traversal: 2012:118
+CWE-22: Path Traversal: 2013:103
+CWE-22: Path Traversal: 2014:197
+CWE-22: Path Traversal: 2015:141
+CWE-22: Path Traversal: 2016:78
+CWE-264: Permissions, Privileges, and Access Control: 1998:1
+CWE-264: Permissions, Privileges, and Access Control: 1999:6
+CWE-264: Permissions, Privileges, and Access Control: 2000:2
+CWE-264: Permissions, Privileges, and Access Control: 2001:3
+CWE-264: Permissions, Privileges, and Access Control: 2002:32
+CWE-264: Permissions, Privileges, and Access Control: 2003:18
+CWE-264: Permissions, Privileges, and Access Control: 2004:20
+CWE-264: Permissions, Privileges, and Access Control: 2005:39
+CWE-264: Permissions, Privileges, and Access Control: 2006:51
+CWE-264: Permissions, Privileges, and Access Control: 2007:221
+CWE-264: Permissions, Privileges, and Access Control: 2008:449
+CWE-264: Permissions, Privileges, and Access Control: 2009:436
+CWE-264: Permissions, Privileges, and Access Control: 2010:357
+CWE-264: Permissions, Privileges, and Access Control: 2011:283
+CWE-264: Permissions, Privileges, and Access Control: 2012:607
+CWE-264: Permissions, Privileges, and Access Control: 2013:579
+CWE-264: Permissions, Privileges, and Access Control: 2014:730
+CWE-264: Permissions, Privileges, and Access Control: 2015:575
+CWE-264: Permissions, Privileges, and Access Control: 2016:645
+CWE-362: Race Conditions: 1998:0
+CWE-362: Race Conditions: 1999:1
+CWE-362: Race Conditions: 2000:1
+CWE-362: Race Conditions: 2001:0
+CWE-362: Race Conditions: 2002:2
+CWE-362: Race Conditions: 2003:2
+CWE-362: Race Conditions: 2004:2
+CWE-362: Race Conditions: 2005:1
+CWE-362: Race Conditions: 2006:7
+CWE-362: Race Conditions: 2007:16
+CWE-362: Race Conditions: 2008:23
+CWE-362: Race Conditions: 2009:35
+CWE-362: Race Conditions: 2010:32
+CWE-362: Race Conditions: 2011:17
+CWE-362: Race Conditions: 2012:69
+CWE-362: Race Conditions: 2013:63
+CWE-362: Race Conditions: 2014:41
+CWE-362: Race Conditions: 2015:49
+CWE-362: Race Conditions: 2016:48
+CWE-399: Resource Management Errors: 1998:0
+CWE-399: Resource Management Errors: 1999:0
+CWE-399: Resource Management Errors: 2000:1
+CWE-399: Resource Management Errors: 2001:1
+CWE-399: Resource Management Errors: 2002:5
+CWE-399: Resource Management Errors: 2003:7
+CWE-399: Resource Management Errors: 2004:3
+CWE-399: Resource Management Errors: 2005:36
+CWE-399: Resource Management Errors: 2006:78
+CWE-399: Resource Management Errors: 2007:97
+CWE-399: Resource Management Errors: 2008:310
+CWE-399: Resource Management Errors: 2009:239
+CWE-399: Resource Management Errors: 2010:241
+CWE-399: Resource Management Errors: 2011:377
+CWE-399: Resource Management Errors: 2012:311
+CWE-399: Resource Management Errors: 2013:289
+CWE-399: Resource Management Errors: 2014:262
+CWE-399: Resource Management Errors: 2015:355
+CWE-399: Resource Management Errors: 2016:203
+CWE-89: SQL Injection: 1998:0
+CWE-89: SQL Injection: 1999:0
+CWE-89: SQL Injection: 2000:0
+CWE-89: SQL Injection: 2001:0
+CWE-89: SQL Injection: 2002:7
+CWE-89: SQL Injection: 2003:11
+CWE-89: SQL Injection: 2004:9
+CWE-89: SQL Injection: 2005:50
+CWE-89: SQL Injection: 2006:98
+CWE-89: SQL Injection: 2007:255
+CWE-89: SQL Injection: 2008:1092
+CWE-89: SQL Injection: 2009:948
+CWE-89: SQL Injection: 2010:515
+CWE-89: SQL Injection: 2011:289
+CWE-89: SQL Injection: 2012:236
+CWE-89: SQL Injection: 2013:146
+CWE-89: SQL Injection: 2014:296
+CWE-89: SQL Injection: 2015:212
+CWE-89: SQL Injection: 2016:94

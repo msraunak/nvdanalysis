@@ -1,0 +1,21 @@
+CWE-ID	CWE-NAME				Type	IsPartOfNIST19 		1998 99	00	01	02	03	04	05	06	07	08	09	10	11	12	13	14	15	16
+===================================================================================================================================
+CWE-287  Authentication Issues Type: D  PartOfNIST19		50	0	3	0	2	4	7	6	5	13	68	146	210	75	55	100	107	144	33
+CWE-119  Buffer Errors Type: I  PartOfNIST19			1192	2	5	1	10	42	56	28	73	142	440	564	564	537	662	723	759	769	986
+CWE-94  Code Injection Type: I  PartOfNIST19				23	0	3	1	2	8	14	7	21	184	302	319	323	261	102	137	138	192	50
+CWE-16  Configuration Type: C  PartOfNIST19					0	0	7	1	0	9	11	4	3	5	33	36	56	24	31	22	20	6	0
+CWE-255  Credentials Management Type: D  PartOfNIST19		47	0	3	0	0	8	8	6	2	5	24	52	67	53	38	52	89	115	76
+CWE-352  Cross-Site Request Forgery (CSRF) Type: I  PartOfNIST19	81	0	0	0	0	1	0	0	1	3	36	78	113	75	55	153	120	245	241
+CWE-79  Cross-Site Scripting (XSS) Type: I  PartOfNIST19	472	0	0	1	0	34	33	22	35	114	349	790	821	594	454	721	616	1028	724
+CWE-310  Cryptographic Issues Type: D  PartOfNIST19			63	0	0	1	4	3	9	2	3	6	28	46	93	71	62	99	130	1585	90
+CWE-134  Format String Vulnerability Type: I  PartOfNIST19	2	0	0	0	0	1	2	3	3	17	30	24	28	15	10	11	9	7	4
+CWE-200  Information Leak / Disclosure Type: C  PartOfNIST19	705	1	7	4	1	14	25	5	20	30	96	192	162	159	297	220	253	347	604
+CWE-20  Input Validation Type: I  PartOfNIST19				551	0	8	3	3	27	25	16	29	53	237	387	313	305	386	369	501	556	395
+CWE-59  Link Following Type: I  PartOfNIST19				7	0	2	1	1	3	2	1	6	2	22	174	32	25	34	17	18	59	23
+CWE-189  Numeric Errors Type: I  PartOfNIST19				49	0	0	0	0	6	3	1	15	35	103	159	158	161	131	151	145	115	130
+CWE-78  OS Command Injections Type: I  PartOfNIST19			31	0	0	0	0	1	0	1	1	2	6	3	18	13	14	14	33	48	34
+CWE-22  Path Traversal Type: I  PartOfNIST19				78	0	0	0	4	14	17	12	11	23	160	352	319	273	105	118	103	197	141
+CWE-264  Permissions, Privileges, and Access Control Type: D  PartOfNIST19	645	1	6	2	3	32	18	20	39	51	221	449	436	357	283	607	579	730	575
+CWE-362  Race Conditions Type: I  PartOfNIST19				48	0	1	1	0	2	2	2	1	7	16	23	35	32	17	69	63	41	49
+CWE-399  Resource Management Errors Type: I  PartOfNIST19	203	0	0	1	1	5	7	3	36	78	97	310	239	241	377	311	289	262	355
+CWE-89  SQL Injection Type: I  PartOfNIST19					94	0	0	0	0	7	11	9	50	98	255	1092	948	515	289	236	146	296	212
