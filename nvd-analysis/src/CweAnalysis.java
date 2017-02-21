@@ -15,18 +15,33 @@ public class CweAnalysis {
 
 	public static void main (String[] args){
 	
-		CweList cweList = new CweList();
-		
+		CweList objCweList = new CweList();
+		int begYear, endYear;
+		begYear=1998;
+		endYear=2016;
 		try {
+			// Read in from cwelist.txt file different categories of CWEs 
+			objCweList.populateList();
+
+			//ArrayList<CWE> allCWEs = objCweList.getWeaknessListAll();
+			// for (CWE objCwe: allCWEs){
+				// searchByCweId(objCwe);
+			//}
+
+			ArrayList<CWE> nistCWEs = objCweList.getNISTList();
 			
-			cweList.populateList();
-			// cweList.printAll(); // print the list of weaknesses
-			int i=0;
-			ArrayList<CWE> list = cweList.getWeaknessList();
-			
-			for (CWE cwe: list){
-				searchVulnByCweId(cwe);
+			for (CWE objCwe: nistCWEs ) {
+				for (int year=begYear; year<=endYear; year++){
+						// find the number of vulnerabilities and update the CWE object accordingly 
+						searchByCweIdAndYear(objCwe, year) ;
+				}
 			}
+			// print all the NIST cwe info
+			objCweList.sortTheLists();
+			objCweList.printAllNISTCWEs();
+			objCweList.printAllNistCWEsToFile("NumOfVulnNist19ByYear.txt");
+			
+			// objCweList.printAllCWEs();
 			
 		} catch (IOException ioe) {
 			ioe.printStackTrace();
@@ -34,10 +49,12 @@ public class CweAnalysis {
 		
 	}
 	
+	
+	
 	/*
 	 * Generate an URL for searching for Vulnerability by a particular year  
 	 */
-	public static void searchVulnByCweId(CWE cwe){
+	public static void searchByCweId(CWE cwe){
 		
 		String urlString = "https://web.nvd.nist.gov/view/vuln/search-results?adv_search=true&cves=on&cwe_id=CWE-" + cwe.getId(); 
 		
@@ -56,7 +73,8 @@ public class CweAnalysis {
 				matcher = pattern.matcher(strLine);	
 				if (matcher.matches()){
 					int numOfVuln = Integer.parseInt(matcher.group(2).replaceAll(",","")); //strip all commas in the matched gropu
-					System.out.println("CWE-"+ cwe.getId() + ": " + cwe.getName() + ": " + numOfVuln);
+					System.out.println("CWE-"+ cwe.getId() + ": " + cwe.getName() + ": " 
+											+ cwe.getType() + " : " + numOfVuln);
 					cwe.setNumOfVuln(numOfVuln);
 					break;
 				}
@@ -95,8 +113,11 @@ public class CweAnalysis {
 				matcher = pattern.matcher(strLine);	
 				if (matcher.matches()){
 					int numOfVuln = Integer.parseInt(matcher.group(2).replaceAll(",","")); //strip all commas in the matched gropu
-					System.out.println("CWE-"+ cwe.getId() + ": " + cwe.getName() + ": " + numOfVuln);
-					cwe.setNumOfVuln(numOfVuln);
+					System.out.println("CWE-"+ cwe.getId() + ": " + cwe.getName() 
+										+ ": " + cwe.getType() + ": " + year + ":" + numOfVuln);
+					
+					//cwe.setNumOfVuln(numOfVuln);
+					cwe.addNumVulnInYear(year, numOfVuln);
 					break;
 				}
 			}

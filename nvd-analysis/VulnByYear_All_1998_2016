@@ -1,0 +1,2429 @@
+#CWE-ID	CWE-NAME				Type	IsPartOfNIST19 		1998 99	00	01	02	03	04	05	06	07	08	09	10	11	12	13	14	15	16
+#===================================================================================================================================
+CWE-824  Access of Uninitialized Pointer Type: U Not_PartOfNist19	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1	0
+CWE-407  Algorithmic Complexity Type: U Not_PartOfNist19	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-774  Allocation of File Descriptors or Handles Without Limits or Throttling Type: U Not_PartOfNist19	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-88  Argument Injection or Modification Type: U Not_PartOfNist19	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-405  Asymmetric Resource Consumption (Amplification) Type: U Not_PartOfNist19	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-287  Authentication Issues Type: D  PartOfNIST19	50	0	3	0	2	4	7	6	5	13	68	146	210	75	55	100	107	144	33
+CWE-119  Buffer Errors Type: I  PartOfNIST19	1192	2	5	1	10	42	56	28	73	142	440	564	564	537	662	723	759	769	986
+CWE-417  Channel and Path Errors Type: U Not_PartOfNist19	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-171  Cleansing, Canonicalization, and Comparison Errors Type: U Not_PartOfNist19	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-17  Code Type: U Not_PartOfNist19	13	0	0	0	0	0	0	0	2	1	0	0	0	1	0	0	1	21	127
+CWE-94  Code Injection Type: I  PartOfNIST19	23	0	3	1	2	8	14	7	21	184	302	319	323	261	102	137	138	192	50
+CWE-77  Command Injection Type: U Not_PartOfNist19	29	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	12	41
+CWE-16  Configuration Type: C  PartOfNIST19	0	0	7	1	0	9	11	4	3	5	33	36	56	24	31	22	20	6	0
+CWE-216  Containment Errors (Container Errors) Type: U Not_PartOfNist19	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-255  Credentials Management Type: D  PartOfNIST19	47	0	3	0	0	8	8	6	2	5	24	52	67	53	38	52	89	115	76
+CWE-352  Cross-Site Request Forgery (CSRF) Type: I  PartOfNIST19	81	0	0	0	0	1	0	0	1	3	36	78	113	75	55	153	120	245	241
+CWE-79  Cross-Site Scripting (XSS) Type: I  PartOfNIST19	472	0	0	1	0	34	33	22	35	114	349	790	821	594	454	721	616	1028	724
+CWE-310  Cryptographic Issues Type: D  PartOfNIST19	63	0	0	1	4	3	9	2	3	6	28	46	93	71	62	99	130	1585	90
+CWE-19  Data Handling Type: U Not_PartOfNist19	61	0	0	0	0	0	0	0	1	0	1	0	0	1	0	1	0	16	61
+CWE-502  Deserialization of Untrusted Data Type: U Not_PartOfNist19	8	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+CWE-369  Divide By Zero Type: U Not_PartOfNist19	8	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0
+CWE-415  Double Free Type: U Not_PartOfNist19	6	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	3	0
+CWE-172  Encoding Error Type: U Not_PartOfNist19	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-2  Environment Type: U Not_PartOfNist19	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-388  Error Handling Type: U Not_PartOfNist19	9	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0
+CWE-749  Exposed Dangerous Method or Function Type: U Not_PartOfNist19	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-668  Exposure of Resource to Wrong Sphere Type: U Not_PartOfNist19	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-472  External Control of Assumed-Immutable Web Parameter Type: U Not_PartOfNist19	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-642  External Control of Critical State Data Type: U Not_PartOfNist19	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-610  Externally Controlled Reference to a Resource in Another Sphere Type: U Not_PartOfNist19	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-538  File and Directory Information Exposure Type: U Not_PartOfNist19	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-769  File Descriptor Exhaustion Type: U Not_PartOfNist19	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-552  Files or Directories Accessible to External Parties Type: U Not_PartOfNist19	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-134  Format String Vulnerability Type: I  PartOfNIST19	2	0	0	0	0	1	2	3	3	17	30	24	28	15	10	11	9	7	4
+CWE-284  Improper Access Control Type: U Not_PartOfNist19	420	0	0	0	1	0	0	0	1	0	0	1	1	0	0	4	3	21	147
+CWE-118  Improper Access of Indexable Resource (Range Error) Type: U Not_PartOfNist19	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-285  Improper Authorization Type: U Not_PartOfNist19	16	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-295  Improper Certificate Validation Type: U Not_PartOfNist19	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0
+CWE-754  Improper Check for Unusual or Exceptional Conditions Type: U Not_PartOfNist19	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-664  Improper Control of a Resource Through its Lifetime Type: U Not_PartOfNist19	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-913  Improper Control of Dynamically-Managed Code Resources Type: U Not_PartOfNist19	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-99  Improper Control of Resource Identifiers (Resource Injection) Type: U Not_PartOfNist19	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-116  Improper Encoding or Escaping of Output Type: U Not_PartOfNist19	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-665  Improper Initialization Type: U Not_PartOfNist19	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-93  Improper Neutralization of CRLF Sequences (CRLF Injection) Type: U Not_PartOfNist19	3	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1
+CWE-113  Improper Neutralization of CRLF Sequences in HTTP Headers (HTTP Response Splitting) Type: U Not_PartOfNist19	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1
+CWE-943  Improper Neutralization of Special Elements in Data Query Logic Type: U Not_PartOfNist19	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-90  Improper Neutralization of Special Elements used in an LDAP Query (LDAP Injection) Type: U Not_PartOfNist19	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-404  Improper Resource Shutdown or Release Type: U Not_PartOfNist19	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-611  Improper Restriction of XML External Entity Reference (XXE) Type: U Not_PartOfNist19	16	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0
+CWE-129  Improper Validation of Array Index Type: U Not_PartOfNist19	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-297  Improper Validation of Certificate with Host Mismatch Type: U Not_PartOfNist19	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0
+CWE-347  Improper Verification of Cryptographic Signature Type: U Not_PartOfNist19	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-358  Improperly Implemented Security Check for Standard Type: U Not_PartOfNist19	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-326  Inadequate Encryption Strength Type: U Not_PartOfNist19	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-184  Incomplete Blacklist Type: U Not_PartOfNist19	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-444  Inconsistent Interpretation of HTTP Requests (HTTP Request Smuggling) Type: U Not_PartOfNist19	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-682  Incorrect Calculation Type: U Not_PartOfNist19	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-185  Incorrect Regular Expression Type: U Not_PartOfNist19	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2
+CWE-669  Incorrect Resource Transfer Between Spheres Type: U Not_PartOfNist19	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-704  Incorrect Type Conversion or Cast Type: U Not_PartOfNist19	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-398  Indicator of Poor Code Quality Type: U Not_PartOfNist19	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-534  Information Exposure Through Debug Log Files Type: U Not_PartOfNist19	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-532  Information Exposure Through Log Files Type: U Not_PartOfNist19	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-200  Information Leak / Disclosure Type: C  PartOfNIST19	705	1	7	4	1	14	25	5	20	30	96	192	162	159	297	220	253	347	604
+CWE-199  Information Management Errors Type: U Not_PartOfNist19	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0
+CWE-74  Injection Type: U Not_PartOfNist19	10	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	16
+CWE-20  Input Validation Type: I  PartOfNIST19	551	0	8	3	3	27	25	16	29	53	237	387	313	305	386	369	501	556	395
+CWE-485  Insufficient Encapsulation Type: U Not_PartOfNist19	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-331  Insufficient Entropy Type: U Not_PartOfNist19	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-332  Insufficient Entropy in PRNG Type: U Not_PartOfNist19	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0
+CWE-noinfo  Insufficient Information Type: U Not_PartOfNist19
+CWE-613  Insufficient Session Expiration Type: U Not_PartOfNist19	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-345  Insufficient Verification of Data Authenticity Type: U Not_PartOfNist19	13	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	11
+CWE-190  Integer Overflow or Wraparound Type: U Not_PartOfNist19	55	0	0	0	0	0	0	0	0	1	0	0	0	0	0	1	2	2	1
+CWE-191  Integer Underflow (Wrap or Wraparound) Type: U Not_PartOfNist19	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0
+CWE-435  Interaction Error Type: U Not_PartOfNist19	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-436  Interpretation Conflict Type: U Not_PartOfNist19	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-320  Key Management Errors Type: U Not_PartOfNist19	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-59  Link Following Type: I  PartOfNIST19	7	0	2	1	1	3	2	1	6	2	22	174	32	25	34	17	18	59	23
+CWE-1  Location Type: U Not_PartOfNist19	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-306  Missing Authentication for Critical Function Type: U Not_PartOfNist19	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-775  Missing Release of File Descriptor or Handle after Effective Lifetime Type: U Not_PartOfNist19	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-471  Modification of Assumed-Immutable Data (MAID) Type: U Not_PartOfNist19	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-476  NULL Pointer Dereference Type: U Not_PartOfNist19	75	0	0	0	0	0	0	0	1	0	2	0	0	0	0	0	0	2	1
+CWE-189  Numeric Errors Type: I  PartOfNIST19	49	0	0	0	0	6	3	1	15	35	103	159	158	161	131	151	145	115	130
+CWE-346  Origin Validation Error Type: U Not_PartOfNist19	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-78  OS Command Injections Type: I  PartOfNIST19	31	0	0	0	0	1	0	1	1	2	6	3	18	13	14	14	33	48	34
+CWE-Other  Other Type: U Not_PartOfNist19
+CWE-125  Out-of-bounds Read Type: U Not_PartOfNist19	85	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	1	3
+CWE-787  Out-of-bounds Write Type: U Not_PartOfNist19	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-21  Path Equivalence Type: U Not_PartOfNist19	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0
+CWE-22  Path Traversal Type: I  PartOfNIST19	78	0	0	0	4	14	17	12	11	23	160	352	319	273	105	118	103	197	141
+CWE-275  Permission Issues Type: U Not_PartOfNist19	6	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-264  Permissions, Privileges, and Access Control Type: D  PartOfNIST19	645	1	6	2	3	32	18	20	39	51	221	449	436	357	283	607	579	730	575
+CWE-693  Protection Mechanism Failure Type: U Not_PartOfNist19	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-362  Race Conditions Type: I  PartOfNIST19	48	0	1	1	0	2	2	2	1	7	16	23	35	32	17	69	63	41	49
+CWE-137  Representation Errors Type: U Not_PartOfNist19	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-399  Resource Management Errors Type: I  PartOfNIST19	203	0	0	1	1	5	7	3	36	78	97	310	239	241	377	311	289	262	355
+CWE-254  Security Features Type: U Not_PartOfNist19	176	0	0	1	0	1	0	0	1	1	1	0	0	0	1	0	0	7	105
+CWE-220  Sensitive Data Under FTP Root Type: U Not_PartOfNist19	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-918  Server-Side Request Forgery (SSRF) Type: U Not_PartOfNist19	6	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-384  Session Fixation Type: U Not_PartOfNist19	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0
+CWE-18  Source Code Type: U Not_PartOfNist19	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	3
+CWE-89  SQL Injection Type: I  PartOfNIST19	94	0	0	0	0	7	11	9	50	98	255	1092	948	515	289	236	146	296	212
+CWE-371  State Issues Type: U Not_PartOfNist19	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-361  Time and State Type: U Not_PartOfNist19	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-400  Uncontrolled Resource Consumption (Resource Exhaustion) Type: U Not_PartOfNist19	12	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0
+CWE-427  Uncontrolled Search Path Element Type: U Not_PartOfNist19	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-441  Unintended Proxy or Intermediary (Confused Deputy) Type: U Not_PartOfNist19	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-428  Unquoted Search Path or Element Type: U Not_PartOfNist19	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0
+CWE-434  Unrestricted Upload of File with Dangerous Type Type: U Not_PartOfNist19	10	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	2
+CWE-426  Untrusted Search Path Type: U Not_PartOfNist19	4	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	2
+CWE-601  URL Redirection to Untrusted Site (Open Redirect) Type: U Not_PartOfNist19	12	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1
+CWE-416  Use After Free Type: U Not_PartOfNist19	110	0	0	0	0	0	0	0	0	0	0	0	0	0	0	8	15	9	10
+CWE-327  Use of a Broken or Risky Cryptographic Algorithm Type: U Not_PartOfNist19	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-338  Use of Cryptographically Weak Pseudo-Random Number Generator (PRNG) Type: U Not_PartOfNist19	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-798  Use of Hard-coded Credentials Type: U Not_PartOfNist19	11	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0
+CWE-330  Use of Insufficiently Random Values Type: U Not_PartOfNist19	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-694  Use of Multiple Resources with Duplicate Identifier Type: U Not_PartOfNist19	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-640  Weak Password Recovery Mechanism for Forgotten Password Type: U Not_PartOfNist19	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-123  Write-what-where Condition Type: U Not_PartOfNist19	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-91  XML Injection (aka Blind XPath Injection) Type: U Not_PartOfNist19	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+
+## =
+## Number of Vulnerabilities by Year
+## =================================
+CWE-824: Access of Uninitialized Pointer: U: 1998:0
+CWE-824: Access of Uninitialized Pointer: U: 1999:0
+CWE-824: Access of Uninitialized Pointer: U: 2000:0
+CWE-824: Access of Uninitialized Pointer: U: 2001:0
+CWE-824: Access of Uninitialized Pointer: U: 2002:0
+CWE-824: Access of Uninitialized Pointer: U: 2003:0
+CWE-824: Access of Uninitialized Pointer: U: 2004:0
+CWE-824: Access of Uninitialized Pointer: U: 2005:0
+CWE-824: Access of Uninitialized Pointer: U: 2006:0
+CWE-824: Access of Uninitialized Pointer: U: 2007:0
+CWE-824: Access of Uninitialized Pointer: U: 2008:0
+CWE-824: Access of Uninitialized Pointer: U: 2009:0
+CWE-824: Access of Uninitialized Pointer: U: 2010:1
+CWE-824: Access of Uninitialized Pointer: U: 2011:0
+CWE-824: Access of Uninitialized Pointer: U: 2012:0
+CWE-824: Access of Uninitialized Pointer: U: 2013:0
+CWE-824: Access of Uninitialized Pointer: U: 2014:1
+CWE-824: Access of Uninitialized Pointer: U: 2015:0
+CWE-824: Access of Uninitialized Pointer: U: 2016:0
+CWE-407: Algorithmic Complexity: U: 1998:0
+CWE-407: Algorithmic Complexity: U: 1999:0
+CWE-407: Algorithmic Complexity: U: 2000:0
+CWE-407: Algorithmic Complexity: U: 2001:0
+CWE-407: Algorithmic Complexity: U: 2002:0
+CWE-407: Algorithmic Complexity: U: 2003:0
+CWE-407: Algorithmic Complexity: U: 2004:0
+CWE-407: Algorithmic Complexity: U: 2005:0
+CWE-407: Algorithmic Complexity: U: 2006:0
+CWE-407: Algorithmic Complexity: U: 2007:0
+CWE-407: Algorithmic Complexity: U: 2008:0
+CWE-407: Algorithmic Complexity: U: 2009:0
+CWE-407: Algorithmic Complexity: U: 2010:0
+CWE-407: Algorithmic Complexity: U: 2011:0
+CWE-407: Algorithmic Complexity: U: 2012:0
+CWE-407: Algorithmic Complexity: U: 2013:0
+CWE-407: Algorithmic Complexity: U: 2014:0
+CWE-407: Algorithmic Complexity: U: 2015:0
+CWE-407: Algorithmic Complexity: U: 2016:0
+CWE-774: Allocation of File Descriptors or Handles Without Limits or Throttling: U: 1998:0
+CWE-774: Allocation of File Descriptors or Handles Without Limits or Throttling: U: 1999:0
+CWE-774: Allocation of File Descriptors or Handles Without Limits or Throttling: U: 2000:0
+CWE-774: Allocation of File Descriptors or Handles Without Limits or Throttling: U: 2001:0
+CWE-774: Allocation of File Descriptors or Handles Without Limits or Throttling: U: 2002:0
+CWE-774: Allocation of File Descriptors or Handles Without Limits or Throttling: U: 2003:0
+CWE-774: Allocation of File Descriptors or Handles Without Limits or Throttling: U: 2004:0
+CWE-774: Allocation of File Descriptors or Handles Without Limits or Throttling: U: 2005:0
+CWE-774: Allocation of File Descriptors or Handles Without Limits or Throttling: U: 2006:0
+CWE-774: Allocation of File Descriptors or Handles Without Limits or Throttling: U: 2007:0
+CWE-774: Allocation of File Descriptors or Handles Without Limits or Throttling: U: 2008:0
+CWE-774: Allocation of File Descriptors or Handles Without Limits or Throttling: U: 2009:0
+CWE-774: Allocation of File Descriptors or Handles Without Limits or Throttling: U: 2010:0
+CWE-774: Allocation of File Descriptors or Handles Without Limits or Throttling: U: 2011:0
+CWE-774: Allocation of File Descriptors or Handles Without Limits or Throttling: U: 2012:0
+CWE-774: Allocation of File Descriptors or Handles Without Limits or Throttling: U: 2013:0
+CWE-774: Allocation of File Descriptors or Handles Without Limits or Throttling: U: 2014:0
+CWE-774: Allocation of File Descriptors or Handles Without Limits or Throttling: U: 2015:0
+CWE-774: Allocation of File Descriptors or Handles Without Limits or Throttling: U: 2016:0
+CWE-88: Argument Injection or Modification: U: 1998:0
+CWE-88: Argument Injection or Modification: U: 1999:0
+CWE-88: Argument Injection or Modification: U: 2000:0
+CWE-88: Argument Injection or Modification: U: 2001:0
+CWE-88: Argument Injection or Modification: U: 2002:0
+CWE-88: Argument Injection or Modification: U: 2003:0
+CWE-88: Argument Injection or Modification: U: 2004:0
+CWE-88: Argument Injection or Modification: U: 2005:0
+CWE-88: Argument Injection or Modification: U: 2006:0
+CWE-88: Argument Injection or Modification: U: 2007:0
+CWE-88: Argument Injection or Modification: U: 2008:0
+CWE-88: Argument Injection or Modification: U: 2009:0
+CWE-88: Argument Injection or Modification: U: 2010:0
+CWE-88: Argument Injection or Modification: U: 2011:0
+CWE-88: Argument Injection or Modification: U: 2012:0
+CWE-88: Argument Injection or Modification: U: 2013:0
+CWE-88: Argument Injection or Modification: U: 2014:0
+CWE-88: Argument Injection or Modification: U: 2015:0
+CWE-88: Argument Injection or Modification: U: 2016:0
+CWE-405: Asymmetric Resource Consumption (Amplification): U: 1998:0
+CWE-405: Asymmetric Resource Consumption (Amplification): U: 1999:0
+CWE-405: Asymmetric Resource Consumption (Amplification): U: 2000:0
+CWE-405: Asymmetric Resource Consumption (Amplification): U: 2001:0
+CWE-405: Asymmetric Resource Consumption (Amplification): U: 2002:0
+CWE-405: Asymmetric Resource Consumption (Amplification): U: 2003:0
+CWE-405: Asymmetric Resource Consumption (Amplification): U: 2004:0
+CWE-405: Asymmetric Resource Consumption (Amplification): U: 2005:0
+CWE-405: Asymmetric Resource Consumption (Amplification): U: 2006:0
+CWE-405: Asymmetric Resource Consumption (Amplification): U: 2007:0
+CWE-405: Asymmetric Resource Consumption (Amplification): U: 2008:0
+CWE-405: Asymmetric Resource Consumption (Amplification): U: 2009:0
+CWE-405: Asymmetric Resource Consumption (Amplification): U: 2010:0
+CWE-405: Asymmetric Resource Consumption (Amplification): U: 2011:0
+CWE-405: Asymmetric Resource Consumption (Amplification): U: 2012:0
+CWE-405: Asymmetric Resource Consumption (Amplification): U: 2013:0
+CWE-405: Asymmetric Resource Consumption (Amplification): U: 2014:0
+CWE-405: Asymmetric Resource Consumption (Amplification): U: 2015:0
+CWE-405: Asymmetric Resource Consumption (Amplification): U: 2016:0
+CWE-287: Authentication Issues: D: 1998:0
+CWE-287: Authentication Issues: D: 1999:3
+CWE-287: Authentication Issues: D: 2000:0
+CWE-287: Authentication Issues: D: 2001:2
+CWE-287: Authentication Issues: D: 2002:4
+CWE-287: Authentication Issues: D: 2003:7
+CWE-287: Authentication Issues: D: 2004:6
+CWE-287: Authentication Issues: D: 2005:5
+CWE-287: Authentication Issues: D: 2006:13
+CWE-287: Authentication Issues: D: 2007:68
+CWE-287: Authentication Issues: D: 2008:146
+CWE-287: Authentication Issues: D: 2009:210
+CWE-287: Authentication Issues: D: 2010:75
+CWE-287: Authentication Issues: D: 2011:55
+CWE-287: Authentication Issues: D: 2012:100
+CWE-287: Authentication Issues: D: 2013:107
+CWE-287: Authentication Issues: D: 2014:144
+CWE-287: Authentication Issues: D: 2015:33
+CWE-287: Authentication Issues: D: 2016:50
+CWE-119: Buffer Errors: I: 1998:2
+CWE-119: Buffer Errors: I: 1999:5
+CWE-119: Buffer Errors: I: 2000:1
+CWE-119: Buffer Errors: I: 2001:10
+CWE-119: Buffer Errors: I: 2002:42
+CWE-119: Buffer Errors: I: 2003:56
+CWE-119: Buffer Errors: I: 2004:28
+CWE-119: Buffer Errors: I: 2005:73
+CWE-119: Buffer Errors: I: 2006:142
+CWE-119: Buffer Errors: I: 2007:440
+CWE-119: Buffer Errors: I: 2008:564
+CWE-119: Buffer Errors: I: 2009:564
+CWE-119: Buffer Errors: I: 2010:537
+CWE-119: Buffer Errors: I: 2011:662
+CWE-119: Buffer Errors: I: 2012:723
+CWE-119: Buffer Errors: I: 2013:759
+CWE-119: Buffer Errors: I: 2014:769
+CWE-119: Buffer Errors: I: 2015:986
+CWE-119: Buffer Errors: I: 2016:1192
+CWE-417: Channel and Path Errors: U: 1998:0
+CWE-417: Channel and Path Errors: U: 1999:0
+CWE-417: Channel and Path Errors: U: 2000:0
+CWE-417: Channel and Path Errors: U: 2001:0
+CWE-417: Channel and Path Errors: U: 2002:0
+CWE-417: Channel and Path Errors: U: 2003:0
+CWE-417: Channel and Path Errors: U: 2004:0
+CWE-417: Channel and Path Errors: U: 2005:0
+CWE-417: Channel and Path Errors: U: 2006:0
+CWE-417: Channel and Path Errors: U: 2007:0
+CWE-417: Channel and Path Errors: U: 2008:0
+CWE-417: Channel and Path Errors: U: 2009:0
+CWE-417: Channel and Path Errors: U: 2010:0
+CWE-417: Channel and Path Errors: U: 2011:0
+CWE-417: Channel and Path Errors: U: 2012:0
+CWE-417: Channel and Path Errors: U: 2013:0
+CWE-417: Channel and Path Errors: U: 2014:0
+CWE-417: Channel and Path Errors: U: 2015:0
+CWE-417: Channel and Path Errors: U: 2016:0
+CWE-171: Cleansing, Canonicalization, and Comparison Errors: U: 1998:0
+CWE-171: Cleansing, Canonicalization, and Comparison Errors: U: 1999:0
+CWE-171: Cleansing, Canonicalization, and Comparison Errors: U: 2000:0
+CWE-171: Cleansing, Canonicalization, and Comparison Errors: U: 2001:0
+CWE-171: Cleansing, Canonicalization, and Comparison Errors: U: 2002:0
+CWE-171: Cleansing, Canonicalization, and Comparison Errors: U: 2003:0
+CWE-171: Cleansing, Canonicalization, and Comparison Errors: U: 2004:0
+CWE-171: Cleansing, Canonicalization, and Comparison Errors: U: 2005:0
+CWE-171: Cleansing, Canonicalization, and Comparison Errors: U: 2006:0
+CWE-171: Cleansing, Canonicalization, and Comparison Errors: U: 2007:0
+CWE-171: Cleansing, Canonicalization, and Comparison Errors: U: 2008:0
+CWE-171: Cleansing, Canonicalization, and Comparison Errors: U: 2009:0
+CWE-171: Cleansing, Canonicalization, and Comparison Errors: U: 2010:0
+CWE-171: Cleansing, Canonicalization, and Comparison Errors: U: 2011:0
+CWE-171: Cleansing, Canonicalization, and Comparison Errors: U: 2012:0
+CWE-171: Cleansing, Canonicalization, and Comparison Errors: U: 2013:0
+CWE-171: Cleansing, Canonicalization, and Comparison Errors: U: 2014:0
+CWE-171: Cleansing, Canonicalization, and Comparison Errors: U: 2015:0
+CWE-171: Cleansing, Canonicalization, and Comparison Errors: U: 2016:0
+CWE-17: Code: U: 1998:0
+CWE-17: Code: U: 1999:0
+CWE-17: Code: U: 2000:0
+CWE-17: Code: U: 2001:0
+CWE-17: Code: U: 2002:0
+CWE-17: Code: U: 2003:0
+CWE-17: Code: U: 2004:0
+CWE-17: Code: U: 2005:2
+CWE-17: Code: U: 2006:1
+CWE-17: Code: U: 2007:0
+CWE-17: Code: U: 2008:0
+CWE-17: Code: U: 2009:0
+CWE-17: Code: U: 2010:1
+CWE-17: Code: U: 2011:0
+CWE-17: Code: U: 2012:0
+CWE-17: Code: U: 2013:1
+CWE-17: Code: U: 2014:21
+CWE-17: Code: U: 2015:127
+CWE-17: Code: U: 2016:13
+CWE-94: Code Injection: I: 1998:0
+CWE-94: Code Injection: I: 1999:3
+CWE-94: Code Injection: I: 2000:1
+CWE-94: Code Injection: I: 2001:2
+CWE-94: Code Injection: I: 2002:8
+CWE-94: Code Injection: I: 2003:14
+CWE-94: Code Injection: I: 2004:7
+CWE-94: Code Injection: I: 2005:21
+CWE-94: Code Injection: I: 2006:184
+CWE-94: Code Injection: I: 2007:302
+CWE-94: Code Injection: I: 2008:319
+CWE-94: Code Injection: I: 2009:323
+CWE-94: Code Injection: I: 2010:261
+CWE-94: Code Injection: I: 2011:102
+CWE-94: Code Injection: I: 2012:137
+CWE-94: Code Injection: I: 2013:138
+CWE-94: Code Injection: I: 2014:192
+CWE-94: Code Injection: I: 2015:50
+CWE-94: Code Injection: I: 2016:23
+CWE-77: Command Injection: U: 1998:0
+CWE-77: Command Injection: U: 1999:0
+CWE-77: Command Injection: U: 2000:0
+CWE-77: Command Injection: U: 2001:0
+CWE-77: Command Injection: U: 2002:0
+CWE-77: Command Injection: U: 2003:0
+CWE-77: Command Injection: U: 2004:0
+CWE-77: Command Injection: U: 2005:0
+CWE-77: Command Injection: U: 2006:0
+CWE-77: Command Injection: U: 2007:0
+CWE-77: Command Injection: U: 2008:0
+CWE-77: Command Injection: U: 2009:0
+CWE-77: Command Injection: U: 2010:0
+CWE-77: Command Injection: U: 2011:0
+CWE-77: Command Injection: U: 2012:1
+CWE-77: Command Injection: U: 2013:1
+CWE-77: Command Injection: U: 2014:12
+CWE-77: Command Injection: U: 2015:41
+CWE-77: Command Injection: U: 2016:29
+CWE-16: Configuration: C: 1998:0
+CWE-16: Configuration: C: 1999:7
+CWE-16: Configuration: C: 2000:1
+CWE-16: Configuration: C: 2001:0
+CWE-16: Configuration: C: 2002:9
+CWE-16: Configuration: C: 2003:11
+CWE-16: Configuration: C: 2004:4
+CWE-16: Configuration: C: 2005:3
+CWE-16: Configuration: C: 2006:5
+CWE-16: Configuration: C: 2007:33
+CWE-16: Configuration: C: 2008:36
+CWE-16: Configuration: C: 2009:56
+CWE-16: Configuration: C: 2010:24
+CWE-16: Configuration: C: 2011:31
+CWE-16: Configuration: C: 2012:22
+CWE-16: Configuration: C: 2013:20
+CWE-16: Configuration: C: 2014:6
+CWE-16: Configuration: C: 2015:0
+CWE-16: Configuration: C: 2016:0
+CWE-216: Containment Errors (Container Errors): U: 1998:0
+CWE-216: Containment Errors (Container Errors): U: 1999:0
+CWE-216: Containment Errors (Container Errors): U: 2000:0
+CWE-216: Containment Errors (Container Errors): U: 2001:0
+CWE-216: Containment Errors (Container Errors): U: 2002:0
+CWE-216: Containment Errors (Container Errors): U: 2003:0
+CWE-216: Containment Errors (Container Errors): U: 2004:0
+CWE-216: Containment Errors (Container Errors): U: 2005:0
+CWE-216: Containment Errors (Container Errors): U: 2006:0
+CWE-216: Containment Errors (Container Errors): U: 2007:0
+CWE-216: Containment Errors (Container Errors): U: 2008:0
+CWE-216: Containment Errors (Container Errors): U: 2009:0
+CWE-216: Containment Errors (Container Errors): U: 2010:0
+CWE-216: Containment Errors (Container Errors): U: 2011:0
+CWE-216: Containment Errors (Container Errors): U: 2012:0
+CWE-216: Containment Errors (Container Errors): U: 2013:0
+CWE-216: Containment Errors (Container Errors): U: 2014:0
+CWE-216: Containment Errors (Container Errors): U: 2015:0
+CWE-216: Containment Errors (Container Errors): U: 2016:0
+CWE-255: Credentials Management: D: 1998:0
+CWE-255: Credentials Management: D: 1999:3
+CWE-255: Credentials Management: D: 2000:0
+CWE-255: Credentials Management: D: 2001:0
+CWE-255: Credentials Management: D: 2002:8
+CWE-255: Credentials Management: D: 2003:8
+CWE-255: Credentials Management: D: 2004:6
+CWE-255: Credentials Management: D: 2005:2
+CWE-255: Credentials Management: D: 2006:5
+CWE-255: Credentials Management: D: 2007:24
+CWE-255: Credentials Management: D: 2008:52
+CWE-255: Credentials Management: D: 2009:67
+CWE-255: Credentials Management: D: 2010:53
+CWE-255: Credentials Management: D: 2011:38
+CWE-255: Credentials Management: D: 2012:52
+CWE-255: Credentials Management: D: 2013:89
+CWE-255: Credentials Management: D: 2014:115
+CWE-255: Credentials Management: D: 2015:76
+CWE-255: Credentials Management: D: 2016:47
+CWE-352: Cross-Site Request Forgery (CSRF): I: 1998:0
+CWE-352: Cross-Site Request Forgery (CSRF): I: 1999:0
+CWE-352: Cross-Site Request Forgery (CSRF): I: 2000:0
+CWE-352: Cross-Site Request Forgery (CSRF): I: 2001:0
+CWE-352: Cross-Site Request Forgery (CSRF): I: 2002:1
+CWE-352: Cross-Site Request Forgery (CSRF): I: 2003:0
+CWE-352: Cross-Site Request Forgery (CSRF): I: 2004:0
+CWE-352: Cross-Site Request Forgery (CSRF): I: 2005:1
+CWE-352: Cross-Site Request Forgery (CSRF): I: 2006:3
+CWE-352: Cross-Site Request Forgery (CSRF): I: 2007:36
+CWE-352: Cross-Site Request Forgery (CSRF): I: 2008:78
+CWE-352: Cross-Site Request Forgery (CSRF): I: 2009:113
+CWE-352: Cross-Site Request Forgery (CSRF): I: 2010:75
+CWE-352: Cross-Site Request Forgery (CSRF): I: 2011:55
+CWE-352: Cross-Site Request Forgery (CSRF): I: 2012:153
+CWE-352: Cross-Site Request Forgery (CSRF): I: 2013:120
+CWE-352: Cross-Site Request Forgery (CSRF): I: 2014:245
+CWE-352: Cross-Site Request Forgery (CSRF): I: 2015:241
+CWE-352: Cross-Site Request Forgery (CSRF): I: 2016:81
+CWE-79: Cross-Site Scripting (XSS): I: 1998:0
+CWE-79: Cross-Site Scripting (XSS): I: 1999:0
+CWE-79: Cross-Site Scripting (XSS): I: 2000:1
+CWE-79: Cross-Site Scripting (XSS): I: 2001:0
+CWE-79: Cross-Site Scripting (XSS): I: 2002:34
+CWE-79: Cross-Site Scripting (XSS): I: 2003:33
+CWE-79: Cross-Site Scripting (XSS): I: 2004:22
+CWE-79: Cross-Site Scripting (XSS): I: 2005:35
+CWE-79: Cross-Site Scripting (XSS): I: 2006:114
+CWE-79: Cross-Site Scripting (XSS): I: 2007:349
+CWE-79: Cross-Site Scripting (XSS): I: 2008:790
+CWE-79: Cross-Site Scripting (XSS): I: 2009:821
+CWE-79: Cross-Site Scripting (XSS): I: 2010:594
+CWE-79: Cross-Site Scripting (XSS): I: 2011:454
+CWE-79: Cross-Site Scripting (XSS): I: 2012:721
+CWE-79: Cross-Site Scripting (XSS): I: 2013:616
+CWE-79: Cross-Site Scripting (XSS): I: 2014:1028
+CWE-79: Cross-Site Scripting (XSS): I: 2015:724
+CWE-79: Cross-Site Scripting (XSS): I: 2016:472
+CWE-310: Cryptographic Issues: D: 1998:0
+CWE-310: Cryptographic Issues: D: 1999:0
+CWE-310: Cryptographic Issues: D: 2000:1
+CWE-310: Cryptographic Issues: D: 2001:4
+CWE-310: Cryptographic Issues: D: 2002:3
+CWE-310: Cryptographic Issues: D: 2003:9
+CWE-310: Cryptographic Issues: D: 2004:2
+CWE-310: Cryptographic Issues: D: 2005:3
+CWE-310: Cryptographic Issues: D: 2006:6
+CWE-310: Cryptographic Issues: D: 2007:28
+CWE-310: Cryptographic Issues: D: 2008:46
+CWE-310: Cryptographic Issues: D: 2009:93
+CWE-310: Cryptographic Issues: D: 2010:71
+CWE-310: Cryptographic Issues: D: 2011:62
+CWE-310: Cryptographic Issues: D: 2012:99
+CWE-310: Cryptographic Issues: D: 2013:130
+CWE-310: Cryptographic Issues: D: 2014:1585
+CWE-310: Cryptographic Issues: D: 2015:90
+CWE-310: Cryptographic Issues: D: 2016:63
+CWE-19: Data Handling: U: 1998:0
+CWE-19: Data Handling: U: 1999:0
+CWE-19: Data Handling: U: 2000:0
+CWE-19: Data Handling: U: 2001:0
+CWE-19: Data Handling: U: 2002:0
+CWE-19: Data Handling: U: 2003:0
+CWE-19: Data Handling: U: 2004:0
+CWE-19: Data Handling: U: 2005:1
+CWE-19: Data Handling: U: 2006:0
+CWE-19: Data Handling: U: 2007:1
+CWE-19: Data Handling: U: 2008:0
+CWE-19: Data Handling: U: 2009:0
+CWE-19: Data Handling: U: 2010:1
+CWE-19: Data Handling: U: 2011:0
+CWE-19: Data Handling: U: 2012:1
+CWE-19: Data Handling: U: 2013:0
+CWE-19: Data Handling: U: 2014:16
+CWE-19: Data Handling: U: 2015:61
+CWE-19: Data Handling: U: 2016:61
+CWE-502: Deserialization of Untrusted Data: U: 1998:0
+CWE-502: Deserialization of Untrusted Data: U: 1999:0
+CWE-502: Deserialization of Untrusted Data: U: 2000:0
+CWE-502: Deserialization of Untrusted Data: U: 2001:0
+CWE-502: Deserialization of Untrusted Data: U: 2002:0
+CWE-502: Deserialization of Untrusted Data: U: 2003:0
+CWE-502: Deserialization of Untrusted Data: U: 2004:0
+CWE-502: Deserialization of Untrusted Data: U: 2005:0
+CWE-502: Deserialization of Untrusted Data: U: 2006:0
+CWE-502: Deserialization of Untrusted Data: U: 2007:0
+CWE-502: Deserialization of Untrusted Data: U: 2008:0
+CWE-502: Deserialization of Untrusted Data: U: 2009:0
+CWE-502: Deserialization of Untrusted Data: U: 2010:0
+CWE-502: Deserialization of Untrusted Data: U: 2011:0
+CWE-502: Deserialization of Untrusted Data: U: 2012:0
+CWE-502: Deserialization of Untrusted Data: U: 2013:1
+CWE-502: Deserialization of Untrusted Data: U: 2014:0
+CWE-502: Deserialization of Untrusted Data: U: 2015:0
+CWE-502: Deserialization of Untrusted Data: U: 2016:8
+CWE-369: Divide By Zero: U: 1998:0
+CWE-369: Divide By Zero: U: 1999:0
+CWE-369: Divide By Zero: U: 2000:0
+CWE-369: Divide By Zero: U: 2001:0
+CWE-369: Divide By Zero: U: 2002:0
+CWE-369: Divide By Zero: U: 2003:0
+CWE-369: Divide By Zero: U: 2004:0
+CWE-369: Divide By Zero: U: 2005:0
+CWE-369: Divide By Zero: U: 2006:1
+CWE-369: Divide By Zero: U: 2007:0
+CWE-369: Divide By Zero: U: 2008:0
+CWE-369: Divide By Zero: U: 2009:0
+CWE-369: Divide By Zero: U: 2010:0
+CWE-369: Divide By Zero: U: 2011:0
+CWE-369: Divide By Zero: U: 2012:0
+CWE-369: Divide By Zero: U: 2013:0
+CWE-369: Divide By Zero: U: 2014:0
+CWE-369: Divide By Zero: U: 2015:0
+CWE-369: Divide By Zero: U: 2016:8
+CWE-415: Double Free: U: 1998:0
+CWE-415: Double Free: U: 1999:0
+CWE-415: Double Free: U: 2000:0
+CWE-415: Double Free: U: 2001:0
+CWE-415: Double Free: U: 2002:0
+CWE-415: Double Free: U: 2003:1
+CWE-415: Double Free: U: 2004:0
+CWE-415: Double Free: U: 2005:0
+CWE-415: Double Free: U: 2006:0
+CWE-415: Double Free: U: 2007:0
+CWE-415: Double Free: U: 2008:0
+CWE-415: Double Free: U: 2009:0
+CWE-415: Double Free: U: 2010:0
+CWE-415: Double Free: U: 2011:0
+CWE-415: Double Free: U: 2012:0
+CWE-415: Double Free: U: 2013:0
+CWE-415: Double Free: U: 2014:3
+CWE-415: Double Free: U: 2015:0
+CWE-415: Double Free: U: 2016:6
+CWE-172: Encoding Error: U: 1998:0
+CWE-172: Encoding Error: U: 1999:0
+CWE-172: Encoding Error: U: 2000:0
+CWE-172: Encoding Error: U: 2001:0
+CWE-172: Encoding Error: U: 2002:0
+CWE-172: Encoding Error: U: 2003:0
+CWE-172: Encoding Error: U: 2004:0
+CWE-172: Encoding Error: U: 2005:0
+CWE-172: Encoding Error: U: 2006:0
+CWE-172: Encoding Error: U: 2007:0
+CWE-172: Encoding Error: U: 2008:0
+CWE-172: Encoding Error: U: 2009:0
+CWE-172: Encoding Error: U: 2010:0
+CWE-172: Encoding Error: U: 2011:0
+CWE-172: Encoding Error: U: 2012:0
+CWE-172: Encoding Error: U: 2013:0
+CWE-172: Encoding Error: U: 2014:0
+CWE-172: Encoding Error: U: 2015:0
+CWE-172: Encoding Error: U: 2016:4
+CWE-2: Environment: U: 1998:0
+CWE-2: Environment: U: 1999:0
+CWE-2: Environment: U: 2000:0
+CWE-2: Environment: U: 2001:0
+CWE-2: Environment: U: 2002:0
+CWE-2: Environment: U: 2003:0
+CWE-2: Environment: U: 2004:0
+CWE-2: Environment: U: 2005:0
+CWE-2: Environment: U: 2006:0
+CWE-2: Environment: U: 2007:0
+CWE-2: Environment: U: 2008:0
+CWE-2: Environment: U: 2009:0
+CWE-2: Environment: U: 2010:0
+CWE-2: Environment: U: 2011:0
+CWE-2: Environment: U: 2012:0
+CWE-2: Environment: U: 2013:0
+CWE-2: Environment: U: 2014:0
+CWE-2: Environment: U: 2015:0
+CWE-2: Environment: U: 2016:0
+CWE-388: Error Handling: U: 1998:0
+CWE-388: Error Handling: U: 1999:0
+CWE-388: Error Handling: U: 2000:0
+CWE-388: Error Handling: U: 2001:0
+CWE-388: Error Handling: U: 2002:0
+CWE-388: Error Handling: U: 2003:0
+CWE-388: Error Handling: U: 2004:0
+CWE-388: Error Handling: U: 2005:0
+CWE-388: Error Handling: U: 2006:1
+CWE-388: Error Handling: U: 2007:0
+CWE-388: Error Handling: U: 2008:0
+CWE-388: Error Handling: U: 2009:0
+CWE-388: Error Handling: U: 2010:0
+CWE-388: Error Handling: U: 2011:0
+CWE-388: Error Handling: U: 2012:0
+CWE-388: Error Handling: U: 2013:0
+CWE-388: Error Handling: U: 2014:0
+CWE-388: Error Handling: U: 2015:0
+CWE-388: Error Handling: U: 2016:9
+CWE-749: Exposed Dangerous Method or Function: U: 1998:0
+CWE-749: Exposed Dangerous Method or Function: U: 1999:0
+CWE-749: Exposed Dangerous Method or Function: U: 2000:0
+CWE-749: Exposed Dangerous Method or Function: U: 2001:0
+CWE-749: Exposed Dangerous Method or Function: U: 2002:0
+CWE-749: Exposed Dangerous Method or Function: U: 2003:0
+CWE-749: Exposed Dangerous Method or Function: U: 2004:0
+CWE-749: Exposed Dangerous Method or Function: U: 2005:0
+CWE-749: Exposed Dangerous Method or Function: U: 2006:0
+CWE-749: Exposed Dangerous Method or Function: U: 2007:0
+CWE-749: Exposed Dangerous Method or Function: U: 2008:0
+CWE-749: Exposed Dangerous Method or Function: U: 2009:0
+CWE-749: Exposed Dangerous Method or Function: U: 2010:0
+CWE-749: Exposed Dangerous Method or Function: U: 2011:0
+CWE-749: Exposed Dangerous Method or Function: U: 2012:0
+CWE-749: Exposed Dangerous Method or Function: U: 2013:0
+CWE-749: Exposed Dangerous Method or Function: U: 2014:0
+CWE-749: Exposed Dangerous Method or Function: U: 2015:0
+CWE-749: Exposed Dangerous Method or Function: U: 2016:1
+CWE-668: Exposure of Resource to Wrong Sphere: U: 1998:0
+CWE-668: Exposure of Resource to Wrong Sphere: U: 1999:0
+CWE-668: Exposure of Resource to Wrong Sphere: U: 2000:0
+CWE-668: Exposure of Resource to Wrong Sphere: U: 2001:0
+CWE-668: Exposure of Resource to Wrong Sphere: U: 2002:0
+CWE-668: Exposure of Resource to Wrong Sphere: U: 2003:0
+CWE-668: Exposure of Resource to Wrong Sphere: U: 2004:0
+CWE-668: Exposure of Resource to Wrong Sphere: U: 2005:0
+CWE-668: Exposure of Resource to Wrong Sphere: U: 2006:0
+CWE-668: Exposure of Resource to Wrong Sphere: U: 2007:0
+CWE-668: Exposure of Resource to Wrong Sphere: U: 2008:0
+CWE-668: Exposure of Resource to Wrong Sphere: U: 2009:0
+CWE-668: Exposure of Resource to Wrong Sphere: U: 2010:0
+CWE-668: Exposure of Resource to Wrong Sphere: U: 2011:0
+CWE-668: Exposure of Resource to Wrong Sphere: U: 2012:0
+CWE-668: Exposure of Resource to Wrong Sphere: U: 2013:0
+CWE-668: Exposure of Resource to Wrong Sphere: U: 2014:0
+CWE-668: Exposure of Resource to Wrong Sphere: U: 2015:0
+CWE-668: Exposure of Resource to Wrong Sphere: U: 2016:0
+CWE-472: External Control of Assumed-Immutable Web Parameter: U: 1998:0
+CWE-472: External Control of Assumed-Immutable Web Parameter: U: 1999:0
+CWE-472: External Control of Assumed-Immutable Web Parameter: U: 2000:0
+CWE-472: External Control of Assumed-Immutable Web Parameter: U: 2001:0
+CWE-472: External Control of Assumed-Immutable Web Parameter: U: 2002:0
+CWE-472: External Control of Assumed-Immutable Web Parameter: U: 2003:0
+CWE-472: External Control of Assumed-Immutable Web Parameter: U: 2004:0
+CWE-472: External Control of Assumed-Immutable Web Parameter: U: 2005:0
+CWE-472: External Control of Assumed-Immutable Web Parameter: U: 2006:0
+CWE-472: External Control of Assumed-Immutable Web Parameter: U: 2007:0
+CWE-472: External Control of Assumed-Immutable Web Parameter: U: 2008:0
+CWE-472: External Control of Assumed-Immutable Web Parameter: U: 2009:0
+CWE-472: External Control of Assumed-Immutable Web Parameter: U: 2010:0
+CWE-472: External Control of Assumed-Immutable Web Parameter: U: 2011:0
+CWE-472: External Control of Assumed-Immutable Web Parameter: U: 2012:0
+CWE-472: External Control of Assumed-Immutable Web Parameter: U: 2013:0
+CWE-472: External Control of Assumed-Immutable Web Parameter: U: 2014:0
+CWE-472: External Control of Assumed-Immutable Web Parameter: U: 2015:0
+CWE-472: External Control of Assumed-Immutable Web Parameter: U: 2016:0
+CWE-642: External Control of Critical State Data: U: 1998:0
+CWE-642: External Control of Critical State Data: U: 1999:0
+CWE-642: External Control of Critical State Data: U: 2000:0
+CWE-642: External Control of Critical State Data: U: 2001:0
+CWE-642: External Control of Critical State Data: U: 2002:0
+CWE-642: External Control of Critical State Data: U: 2003:0
+CWE-642: External Control of Critical State Data: U: 2004:0
+CWE-642: External Control of Critical State Data: U: 2005:0
+CWE-642: External Control of Critical State Data: U: 2006:0
+CWE-642: External Control of Critical State Data: U: 2007:0
+CWE-642: External Control of Critical State Data: U: 2008:0
+CWE-642: External Control of Critical State Data: U: 2009:0
+CWE-642: External Control of Critical State Data: U: 2010:0
+CWE-642: External Control of Critical State Data: U: 2011:0
+CWE-642: External Control of Critical State Data: U: 2012:0
+CWE-642: External Control of Critical State Data: U: 2013:0
+CWE-642: External Control of Critical State Data: U: 2014:0
+CWE-642: External Control of Critical State Data: U: 2015:0
+CWE-642: External Control of Critical State Data: U: 2016:0
+CWE-610: Externally Controlled Reference to a Resource in Another Sphere: U: 1998:0
+CWE-610: Externally Controlled Reference to a Resource in Another Sphere: U: 1999:0
+CWE-610: Externally Controlled Reference to a Resource in Another Sphere: U: 2000:0
+CWE-610: Externally Controlled Reference to a Resource in Another Sphere: U: 2001:0
+CWE-610: Externally Controlled Reference to a Resource in Another Sphere: U: 2002:0
+CWE-610: Externally Controlled Reference to a Resource in Another Sphere: U: 2003:0
+CWE-610: Externally Controlled Reference to a Resource in Another Sphere: U: 2004:0
+CWE-610: Externally Controlled Reference to a Resource in Another Sphere: U: 2005:0
+CWE-610: Externally Controlled Reference to a Resource in Another Sphere: U: 2006:0
+CWE-610: Externally Controlled Reference to a Resource in Another Sphere: U: 2007:0
+CWE-610: Externally Controlled Reference to a Resource in Another Sphere: U: 2008:0
+CWE-610: Externally Controlled Reference to a Resource in Another Sphere: U: 2009:0
+CWE-610: Externally Controlled Reference to a Resource in Another Sphere: U: 2010:0
+CWE-610: Externally Controlled Reference to a Resource in Another Sphere: U: 2011:0
+CWE-610: Externally Controlled Reference to a Resource in Another Sphere: U: 2012:0
+CWE-610: Externally Controlled Reference to a Resource in Another Sphere: U: 2013:0
+CWE-610: Externally Controlled Reference to a Resource in Another Sphere: U: 2014:0
+CWE-610: Externally Controlled Reference to a Resource in Another Sphere: U: 2015:0
+CWE-610: Externally Controlled Reference to a Resource in Another Sphere: U: 2016:0
+CWE-538: File and Directory Information Exposure: U: 1998:0
+CWE-538: File and Directory Information Exposure: U: 1999:0
+CWE-538: File and Directory Information Exposure: U: 2000:0
+CWE-538: File and Directory Information Exposure: U: 2001:0
+CWE-538: File and Directory Information Exposure: U: 2002:0
+CWE-538: File and Directory Information Exposure: U: 2003:0
+CWE-538: File and Directory Information Exposure: U: 2004:0
+CWE-538: File and Directory Information Exposure: U: 2005:0
+CWE-538: File and Directory Information Exposure: U: 2006:0
+CWE-538: File and Directory Information Exposure: U: 2007:0
+CWE-538: File and Directory Information Exposure: U: 2008:0
+CWE-538: File and Directory Information Exposure: U: 2009:0
+CWE-538: File and Directory Information Exposure: U: 2010:0
+CWE-538: File and Directory Information Exposure: U: 2011:0
+CWE-538: File and Directory Information Exposure: U: 2012:0
+CWE-538: File and Directory Information Exposure: U: 2013:0
+CWE-538: File and Directory Information Exposure: U: 2014:0
+CWE-538: File and Directory Information Exposure: U: 2015:0
+CWE-538: File and Directory Information Exposure: U: 2016:0
+CWE-769: File Descriptor Exhaustion: U: 1998:0
+CWE-769: File Descriptor Exhaustion: U: 1999:0
+CWE-769: File Descriptor Exhaustion: U: 2000:0
+CWE-769: File Descriptor Exhaustion: U: 2001:0
+CWE-769: File Descriptor Exhaustion: U: 2002:0
+CWE-769: File Descriptor Exhaustion: U: 2003:0
+CWE-769: File Descriptor Exhaustion: U: 2004:0
+CWE-769: File Descriptor Exhaustion: U: 2005:0
+CWE-769: File Descriptor Exhaustion: U: 2006:0
+CWE-769: File Descriptor Exhaustion: U: 2007:0
+CWE-769: File Descriptor Exhaustion: U: 2008:0
+CWE-769: File Descriptor Exhaustion: U: 2009:0
+CWE-769: File Descriptor Exhaustion: U: 2010:0
+CWE-769: File Descriptor Exhaustion: U: 2011:0
+CWE-769: File Descriptor Exhaustion: U: 2012:0
+CWE-769: File Descriptor Exhaustion: U: 2013:0
+CWE-769: File Descriptor Exhaustion: U: 2014:0
+CWE-769: File Descriptor Exhaustion: U: 2015:0
+CWE-769: File Descriptor Exhaustion: U: 2016:0
+CWE-552: Files or Directories Accessible to External Parties: U: 1998:0
+CWE-552: Files or Directories Accessible to External Parties: U: 1999:0
+CWE-552: Files or Directories Accessible to External Parties: U: 2000:0
+CWE-552: Files or Directories Accessible to External Parties: U: 2001:0
+CWE-552: Files or Directories Accessible to External Parties: U: 2002:0
+CWE-552: Files or Directories Accessible to External Parties: U: 2003:0
+CWE-552: Files or Directories Accessible to External Parties: U: 2004:0
+CWE-552: Files or Directories Accessible to External Parties: U: 2005:0
+CWE-552: Files or Directories Accessible to External Parties: U: 2006:0
+CWE-552: Files or Directories Accessible to External Parties: U: 2007:0
+CWE-552: Files or Directories Accessible to External Parties: U: 2008:0
+CWE-552: Files or Directories Accessible to External Parties: U: 2009:0
+CWE-552: Files or Directories Accessible to External Parties: U: 2010:0
+CWE-552: Files or Directories Accessible to External Parties: U: 2011:0
+CWE-552: Files or Directories Accessible to External Parties: U: 2012:0
+CWE-552: Files or Directories Accessible to External Parties: U: 2013:0
+CWE-552: Files or Directories Accessible to External Parties: U: 2014:0
+CWE-552: Files or Directories Accessible to External Parties: U: 2015:0
+CWE-552: Files or Directories Accessible to External Parties: U: 2016:0
+CWE-134: Format String Vulnerability: I: 1998:0
+CWE-134: Format String Vulnerability: I: 1999:0
+CWE-134: Format String Vulnerability: I: 2000:0
+CWE-134: Format String Vulnerability: I: 2001:0
+CWE-134: Format String Vulnerability: I: 2002:1
+CWE-134: Format String Vulnerability: I: 2003:2
+CWE-134: Format String Vulnerability: I: 2004:3
+CWE-134: Format String Vulnerability: I: 2005:3
+CWE-134: Format String Vulnerability: I: 2006:17
+CWE-134: Format String Vulnerability: I: 2007:30
+CWE-134: Format String Vulnerability: I: 2008:24
+CWE-134: Format String Vulnerability: I: 2009:28
+CWE-134: Format String Vulnerability: I: 2010:15
+CWE-134: Format String Vulnerability: I: 2011:10
+CWE-134: Format String Vulnerability: I: 2012:11
+CWE-134: Format String Vulnerability: I: 2013:9
+CWE-134: Format String Vulnerability: I: 2014:7
+CWE-134: Format String Vulnerability: I: 2015:4
+CWE-134: Format String Vulnerability: I: 2016:2
+CWE-284: Improper Access Control: U: 1998:0
+CWE-284: Improper Access Control: U: 1999:0
+CWE-284: Improper Access Control: U: 2000:0
+CWE-284: Improper Access Control: U: 2001:1
+CWE-284: Improper Access Control: U: 2002:0
+CWE-284: Improper Access Control: U: 2003:0
+CWE-284: Improper Access Control: U: 2004:0
+CWE-284: Improper Access Control: U: 2005:1
+CWE-284: Improper Access Control: U: 2006:0
+CWE-284: Improper Access Control: U: 2007:0
+CWE-284: Improper Access Control: U: 2008:1
+CWE-284: Improper Access Control: U: 2009:1
+CWE-284: Improper Access Control: U: 2010:0
+CWE-284: Improper Access Control: U: 2011:0
+CWE-284: Improper Access Control: U: 2012:4
+CWE-284: Improper Access Control: U: 2013:3
+CWE-284: Improper Access Control: U: 2014:21
+CWE-284: Improper Access Control: U: 2015:147
+CWE-284: Improper Access Control: U: 2016:420
+CWE-118: Improper Access of Indexable Resource (Range Error): U: 1998:0
+CWE-118: Improper Access of Indexable Resource (Range Error): U: 1999:0
+CWE-118: Improper Access of Indexable Resource (Range Error): U: 2000:0
+CWE-118: Improper Access of Indexable Resource (Range Error): U: 2001:0
+CWE-118: Improper Access of Indexable Resource (Range Error): U: 2002:0
+CWE-118: Improper Access of Indexable Resource (Range Error): U: 2003:0
+CWE-118: Improper Access of Indexable Resource (Range Error): U: 2004:0
+CWE-118: Improper Access of Indexable Resource (Range Error): U: 2005:0
+CWE-118: Improper Access of Indexable Resource (Range Error): U: 2006:0
+CWE-118: Improper Access of Indexable Resource (Range Error): U: 2007:0
+CWE-118: Improper Access of Indexable Resource (Range Error): U: 2008:0
+CWE-118: Improper Access of Indexable Resource (Range Error): U: 2009:0
+CWE-118: Improper Access of Indexable Resource (Range Error): U: 2010:0
+CWE-118: Improper Access of Indexable Resource (Range Error): U: 2011:0
+CWE-118: Improper Access of Indexable Resource (Range Error): U: 2012:0
+CWE-118: Improper Access of Indexable Resource (Range Error): U: 2013:0
+CWE-118: Improper Access of Indexable Resource (Range Error): U: 2014:0
+CWE-118: Improper Access of Indexable Resource (Range Error): U: 2015:0
+CWE-118: Improper Access of Indexable Resource (Range Error): U: 2016:0
+CWE-285: Improper Authorization: U: 1998:0
+CWE-285: Improper Authorization: U: 1999:0
+CWE-285: Improper Authorization: U: 2000:0
+CWE-285: Improper Authorization: U: 2001:0
+CWE-285: Improper Authorization: U: 2002:0
+CWE-285: Improper Authorization: U: 2003:0
+CWE-285: Improper Authorization: U: 2004:0
+CWE-285: Improper Authorization: U: 2005:0
+CWE-285: Improper Authorization: U: 2006:0
+CWE-285: Improper Authorization: U: 2007:0
+CWE-285: Improper Authorization: U: 2008:0
+CWE-285: Improper Authorization: U: 2009:0
+CWE-285: Improper Authorization: U: 2010:0
+CWE-285: Improper Authorization: U: 2011:0
+CWE-285: Improper Authorization: U: 2012:0
+CWE-285: Improper Authorization: U: 2013:0
+CWE-285: Improper Authorization: U: 2014:0
+CWE-285: Improper Authorization: U: 2015:0
+CWE-285: Improper Authorization: U: 2016:16
+CWE-295: Improper Certificate Validation: U: 1998:0
+CWE-295: Improper Certificate Validation: U: 1999:0
+CWE-295: Improper Certificate Validation: U: 2000:0
+CWE-295: Improper Certificate Validation: U: 2001:0
+CWE-295: Improper Certificate Validation: U: 2002:0
+CWE-295: Improper Certificate Validation: U: 2003:0
+CWE-295: Improper Certificate Validation: U: 2004:0
+CWE-295: Improper Certificate Validation: U: 2005:0
+CWE-295: Improper Certificate Validation: U: 2006:0
+CWE-295: Improper Certificate Validation: U: 2007:0
+CWE-295: Improper Certificate Validation: U: 2008:0
+CWE-295: Improper Certificate Validation: U: 2009:0
+CWE-295: Improper Certificate Validation: U: 2010:0
+CWE-295: Improper Certificate Validation: U: 2011:0
+CWE-295: Improper Certificate Validation: U: 2012:2
+CWE-295: Improper Certificate Validation: U: 2013:0
+CWE-295: Improper Certificate Validation: U: 2014:0
+CWE-295: Improper Certificate Validation: U: 2015:0
+CWE-295: Improper Certificate Validation: U: 2016:2
+CWE-754: Improper Check for Unusual or Exceptional Conditions: U: 1998:0
+CWE-754: Improper Check for Unusual or Exceptional Conditions: U: 1999:0
+CWE-754: Improper Check for Unusual or Exceptional Conditions: U: 2000:0
+CWE-754: Improper Check for Unusual or Exceptional Conditions: U: 2001:0
+CWE-754: Improper Check for Unusual or Exceptional Conditions: U: 2002:0
+CWE-754: Improper Check for Unusual or Exceptional Conditions: U: 2003:0
+CWE-754: Improper Check for Unusual or Exceptional Conditions: U: 2004:0
+CWE-754: Improper Check for Unusual or Exceptional Conditions: U: 2005:0
+CWE-754: Improper Check for Unusual or Exceptional Conditions: U: 2006:0
+CWE-754: Improper Check for Unusual or Exceptional Conditions: U: 2007:0
+CWE-754: Improper Check for Unusual or Exceptional Conditions: U: 2008:0
+CWE-754: Improper Check for Unusual or Exceptional Conditions: U: 2009:0
+CWE-754: Improper Check for Unusual or Exceptional Conditions: U: 2010:0
+CWE-754: Improper Check for Unusual or Exceptional Conditions: U: 2011:0
+CWE-754: Improper Check for Unusual or Exceptional Conditions: U: 2012:0
+CWE-754: Improper Check for Unusual or Exceptional Conditions: U: 2013:0
+CWE-754: Improper Check for Unusual or Exceptional Conditions: U: 2014:0
+CWE-754: Improper Check for Unusual or Exceptional Conditions: U: 2015:0
+CWE-754: Improper Check for Unusual or Exceptional Conditions: U: 2016:0
+CWE-664: Improper Control of a Resource Through its Lifetime: U: 1998:0
+CWE-664: Improper Control of a Resource Through its Lifetime: U: 1999:0
+CWE-664: Improper Control of a Resource Through its Lifetime: U: 2000:0
+CWE-664: Improper Control of a Resource Through its Lifetime: U: 2001:0
+CWE-664: Improper Control of a Resource Through its Lifetime: U: 2002:0
+CWE-664: Improper Control of a Resource Through its Lifetime: U: 2003:0
+CWE-664: Improper Control of a Resource Through its Lifetime: U: 2004:0
+CWE-664: Improper Control of a Resource Through its Lifetime: U: 2005:0
+CWE-664: Improper Control of a Resource Through its Lifetime: U: 2006:0
+CWE-664: Improper Control of a Resource Through its Lifetime: U: 2007:0
+CWE-664: Improper Control of a Resource Through its Lifetime: U: 2008:0
+CWE-664: Improper Control of a Resource Through its Lifetime: U: 2009:0
+CWE-664: Improper Control of a Resource Through its Lifetime: U: 2010:0
+CWE-664: Improper Control of a Resource Through its Lifetime: U: 2011:0
+CWE-664: Improper Control of a Resource Through its Lifetime: U: 2012:0
+CWE-664: Improper Control of a Resource Through its Lifetime: U: 2013:0
+CWE-664: Improper Control of a Resource Through its Lifetime: U: 2014:0
+CWE-664: Improper Control of a Resource Through its Lifetime: U: 2015:0
+CWE-664: Improper Control of a Resource Through its Lifetime: U: 2016:0
+CWE-913: Improper Control of Dynamically-Managed Code Resources: U: 1998:0
+CWE-913: Improper Control of Dynamically-Managed Code Resources: U: 1999:0
+CWE-913: Improper Control of Dynamically-Managed Code Resources: U: 2000:0
+CWE-913: Improper Control of Dynamically-Managed Code Resources: U: 2001:0
+CWE-913: Improper Control of Dynamically-Managed Code Resources: U: 2002:0
+CWE-913: Improper Control of Dynamically-Managed Code Resources: U: 2003:0
+CWE-913: Improper Control of Dynamically-Managed Code Resources: U: 2004:0
+CWE-913: Improper Control of Dynamically-Managed Code Resources: U: 2005:0
+CWE-913: Improper Control of Dynamically-Managed Code Resources: U: 2006:0
+CWE-913: Improper Control of Dynamically-Managed Code Resources: U: 2007:0
+CWE-913: Improper Control of Dynamically-Managed Code Resources: U: 2008:0
+CWE-913: Improper Control of Dynamically-Managed Code Resources: U: 2009:0
+CWE-913: Improper Control of Dynamically-Managed Code Resources: U: 2010:0
+CWE-913: Improper Control of Dynamically-Managed Code Resources: U: 2011:0
+CWE-913: Improper Control of Dynamically-Managed Code Resources: U: 2012:0
+CWE-913: Improper Control of Dynamically-Managed Code Resources: U: 2013:0
+CWE-913: Improper Control of Dynamically-Managed Code Resources: U: 2014:0
+CWE-913: Improper Control of Dynamically-Managed Code Resources: U: 2015:0
+CWE-913: Improper Control of Dynamically-Managed Code Resources: U: 2016:0
+CWE-99: Improper Control of Resource Identifiers (Resource Injection): U: 1998:0
+CWE-99: Improper Control of Resource Identifiers (Resource Injection): U: 1999:0
+CWE-99: Improper Control of Resource Identifiers (Resource Injection): U: 2000:0
+CWE-99: Improper Control of Resource Identifiers (Resource Injection): U: 2001:0
+CWE-99: Improper Control of Resource Identifiers (Resource Injection): U: 2002:0
+CWE-99: Improper Control of Resource Identifiers (Resource Injection): U: 2003:0
+CWE-99: Improper Control of Resource Identifiers (Resource Injection): U: 2004:0
+CWE-99: Improper Control of Resource Identifiers (Resource Injection): U: 2005:0
+CWE-99: Improper Control of Resource Identifiers (Resource Injection): U: 2006:0
+CWE-99: Improper Control of Resource Identifiers (Resource Injection): U: 2007:0
+CWE-99: Improper Control of Resource Identifiers (Resource Injection): U: 2008:0
+CWE-99: Improper Control of Resource Identifiers (Resource Injection): U: 2009:0
+CWE-99: Improper Control of Resource Identifiers (Resource Injection): U: 2010:0
+CWE-99: Improper Control of Resource Identifiers (Resource Injection): U: 2011:0
+CWE-99: Improper Control of Resource Identifiers (Resource Injection): U: 2012:0
+CWE-99: Improper Control of Resource Identifiers (Resource Injection): U: 2013:0
+CWE-99: Improper Control of Resource Identifiers (Resource Injection): U: 2014:0
+CWE-99: Improper Control of Resource Identifiers (Resource Injection): U: 2015:0
+CWE-99: Improper Control of Resource Identifiers (Resource Injection): U: 2016:0
+CWE-116: Improper Encoding or Escaping of Output: U: 1998:0
+CWE-116: Improper Encoding or Escaping of Output: U: 1999:0
+CWE-116: Improper Encoding or Escaping of Output: U: 2000:0
+CWE-116: Improper Encoding or Escaping of Output: U: 2001:0
+CWE-116: Improper Encoding or Escaping of Output: U: 2002:0
+CWE-116: Improper Encoding or Escaping of Output: U: 2003:0
+CWE-116: Improper Encoding or Escaping of Output: U: 2004:0
+CWE-116: Improper Encoding or Escaping of Output: U: 2005:0
+CWE-116: Improper Encoding or Escaping of Output: U: 2006:0
+CWE-116: Improper Encoding or Escaping of Output: U: 2007:0
+CWE-116: Improper Encoding or Escaping of Output: U: 2008:0
+CWE-116: Improper Encoding or Escaping of Output: U: 2009:0
+CWE-116: Improper Encoding or Escaping of Output: U: 2010:0
+CWE-116: Improper Encoding or Escaping of Output: U: 2011:0
+CWE-116: Improper Encoding or Escaping of Output: U: 2012:0
+CWE-116: Improper Encoding or Escaping of Output: U: 2013:0
+CWE-116: Improper Encoding or Escaping of Output: U: 2014:0
+CWE-116: Improper Encoding or Escaping of Output: U: 2015:0
+CWE-116: Improper Encoding or Escaping of Output: U: 2016:0
+CWE-665: Improper Initialization: U: 1998:0
+CWE-665: Improper Initialization: U: 1999:0
+CWE-665: Improper Initialization: U: 2000:0
+CWE-665: Improper Initialization: U: 2001:0
+CWE-665: Improper Initialization: U: 2002:0
+CWE-665: Improper Initialization: U: 2003:0
+CWE-665: Improper Initialization: U: 2004:0
+CWE-665: Improper Initialization: U: 2005:0
+CWE-665: Improper Initialization: U: 2006:0
+CWE-665: Improper Initialization: U: 2007:0
+CWE-665: Improper Initialization: U: 2008:0
+CWE-665: Improper Initialization: U: 2009:0
+CWE-665: Improper Initialization: U: 2010:0
+CWE-665: Improper Initialization: U: 2011:0
+CWE-665: Improper Initialization: U: 2012:0
+CWE-665: Improper Initialization: U: 2013:0
+CWE-665: Improper Initialization: U: 2014:0
+CWE-665: Improper Initialization: U: 2015:0
+CWE-665: Improper Initialization: U: 2016:0
+CWE-93: Improper Neutralization of CRLF Sequences (CRLF Injection): U: 1998:0
+CWE-93: Improper Neutralization of CRLF Sequences (CRLF Injection): U: 1999:0
+CWE-93: Improper Neutralization of CRLF Sequences (CRLF Injection): U: 2000:0
+CWE-93: Improper Neutralization of CRLF Sequences (CRLF Injection): U: 2001:0
+CWE-93: Improper Neutralization of CRLF Sequences (CRLF Injection): U: 2002:0
+CWE-93: Improper Neutralization of CRLF Sequences (CRLF Injection): U: 2003:0
+CWE-93: Improper Neutralization of CRLF Sequences (CRLF Injection): U: 2004:0
+CWE-93: Improper Neutralization of CRLF Sequences (CRLF Injection): U: 2005:0
+CWE-93: Improper Neutralization of CRLF Sequences (CRLF Injection): U: 2006:0
+CWE-93: Improper Neutralization of CRLF Sequences (CRLF Injection): U: 2007:1
+CWE-93: Improper Neutralization of CRLF Sequences (CRLF Injection): U: 2008:0
+CWE-93: Improper Neutralization of CRLF Sequences (CRLF Injection): U: 2009:0
+CWE-93: Improper Neutralization of CRLF Sequences (CRLF Injection): U: 2010:0
+CWE-93: Improper Neutralization of CRLF Sequences (CRLF Injection): U: 2011:0
+CWE-93: Improper Neutralization of CRLF Sequences (CRLF Injection): U: 2012:0
+CWE-93: Improper Neutralization of CRLF Sequences (CRLF Injection): U: 2013:0
+CWE-93: Improper Neutralization of CRLF Sequences (CRLF Injection): U: 2014:0
+CWE-93: Improper Neutralization of CRLF Sequences (CRLF Injection): U: 2015:1
+CWE-93: Improper Neutralization of CRLF Sequences (CRLF Injection): U: 2016:3
+CWE-113: Improper Neutralization of CRLF Sequences in HTTP Headers (HTTP Response Splitting): U: 1998:0
+CWE-113: Improper Neutralization of CRLF Sequences in HTTP Headers (HTTP Response Splitting): U: 1999:0
+CWE-113: Improper Neutralization of CRLF Sequences in HTTP Headers (HTTP Response Splitting): U: 2000:0
+CWE-113: Improper Neutralization of CRLF Sequences in HTTP Headers (HTTP Response Splitting): U: 2001:0
+CWE-113: Improper Neutralization of CRLF Sequences in HTTP Headers (HTTP Response Splitting): U: 2002:0
+CWE-113: Improper Neutralization of CRLF Sequences in HTTP Headers (HTTP Response Splitting): U: 2003:0
+CWE-113: Improper Neutralization of CRLF Sequences in HTTP Headers (HTTP Response Splitting): U: 2004:0
+CWE-113: Improper Neutralization of CRLF Sequences in HTTP Headers (HTTP Response Splitting): U: 2005:0
+CWE-113: Improper Neutralization of CRLF Sequences in HTTP Headers (HTTP Response Splitting): U: 2006:0
+CWE-113: Improper Neutralization of CRLF Sequences in HTTP Headers (HTTP Response Splitting): U: 2007:0
+CWE-113: Improper Neutralization of CRLF Sequences in HTTP Headers (HTTP Response Splitting): U: 2008:0
+CWE-113: Improper Neutralization of CRLF Sequences in HTTP Headers (HTTP Response Splitting): U: 2009:0
+CWE-113: Improper Neutralization of CRLF Sequences in HTTP Headers (HTTP Response Splitting): U: 2010:0
+CWE-113: Improper Neutralization of CRLF Sequences in HTTP Headers (HTTP Response Splitting): U: 2011:0
+CWE-113: Improper Neutralization of CRLF Sequences in HTTP Headers (HTTP Response Splitting): U: 2012:0
+CWE-113: Improper Neutralization of CRLF Sequences in HTTP Headers (HTTP Response Splitting): U: 2013:0
+CWE-113: Improper Neutralization of CRLF Sequences in HTTP Headers (HTTP Response Splitting): U: 2014:0
+CWE-113: Improper Neutralization of CRLF Sequences in HTTP Headers (HTTP Response Splitting): U: 2015:1
+CWE-113: Improper Neutralization of CRLF Sequences in HTTP Headers (HTTP Response Splitting): U: 2016:4
+CWE-943: Improper Neutralization of Special Elements in Data Query Logic: U: 1998:0
+CWE-943: Improper Neutralization of Special Elements in Data Query Logic: U: 1999:0
+CWE-943: Improper Neutralization of Special Elements in Data Query Logic: U: 2000:0
+CWE-943: Improper Neutralization of Special Elements in Data Query Logic: U: 2001:0
+CWE-943: Improper Neutralization of Special Elements in Data Query Logic: U: 2002:0
+CWE-943: Improper Neutralization of Special Elements in Data Query Logic: U: 2003:0
+CWE-943: Improper Neutralization of Special Elements in Data Query Logic: U: 2004:0
+CWE-943: Improper Neutralization of Special Elements in Data Query Logic: U: 2005:0
+CWE-943: Improper Neutralization of Special Elements in Data Query Logic: U: 2006:0
+CWE-943: Improper Neutralization of Special Elements in Data Query Logic: U: 2007:0
+CWE-943: Improper Neutralization of Special Elements in Data Query Logic: U: 2008:0
+CWE-943: Improper Neutralization of Special Elements in Data Query Logic: U: 2009:0
+CWE-943: Improper Neutralization of Special Elements in Data Query Logic: U: 2010:0
+CWE-943: Improper Neutralization of Special Elements in Data Query Logic: U: 2011:0
+CWE-943: Improper Neutralization of Special Elements in Data Query Logic: U: 2012:0
+CWE-943: Improper Neutralization of Special Elements in Data Query Logic: U: 2013:0
+CWE-943: Improper Neutralization of Special Elements in Data Query Logic: U: 2014:0
+CWE-943: Improper Neutralization of Special Elements in Data Query Logic: U: 2015:0
+CWE-943: Improper Neutralization of Special Elements in Data Query Logic: U: 2016:0
+CWE-90: Improper Neutralization of Special Elements used in an LDAP Query (LDAP Injection): U: 1998:0
+CWE-90: Improper Neutralization of Special Elements used in an LDAP Query (LDAP Injection): U: 1999:0
+CWE-90: Improper Neutralization of Special Elements used in an LDAP Query (LDAP Injection): U: 2000:0
+CWE-90: Improper Neutralization of Special Elements used in an LDAP Query (LDAP Injection): U: 2001:0
+CWE-90: Improper Neutralization of Special Elements used in an LDAP Query (LDAP Injection): U: 2002:0
+CWE-90: Improper Neutralization of Special Elements used in an LDAP Query (LDAP Injection): U: 2003:0
+CWE-90: Improper Neutralization of Special Elements used in an LDAP Query (LDAP Injection): U: 2004:0
+CWE-90: Improper Neutralization of Special Elements used in an LDAP Query (LDAP Injection): U: 2005:0
+CWE-90: Improper Neutralization of Special Elements used in an LDAP Query (LDAP Injection): U: 2006:0
+CWE-90: Improper Neutralization of Special Elements used in an LDAP Query (LDAP Injection): U: 2007:0
+CWE-90: Improper Neutralization of Special Elements used in an LDAP Query (LDAP Injection): U: 2008:0
+CWE-90: Improper Neutralization of Special Elements used in an LDAP Query (LDAP Injection): U: 2009:0
+CWE-90: Improper Neutralization of Special Elements used in an LDAP Query (LDAP Injection): U: 2010:0
+CWE-90: Improper Neutralization of Special Elements used in an LDAP Query (LDAP Injection): U: 2011:0
+CWE-90: Improper Neutralization of Special Elements used in an LDAP Query (LDAP Injection): U: 2012:0
+CWE-90: Improper Neutralization of Special Elements used in an LDAP Query (LDAP Injection): U: 2013:0
+CWE-90: Improper Neutralization of Special Elements used in an LDAP Query (LDAP Injection): U: 2014:0
+CWE-90: Improper Neutralization of Special Elements used in an LDAP Query (LDAP Injection): U: 2015:0
+CWE-90: Improper Neutralization of Special Elements used in an LDAP Query (LDAP Injection): U: 2016:0
+CWE-404: Improper Resource Shutdown or Release: U: 1998:0
+CWE-404: Improper Resource Shutdown or Release: U: 1999:0
+CWE-404: Improper Resource Shutdown or Release: U: 2000:0
+CWE-404: Improper Resource Shutdown or Release: U: 2001:0
+CWE-404: Improper Resource Shutdown or Release: U: 2002:0
+CWE-404: Improper Resource Shutdown or Release: U: 2003:0
+CWE-404: Improper Resource Shutdown or Release: U: 2004:0
+CWE-404: Improper Resource Shutdown or Release: U: 2005:0
+CWE-404: Improper Resource Shutdown or Release: U: 2006:0
+CWE-404: Improper Resource Shutdown or Release: U: 2007:0
+CWE-404: Improper Resource Shutdown or Release: U: 2008:0
+CWE-404: Improper Resource Shutdown or Release: U: 2009:0
+CWE-404: Improper Resource Shutdown or Release: U: 2010:0
+CWE-404: Improper Resource Shutdown or Release: U: 2011:0
+CWE-404: Improper Resource Shutdown or Release: U: 2012:0
+CWE-404: Improper Resource Shutdown or Release: U: 2013:0
+CWE-404: Improper Resource Shutdown or Release: U: 2014:0
+CWE-404: Improper Resource Shutdown or Release: U: 2015:0
+CWE-404: Improper Resource Shutdown or Release: U: 2016:0
+CWE-611: Improper Restriction of XML External Entity Reference (XXE): U: 1998:0
+CWE-611: Improper Restriction of XML External Entity Reference (XXE): U: 1999:0
+CWE-611: Improper Restriction of XML External Entity Reference (XXE): U: 2000:0
+CWE-611: Improper Restriction of XML External Entity Reference (XXE): U: 2001:0
+CWE-611: Improper Restriction of XML External Entity Reference (XXE): U: 2002:0
+CWE-611: Improper Restriction of XML External Entity Reference (XXE): U: 2003:0
+CWE-611: Improper Restriction of XML External Entity Reference (XXE): U: 2004:0
+CWE-611: Improper Restriction of XML External Entity Reference (XXE): U: 2005:0
+CWE-611: Improper Restriction of XML External Entity Reference (XXE): U: 2006:0
+CWE-611: Improper Restriction of XML External Entity Reference (XXE): U: 2007:0
+CWE-611: Improper Restriction of XML External Entity Reference (XXE): U: 2008:0
+CWE-611: Improper Restriction of XML External Entity Reference (XXE): U: 2009:0
+CWE-611: Improper Restriction of XML External Entity Reference (XXE): U: 2010:0
+CWE-611: Improper Restriction of XML External Entity Reference (XXE): U: 2011:0
+CWE-611: Improper Restriction of XML External Entity Reference (XXE): U: 2012:0
+CWE-611: Improper Restriction of XML External Entity Reference (XXE): U: 2013:0
+CWE-611: Improper Restriction of XML External Entity Reference (XXE): U: 2014:1
+CWE-611: Improper Restriction of XML External Entity Reference (XXE): U: 2015:0
+CWE-611: Improper Restriction of XML External Entity Reference (XXE): U: 2016:16
+CWE-129: Improper Validation of Array Index: U: 1998:0
+CWE-129: Improper Validation of Array Index: U: 1999:0
+CWE-129: Improper Validation of Array Index: U: 2000:0
+CWE-129: Improper Validation of Array Index: U: 2001:0
+CWE-129: Improper Validation of Array Index: U: 2002:0
+CWE-129: Improper Validation of Array Index: U: 2003:0
+CWE-129: Improper Validation of Array Index: U: 2004:0
+CWE-129: Improper Validation of Array Index: U: 2005:0
+CWE-129: Improper Validation of Array Index: U: 2006:0
+CWE-129: Improper Validation of Array Index: U: 2007:0
+CWE-129: Improper Validation of Array Index: U: 2008:0
+CWE-129: Improper Validation of Array Index: U: 2009:0
+CWE-129: Improper Validation of Array Index: U: 2010:0
+CWE-129: Improper Validation of Array Index: U: 2011:0
+CWE-129: Improper Validation of Array Index: U: 2012:0
+CWE-129: Improper Validation of Array Index: U: 2013:0
+CWE-129: Improper Validation of Array Index: U: 2014:0
+CWE-129: Improper Validation of Array Index: U: 2015:0
+CWE-129: Improper Validation of Array Index: U: 2016:2
+CWE-297: Improper Validation of Certificate with Host Mismatch: U: 1998:0
+CWE-297: Improper Validation of Certificate with Host Mismatch: U: 1999:0
+CWE-297: Improper Validation of Certificate with Host Mismatch: U: 2000:0
+CWE-297: Improper Validation of Certificate with Host Mismatch: U: 2001:0
+CWE-297: Improper Validation of Certificate with Host Mismatch: U: 2002:0
+CWE-297: Improper Validation of Certificate with Host Mismatch: U: 2003:0
+CWE-297: Improper Validation of Certificate with Host Mismatch: U: 2004:0
+CWE-297: Improper Validation of Certificate with Host Mismatch: U: 2005:0
+CWE-297: Improper Validation of Certificate with Host Mismatch: U: 2006:0
+CWE-297: Improper Validation of Certificate with Host Mismatch: U: 2007:0
+CWE-297: Improper Validation of Certificate with Host Mismatch: U: 2008:0
+CWE-297: Improper Validation of Certificate with Host Mismatch: U: 2009:0
+CWE-297: Improper Validation of Certificate with Host Mismatch: U: 2010:0
+CWE-297: Improper Validation of Certificate with Host Mismatch: U: 2011:0
+CWE-297: Improper Validation of Certificate with Host Mismatch: U: 2012:0
+CWE-297: Improper Validation of Certificate with Host Mismatch: U: 2013:0
+CWE-297: Improper Validation of Certificate with Host Mismatch: U: 2014:1
+CWE-297: Improper Validation of Certificate with Host Mismatch: U: 2015:0
+CWE-297: Improper Validation of Certificate with Host Mismatch: U: 2016:1
+CWE-347: Improper Verification of Cryptographic Signature: U: 1998:0
+CWE-347: Improper Verification of Cryptographic Signature: U: 1999:0
+CWE-347: Improper Verification of Cryptographic Signature: U: 2000:0
+CWE-347: Improper Verification of Cryptographic Signature: U: 2001:0
+CWE-347: Improper Verification of Cryptographic Signature: U: 2002:0
+CWE-347: Improper Verification of Cryptographic Signature: U: 2003:0
+CWE-347: Improper Verification of Cryptographic Signature: U: 2004:0
+CWE-347: Improper Verification of Cryptographic Signature: U: 2005:0
+CWE-347: Improper Verification of Cryptographic Signature: U: 2006:0
+CWE-347: Improper Verification of Cryptographic Signature: U: 2007:0
+CWE-347: Improper Verification of Cryptographic Signature: U: 2008:0
+CWE-347: Improper Verification of Cryptographic Signature: U: 2009:0
+CWE-347: Improper Verification of Cryptographic Signature: U: 2010:0
+CWE-347: Improper Verification of Cryptographic Signature: U: 2011:0
+CWE-347: Improper Verification of Cryptographic Signature: U: 2012:0
+CWE-347: Improper Verification of Cryptographic Signature: U: 2013:0
+CWE-347: Improper Verification of Cryptographic Signature: U: 2014:0
+CWE-347: Improper Verification of Cryptographic Signature: U: 2015:0
+CWE-347: Improper Verification of Cryptographic Signature: U: 2016:0
+CWE-358: Improperly Implemented Security Check for Standard: U: 1998:0
+CWE-358: Improperly Implemented Security Check for Standard: U: 1999:0
+CWE-358: Improperly Implemented Security Check for Standard: U: 2000:0
+CWE-358: Improperly Implemented Security Check for Standard: U: 2001:0
+CWE-358: Improperly Implemented Security Check for Standard: U: 2002:0
+CWE-358: Improperly Implemented Security Check for Standard: U: 2003:0
+CWE-358: Improperly Implemented Security Check for Standard: U: 2004:0
+CWE-358: Improperly Implemented Security Check for Standard: U: 2005:0
+CWE-358: Improperly Implemented Security Check for Standard: U: 2006:0
+CWE-358: Improperly Implemented Security Check for Standard: U: 2007:0
+CWE-358: Improperly Implemented Security Check for Standard: U: 2008:0
+CWE-358: Improperly Implemented Security Check for Standard: U: 2009:0
+CWE-358: Improperly Implemented Security Check for Standard: U: 2010:0
+CWE-358: Improperly Implemented Security Check for Standard: U: 2011:0
+CWE-358: Improperly Implemented Security Check for Standard: U: 2012:0
+CWE-358: Improperly Implemented Security Check for Standard: U: 2013:0
+CWE-358: Improperly Implemented Security Check for Standard: U: 2014:0
+CWE-358: Improperly Implemented Security Check for Standard: U: 2015:0
+CWE-358: Improperly Implemented Security Check for Standard: U: 2016:0
+CWE-326: Inadequate Encryption Strength: U: 1998:0
+CWE-326: Inadequate Encryption Strength: U: 1999:0
+CWE-326: Inadequate Encryption Strength: U: 2000:0
+CWE-326: Inadequate Encryption Strength: U: 2001:0
+CWE-326: Inadequate Encryption Strength: U: 2002:0
+CWE-326: Inadequate Encryption Strength: U: 2003:0
+CWE-326: Inadequate Encryption Strength: U: 2004:0
+CWE-326: Inadequate Encryption Strength: U: 2005:0
+CWE-326: Inadequate Encryption Strength: U: 2006:0
+CWE-326: Inadequate Encryption Strength: U: 2007:0
+CWE-326: Inadequate Encryption Strength: U: 2008:0
+CWE-326: Inadequate Encryption Strength: U: 2009:0
+CWE-326: Inadequate Encryption Strength: U: 2010:0
+CWE-326: Inadequate Encryption Strength: U: 2011:0
+CWE-326: Inadequate Encryption Strength: U: 2012:0
+CWE-326: Inadequate Encryption Strength: U: 2013:0
+CWE-326: Inadequate Encryption Strength: U: 2014:0
+CWE-326: Inadequate Encryption Strength: U: 2015:0
+CWE-326: Inadequate Encryption Strength: U: 2016:3
+CWE-184: Incomplete Blacklist: U: 1998:0
+CWE-184: Incomplete Blacklist: U: 1999:0
+CWE-184: Incomplete Blacklist: U: 2000:0
+CWE-184: Incomplete Blacklist: U: 2001:0
+CWE-184: Incomplete Blacklist: U: 2002:0
+CWE-184: Incomplete Blacklist: U: 2003:0
+CWE-184: Incomplete Blacklist: U: 2004:0
+CWE-184: Incomplete Blacklist: U: 2005:0
+CWE-184: Incomplete Blacklist: U: 2006:0
+CWE-184: Incomplete Blacklist: U: 2007:0
+CWE-184: Incomplete Blacklist: U: 2008:0
+CWE-184: Incomplete Blacklist: U: 2009:0
+CWE-184: Incomplete Blacklist: U: 2010:0
+CWE-184: Incomplete Blacklist: U: 2011:0
+CWE-184: Incomplete Blacklist: U: 2012:0
+CWE-184: Incomplete Blacklist: U: 2013:0
+CWE-184: Incomplete Blacklist: U: 2014:0
+CWE-184: Incomplete Blacklist: U: 2015:0
+CWE-184: Incomplete Blacklist: U: 2016:0
+CWE-444: Inconsistent Interpretation of HTTP Requests (HTTP Request Smuggling): U: 1998:0
+CWE-444: Inconsistent Interpretation of HTTP Requests (HTTP Request Smuggling): U: 1999:0
+CWE-444: Inconsistent Interpretation of HTTP Requests (HTTP Request Smuggling): U: 2000:0
+CWE-444: Inconsistent Interpretation of HTTP Requests (HTTP Request Smuggling): U: 2001:0
+CWE-444: Inconsistent Interpretation of HTTP Requests (HTTP Request Smuggling): U: 2002:0
+CWE-444: Inconsistent Interpretation of HTTP Requests (HTTP Request Smuggling): U: 2003:0
+CWE-444: Inconsistent Interpretation of HTTP Requests (HTTP Request Smuggling): U: 2004:0
+CWE-444: Inconsistent Interpretation of HTTP Requests (HTTP Request Smuggling): U: 2005:0
+CWE-444: Inconsistent Interpretation of HTTP Requests (HTTP Request Smuggling): U: 2006:0
+CWE-444: Inconsistent Interpretation of HTTP Requests (HTTP Request Smuggling): U: 2007:0
+CWE-444: Inconsistent Interpretation of HTTP Requests (HTTP Request Smuggling): U: 2008:0
+CWE-444: Inconsistent Interpretation of HTTP Requests (HTTP Request Smuggling): U: 2009:0
+CWE-444: Inconsistent Interpretation of HTTP Requests (HTTP Request Smuggling): U: 2010:0
+CWE-444: Inconsistent Interpretation of HTTP Requests (HTTP Request Smuggling): U: 2011:0
+CWE-444: Inconsistent Interpretation of HTTP Requests (HTTP Request Smuggling): U: 2012:0
+CWE-444: Inconsistent Interpretation of HTTP Requests (HTTP Request Smuggling): U: 2013:0
+CWE-444: Inconsistent Interpretation of HTTP Requests (HTTP Request Smuggling): U: 2014:0
+CWE-444: Inconsistent Interpretation of HTTP Requests (HTTP Request Smuggling): U: 2015:0
+CWE-444: Inconsistent Interpretation of HTTP Requests (HTTP Request Smuggling): U: 2016:0
+CWE-682: Incorrect Calculation: U: 1998:0
+CWE-682: Incorrect Calculation: U: 1999:0
+CWE-682: Incorrect Calculation: U: 2000:0
+CWE-682: Incorrect Calculation: U: 2001:0
+CWE-682: Incorrect Calculation: U: 2002:0
+CWE-682: Incorrect Calculation: U: 2003:0
+CWE-682: Incorrect Calculation: U: 2004:0
+CWE-682: Incorrect Calculation: U: 2005:0
+CWE-682: Incorrect Calculation: U: 2006:0
+CWE-682: Incorrect Calculation: U: 2007:0
+CWE-682: Incorrect Calculation: U: 2008:0
+CWE-682: Incorrect Calculation: U: 2009:0
+CWE-682: Incorrect Calculation: U: 2010:0
+CWE-682: Incorrect Calculation: U: 2011:0
+CWE-682: Incorrect Calculation: U: 2012:0
+CWE-682: Incorrect Calculation: U: 2013:0
+CWE-682: Incorrect Calculation: U: 2014:0
+CWE-682: Incorrect Calculation: U: 2015:0
+CWE-682: Incorrect Calculation: U: 2016:0
+CWE-185: Incorrect Regular Expression: U: 1998:0
+CWE-185: Incorrect Regular Expression: U: 1999:0
+CWE-185: Incorrect Regular Expression: U: 2000:0
+CWE-185: Incorrect Regular Expression: U: 2001:0
+CWE-185: Incorrect Regular Expression: U: 2002:0
+CWE-185: Incorrect Regular Expression: U: 2003:0
+CWE-185: Incorrect Regular Expression: U: 2004:0
+CWE-185: Incorrect Regular Expression: U: 2005:0
+CWE-185: Incorrect Regular Expression: U: 2006:0
+CWE-185: Incorrect Regular Expression: U: 2007:0
+CWE-185: Incorrect Regular Expression: U: 2008:0
+CWE-185: Incorrect Regular Expression: U: 2009:0
+CWE-185: Incorrect Regular Expression: U: 2010:0
+CWE-185: Incorrect Regular Expression: U: 2011:0
+CWE-185: Incorrect Regular Expression: U: 2012:0
+CWE-185: Incorrect Regular Expression: U: 2013:0
+CWE-185: Incorrect Regular Expression: U: 2014:0
+CWE-185: Incorrect Regular Expression: U: 2015:2
+CWE-185: Incorrect Regular Expression: U: 2016:0
+CWE-669: Incorrect Resource Transfer Between Spheres: U: 1998:0
+CWE-669: Incorrect Resource Transfer Between Spheres: U: 1999:0
+CWE-669: Incorrect Resource Transfer Between Spheres: U: 2000:0
+CWE-669: Incorrect Resource Transfer Between Spheres: U: 2001:0
+CWE-669: Incorrect Resource Transfer Between Spheres: U: 2002:0
+CWE-669: Incorrect Resource Transfer Between Spheres: U: 2003:0
+CWE-669: Incorrect Resource Transfer Between Spheres: U: 2004:0
+CWE-669: Incorrect Resource Transfer Between Spheres: U: 2005:0
+CWE-669: Incorrect Resource Transfer Between Spheres: U: 2006:0
+CWE-669: Incorrect Resource Transfer Between Spheres: U: 2007:0
+CWE-669: Incorrect Resource Transfer Between Spheres: U: 2008:0
+CWE-669: Incorrect Resource Transfer Between Spheres: U: 2009:0
+CWE-669: Incorrect Resource Transfer Between Spheres: U: 2010:0
+CWE-669: Incorrect Resource Transfer Between Spheres: U: 2011:0
+CWE-669: Incorrect Resource Transfer Between Spheres: U: 2012:0
+CWE-669: Incorrect Resource Transfer Between Spheres: U: 2013:0
+CWE-669: Incorrect Resource Transfer Between Spheres: U: 2014:0
+CWE-669: Incorrect Resource Transfer Between Spheres: U: 2015:0
+CWE-669: Incorrect Resource Transfer Between Spheres: U: 2016:1
+CWE-704: Incorrect Type Conversion or Cast: U: 1998:0
+CWE-704: Incorrect Type Conversion or Cast: U: 1999:0
+CWE-704: Incorrect Type Conversion or Cast: U: 2000:0
+CWE-704: Incorrect Type Conversion or Cast: U: 2001:0
+CWE-704: Incorrect Type Conversion or Cast: U: 2002:0
+CWE-704: Incorrect Type Conversion or Cast: U: 2003:0
+CWE-704: Incorrect Type Conversion or Cast: U: 2004:0
+CWE-704: Incorrect Type Conversion or Cast: U: 2005:0
+CWE-704: Incorrect Type Conversion or Cast: U: 2006:0
+CWE-704: Incorrect Type Conversion or Cast: U: 2007:0
+CWE-704: Incorrect Type Conversion or Cast: U: 2008:0
+CWE-704: Incorrect Type Conversion or Cast: U: 2009:0
+CWE-704: Incorrect Type Conversion or Cast: U: 2010:0
+CWE-704: Incorrect Type Conversion or Cast: U: 2011:0
+CWE-704: Incorrect Type Conversion or Cast: U: 2012:0
+CWE-704: Incorrect Type Conversion or Cast: U: 2013:0
+CWE-704: Incorrect Type Conversion or Cast: U: 2014:0
+CWE-704: Incorrect Type Conversion or Cast: U: 2015:0
+CWE-704: Incorrect Type Conversion or Cast: U: 2016:5
+CWE-398: Indicator of Poor Code Quality: U: 1998:0
+CWE-398: Indicator of Poor Code Quality: U: 1999:0
+CWE-398: Indicator of Poor Code Quality: U: 2000:0
+CWE-398: Indicator of Poor Code Quality: U: 2001:0
+CWE-398: Indicator of Poor Code Quality: U: 2002:0
+CWE-398: Indicator of Poor Code Quality: U: 2003:0
+CWE-398: Indicator of Poor Code Quality: U: 2004:0
+CWE-398: Indicator of Poor Code Quality: U: 2005:0
+CWE-398: Indicator of Poor Code Quality: U: 2006:0
+CWE-398: Indicator of Poor Code Quality: U: 2007:0
+CWE-398: Indicator of Poor Code Quality: U: 2008:0
+CWE-398: Indicator of Poor Code Quality: U: 2009:0
+CWE-398: Indicator of Poor Code Quality: U: 2010:0
+CWE-398: Indicator of Poor Code Quality: U: 2011:0
+CWE-398: Indicator of Poor Code Quality: U: 2012:0
+CWE-398: Indicator of Poor Code Quality: U: 2013:0
+CWE-398: Indicator of Poor Code Quality: U: 2014:0
+CWE-398: Indicator of Poor Code Quality: U: 2015:0
+CWE-398: Indicator of Poor Code Quality: U: 2016:0
+CWE-534: Information Exposure Through Debug Log Files: U: 1998:0
+CWE-534: Information Exposure Through Debug Log Files: U: 1999:0
+CWE-534: Information Exposure Through Debug Log Files: U: 2000:0
+CWE-534: Information Exposure Through Debug Log Files: U: 2001:0
+CWE-534: Information Exposure Through Debug Log Files: U: 2002:0
+CWE-534: Information Exposure Through Debug Log Files: U: 2003:0
+CWE-534: Information Exposure Through Debug Log Files: U: 2004:0
+CWE-534: Information Exposure Through Debug Log Files: U: 2005:0
+CWE-534: Information Exposure Through Debug Log Files: U: 2006:0
+CWE-534: Information Exposure Through Debug Log Files: U: 2007:0
+CWE-534: Information Exposure Through Debug Log Files: U: 2008:0
+CWE-534: Information Exposure Through Debug Log Files: U: 2009:0
+CWE-534: Information Exposure Through Debug Log Files: U: 2010:0
+CWE-534: Information Exposure Through Debug Log Files: U: 2011:0
+CWE-534: Information Exposure Through Debug Log Files: U: 2012:0
+CWE-534: Information Exposure Through Debug Log Files: U: 2013:0
+CWE-534: Information Exposure Through Debug Log Files: U: 2014:0
+CWE-534: Information Exposure Through Debug Log Files: U: 2015:0
+CWE-534: Information Exposure Through Debug Log Files: U: 2016:0
+CWE-532: Information Exposure Through Log Files: U: 1998:0
+CWE-532: Information Exposure Through Log Files: U: 1999:0
+CWE-532: Information Exposure Through Log Files: U: 2000:0
+CWE-532: Information Exposure Through Log Files: U: 2001:0
+CWE-532: Information Exposure Through Log Files: U: 2002:0
+CWE-532: Information Exposure Through Log Files: U: 2003:0
+CWE-532: Information Exposure Through Log Files: U: 2004:0
+CWE-532: Information Exposure Through Log Files: U: 2005:0
+CWE-532: Information Exposure Through Log Files: U: 2006:0
+CWE-532: Information Exposure Through Log Files: U: 2007:0
+CWE-532: Information Exposure Through Log Files: U: 2008:0
+CWE-532: Information Exposure Through Log Files: U: 2009:0
+CWE-532: Information Exposure Through Log Files: U: 2010:0
+CWE-532: Information Exposure Through Log Files: U: 2011:0
+CWE-532: Information Exposure Through Log Files: U: 2012:0
+CWE-532: Information Exposure Through Log Files: U: 2013:0
+CWE-532: Information Exposure Through Log Files: U: 2014:0
+CWE-532: Information Exposure Through Log Files: U: 2015:0
+CWE-532: Information Exposure Through Log Files: U: 2016:5
+CWE-200: Information Leak / Disclosure: C: 1998:1
+CWE-200: Information Leak / Disclosure: C: 1999:7
+CWE-200: Information Leak / Disclosure: C: 2000:4
+CWE-200: Information Leak / Disclosure: C: 2001:1
+CWE-200: Information Leak / Disclosure: C: 2002:14
+CWE-200: Information Leak / Disclosure: C: 2003:25
+CWE-200: Information Leak / Disclosure: C: 2004:5
+CWE-200: Information Leak / Disclosure: C: 2005:20
+CWE-200: Information Leak / Disclosure: C: 2006:30
+CWE-200: Information Leak / Disclosure: C: 2007:96
+CWE-200: Information Leak / Disclosure: C: 2008:192
+CWE-200: Information Leak / Disclosure: C: 2009:162
+CWE-200: Information Leak / Disclosure: C: 2010:159
+CWE-200: Information Leak / Disclosure: C: 2011:297
+CWE-200: Information Leak / Disclosure: C: 2012:220
+CWE-200: Information Leak / Disclosure: C: 2013:253
+CWE-200: Information Leak / Disclosure: C: 2014:347
+CWE-200: Information Leak / Disclosure: C: 2015:604
+CWE-200: Information Leak / Disclosure: C: 2016:705
+CWE-199: Information Management Errors: U: 1998:0
+CWE-199: Information Management Errors: U: 1999:0
+CWE-199: Information Management Errors: U: 2000:0
+CWE-199: Information Management Errors: U: 2001:0
+CWE-199: Information Management Errors: U: 2002:0
+CWE-199: Information Management Errors: U: 2003:0
+CWE-199: Information Management Errors: U: 2004:0
+CWE-199: Information Management Errors: U: 2005:0
+CWE-199: Information Management Errors: U: 2006:0
+CWE-199: Information Management Errors: U: 2007:0
+CWE-199: Information Management Errors: U: 2008:0
+CWE-199: Information Management Errors: U: 2009:0
+CWE-199: Information Management Errors: U: 2010:0
+CWE-199: Information Management Errors: U: 2011:0
+CWE-199: Information Management Errors: U: 2012:0
+CWE-199: Information Management Errors: U: 2013:0
+CWE-199: Information Management Errors: U: 2014:2
+CWE-199: Information Management Errors: U: 2015:0
+CWE-199: Information Management Errors: U: 2016:2
+CWE-74: Injection: U: 1998:0
+CWE-74: Injection: U: 1999:0
+CWE-74: Injection: U: 2000:0
+CWE-74: Injection: U: 2001:0
+CWE-74: Injection: U: 2002:0
+CWE-74: Injection: U: 2003:0
+CWE-74: Injection: U: 2004:0
+CWE-74: Injection: U: 2005:0
+CWE-74: Injection: U: 2006:0
+CWE-74: Injection: U: 2007:0
+CWE-74: Injection: U: 2008:0
+CWE-74: Injection: U: 2009:0
+CWE-74: Injection: U: 2010:0
+CWE-74: Injection: U: 2011:0
+CWE-74: Injection: U: 2012:0
+CWE-74: Injection: U: 2013:0
+CWE-74: Injection: U: 2014:2
+CWE-74: Injection: U: 2015:16
+CWE-74: Injection: U: 2016:10
+CWE-20: Input Validation: I: 1998:0
+CWE-20: Input Validation: I: 1999:8
+CWE-20: Input Validation: I: 2000:3
+CWE-20: Input Validation: I: 2001:3
+CWE-20: Input Validation: I: 2002:27
+CWE-20: Input Validation: I: 2003:25
+CWE-20: Input Validation: I: 2004:16
+CWE-20: Input Validation: I: 2005:29
+CWE-20: Input Validation: I: 2006:53
+CWE-20: Input Validation: I: 2007:237
+CWE-20: Input Validation: I: 2008:387
+CWE-20: Input Validation: I: 2009:313
+CWE-20: Input Validation: I: 2010:305
+CWE-20: Input Validation: I: 2011:386
+CWE-20: Input Validation: I: 2012:369
+CWE-20: Input Validation: I: 2013:501
+CWE-20: Input Validation: I: 2014:556
+CWE-20: Input Validation: I: 2015:395
+CWE-20: Input Validation: I: 2016:551
+CWE-485: Insufficient Encapsulation: U: 1998:0
+CWE-485: Insufficient Encapsulation: U: 1999:0
+CWE-485: Insufficient Encapsulation: U: 2000:0
+CWE-485: Insufficient Encapsulation: U: 2001:0
+CWE-485: Insufficient Encapsulation: U: 2002:0
+CWE-485: Insufficient Encapsulation: U: 2003:0
+CWE-485: Insufficient Encapsulation: U: 2004:0
+CWE-485: Insufficient Encapsulation: U: 2005:0
+CWE-485: Insufficient Encapsulation: U: 2006:0
+CWE-485: Insufficient Encapsulation: U: 2007:0
+CWE-485: Insufficient Encapsulation: U: 2008:0
+CWE-485: Insufficient Encapsulation: U: 2009:0
+CWE-485: Insufficient Encapsulation: U: 2010:0
+CWE-485: Insufficient Encapsulation: U: 2011:0
+CWE-485: Insufficient Encapsulation: U: 2012:0
+CWE-485: Insufficient Encapsulation: U: 2013:0
+CWE-485: Insufficient Encapsulation: U: 2014:0
+CWE-485: Insufficient Encapsulation: U: 2015:0
+CWE-485: Insufficient Encapsulation: U: 2016:0
+CWE-331: Insufficient Entropy: U: 1998:0
+CWE-331: Insufficient Entropy: U: 1999:0
+CWE-331: Insufficient Entropy: U: 2000:0
+CWE-331: Insufficient Entropy: U: 2001:0
+CWE-331: Insufficient Entropy: U: 2002:0
+CWE-331: Insufficient Entropy: U: 2003:0
+CWE-331: Insufficient Entropy: U: 2004:0
+CWE-331: Insufficient Entropy: U: 2005:0
+CWE-331: Insufficient Entropy: U: 2006:0
+CWE-331: Insufficient Entropy: U: 2007:0
+CWE-331: Insufficient Entropy: U: 2008:0
+CWE-331: Insufficient Entropy: U: 2009:0
+CWE-331: Insufficient Entropy: U: 2010:0
+CWE-331: Insufficient Entropy: U: 2011:0
+CWE-331: Insufficient Entropy: U: 2012:0
+CWE-331: Insufficient Entropy: U: 2013:0
+CWE-331: Insufficient Entropy: U: 2014:0
+CWE-331: Insufficient Entropy: U: 2015:0
+CWE-331: Insufficient Entropy: U: 2016:0
+CWE-332: Insufficient Entropy in PRNG: U: 1998:0
+CWE-332: Insufficient Entropy in PRNG: U: 1999:0
+CWE-332: Insufficient Entropy in PRNG: U: 2000:0
+CWE-332: Insufficient Entropy in PRNG: U: 2001:0
+CWE-332: Insufficient Entropy in PRNG: U: 2002:0
+CWE-332: Insufficient Entropy in PRNG: U: 2003:0
+CWE-332: Insufficient Entropy in PRNG: U: 2004:0
+CWE-332: Insufficient Entropy in PRNG: U: 2005:0
+CWE-332: Insufficient Entropy in PRNG: U: 2006:0
+CWE-332: Insufficient Entropy in PRNG: U: 2007:0
+CWE-332: Insufficient Entropy in PRNG: U: 2008:0
+CWE-332: Insufficient Entropy in PRNG: U: 2009:0
+CWE-332: Insufficient Entropy in PRNG: U: 2010:0
+CWE-332: Insufficient Entropy in PRNG: U: 2011:0
+CWE-332: Insufficient Entropy in PRNG: U: 2012:0
+CWE-332: Insufficient Entropy in PRNG: U: 2013:0
+CWE-332: Insufficient Entropy in PRNG: U: 2014:1
+CWE-332: Insufficient Entropy in PRNG: U: 2015:0
+CWE-332: Insufficient Entropy in PRNG: U: 2016:1
+CWE-613: Insufficient Session Expiration: U: 1998:0
+CWE-613: Insufficient Session Expiration: U: 1999:0
+CWE-613: Insufficient Session Expiration: U: 2000:0
+CWE-613: Insufficient Session Expiration: U: 2001:0
+CWE-613: Insufficient Session Expiration: U: 2002:0
+CWE-613: Insufficient Session Expiration: U: 2003:0
+CWE-613: Insufficient Session Expiration: U: 2004:0
+CWE-613: Insufficient Session Expiration: U: 2005:0
+CWE-613: Insufficient Session Expiration: U: 2006:0
+CWE-613: Insufficient Session Expiration: U: 2007:0
+CWE-613: Insufficient Session Expiration: U: 2008:0
+CWE-613: Insufficient Session Expiration: U: 2009:0
+CWE-613: Insufficient Session Expiration: U: 2010:0
+CWE-613: Insufficient Session Expiration: U: 2011:0
+CWE-613: Insufficient Session Expiration: U: 2012:0
+CWE-613: Insufficient Session Expiration: U: 2013:0
+CWE-613: Insufficient Session Expiration: U: 2014:0
+CWE-613: Insufficient Session Expiration: U: 2015:0
+CWE-613: Insufficient Session Expiration: U: 2016:0
+CWE-345: Insufficient Verification of Data Authenticity: U: 1998:0
+CWE-345: Insufficient Verification of Data Authenticity: U: 1999:0
+CWE-345: Insufficient Verification of Data Authenticity: U: 2000:0
+CWE-345: Insufficient Verification of Data Authenticity: U: 2001:0
+CWE-345: Insufficient Verification of Data Authenticity: U: 2002:0
+CWE-345: Insufficient Verification of Data Authenticity: U: 2003:0
+CWE-345: Insufficient Verification of Data Authenticity: U: 2004:0
+CWE-345: Insufficient Verification of Data Authenticity: U: 2005:0
+CWE-345: Insufficient Verification of Data Authenticity: U: 2006:0
+CWE-345: Insufficient Verification of Data Authenticity: U: 2007:0
+CWE-345: Insufficient Verification of Data Authenticity: U: 2008:0
+CWE-345: Insufficient Verification of Data Authenticity: U: 2009:0
+CWE-345: Insufficient Verification of Data Authenticity: U: 2010:0
+CWE-345: Insufficient Verification of Data Authenticity: U: 2011:0
+CWE-345: Insufficient Verification of Data Authenticity: U: 2012:0
+CWE-345: Insufficient Verification of Data Authenticity: U: 2013:0
+CWE-345: Insufficient Verification of Data Authenticity: U: 2014:3
+CWE-345: Insufficient Verification of Data Authenticity: U: 2015:11
+CWE-345: Insufficient Verification of Data Authenticity: U: 2016:13
+CWE-190: Integer Overflow or Wraparound: U: 1998:0
+CWE-190: Integer Overflow or Wraparound: U: 1999:0
+CWE-190: Integer Overflow or Wraparound: U: 2000:0
+CWE-190: Integer Overflow or Wraparound: U: 2001:0
+CWE-190: Integer Overflow or Wraparound: U: 2002:0
+CWE-190: Integer Overflow or Wraparound: U: 2003:0
+CWE-190: Integer Overflow or Wraparound: U: 2004:0
+CWE-190: Integer Overflow or Wraparound: U: 2005:0
+CWE-190: Integer Overflow or Wraparound: U: 2006:1
+CWE-190: Integer Overflow or Wraparound: U: 2007:0
+CWE-190: Integer Overflow or Wraparound: U: 2008:0
+CWE-190: Integer Overflow or Wraparound: U: 2009:0
+CWE-190: Integer Overflow or Wraparound: U: 2010:0
+CWE-190: Integer Overflow or Wraparound: U: 2011:0
+CWE-190: Integer Overflow or Wraparound: U: 2012:1
+CWE-190: Integer Overflow or Wraparound: U: 2013:2
+CWE-190: Integer Overflow or Wraparound: U: 2014:2
+CWE-190: Integer Overflow or Wraparound: U: 2015:1
+CWE-190: Integer Overflow or Wraparound: U: 2016:55
+CWE-191: Integer Underflow (Wrap or Wraparound): U: 1998:0
+CWE-191: Integer Underflow (Wrap or Wraparound): U: 1999:0
+CWE-191: Integer Underflow (Wrap or Wraparound): U: 2000:0
+CWE-191: Integer Underflow (Wrap or Wraparound): U: 2001:0
+CWE-191: Integer Underflow (Wrap or Wraparound): U: 2002:0
+CWE-191: Integer Underflow (Wrap or Wraparound): U: 2003:0
+CWE-191: Integer Underflow (Wrap or Wraparound): U: 2004:0
+CWE-191: Integer Underflow (Wrap or Wraparound): U: 2005:0
+CWE-191: Integer Underflow (Wrap or Wraparound): U: 2006:0
+CWE-191: Integer Underflow (Wrap or Wraparound): U: 2007:0
+CWE-191: Integer Underflow (Wrap or Wraparound): U: 2008:0
+CWE-191: Integer Underflow (Wrap or Wraparound): U: 2009:0
+CWE-191: Integer Underflow (Wrap or Wraparound): U: 2010:0
+CWE-191: Integer Underflow (Wrap or Wraparound): U: 2011:0
+CWE-191: Integer Underflow (Wrap or Wraparound): U: 2012:0
+CWE-191: Integer Underflow (Wrap or Wraparound): U: 2013:0
+CWE-191: Integer Underflow (Wrap or Wraparound): U: 2014:1
+CWE-191: Integer Underflow (Wrap or Wraparound): U: 2015:0
+CWE-191: Integer Underflow (Wrap or Wraparound): U: 2016:2
+CWE-435: Interaction Error: U: 1998:0
+CWE-435: Interaction Error: U: 1999:0
+CWE-435: Interaction Error: U: 2000:0
+CWE-435: Interaction Error: U: 2001:0
+CWE-435: Interaction Error: U: 2002:0
+CWE-435: Interaction Error: U: 2003:0
+CWE-435: Interaction Error: U: 2004:0
+CWE-435: Interaction Error: U: 2005:0
+CWE-435: Interaction Error: U: 2006:0
+CWE-435: Interaction Error: U: 2007:0
+CWE-435: Interaction Error: U: 2008:0
+CWE-435: Interaction Error: U: 2009:0
+CWE-435: Interaction Error: U: 2010:0
+CWE-435: Interaction Error: U: 2011:0
+CWE-435: Interaction Error: U: 2012:0
+CWE-435: Interaction Error: U: 2013:0
+CWE-435: Interaction Error: U: 2014:0
+CWE-435: Interaction Error: U: 2015:0
+CWE-435: Interaction Error: U: 2016:0
+CWE-436: Interpretation Conflict: U: 1998:0
+CWE-436: Interpretation Conflict: U: 1999:0
+CWE-436: Interpretation Conflict: U: 2000:0
+CWE-436: Interpretation Conflict: U: 2001:0
+CWE-436: Interpretation Conflict: U: 2002:0
+CWE-436: Interpretation Conflict: U: 2003:0
+CWE-436: Interpretation Conflict: U: 2004:0
+CWE-436: Interpretation Conflict: U: 2005:0
+CWE-436: Interpretation Conflict: U: 2006:0
+CWE-436: Interpretation Conflict: U: 2007:0
+CWE-436: Interpretation Conflict: U: 2008:0
+CWE-436: Interpretation Conflict: U: 2009:0
+CWE-436: Interpretation Conflict: U: 2010:0
+CWE-436: Interpretation Conflict: U: 2011:0
+CWE-436: Interpretation Conflict: U: 2012:0
+CWE-436: Interpretation Conflict: U: 2013:0
+CWE-436: Interpretation Conflict: U: 2014:0
+CWE-436: Interpretation Conflict: U: 2015:0
+CWE-436: Interpretation Conflict: U: 2016:0
+CWE-320: Key Management Errors: U: 1998:0
+CWE-320: Key Management Errors: U: 1999:0
+CWE-320: Key Management Errors: U: 2000:0
+CWE-320: Key Management Errors: U: 2001:0
+CWE-320: Key Management Errors: U: 2002:0
+CWE-320: Key Management Errors: U: 2003:0
+CWE-320: Key Management Errors: U: 2004:0
+CWE-320: Key Management Errors: U: 2005:0
+CWE-320: Key Management Errors: U: 2006:0
+CWE-320: Key Management Errors: U: 2007:0
+CWE-320: Key Management Errors: U: 2008:0
+CWE-320: Key Management Errors: U: 2009:0
+CWE-320: Key Management Errors: U: 2010:0
+CWE-320: Key Management Errors: U: 2011:0
+CWE-320: Key Management Errors: U: 2012:0
+CWE-320: Key Management Errors: U: 2013:0
+CWE-320: Key Management Errors: U: 2014:0
+CWE-320: Key Management Errors: U: 2015:0
+CWE-320: Key Management Errors: U: 2016:1
+CWE-59: Link Following: I: 1998:0
+CWE-59: Link Following: I: 1999:2
+CWE-59: Link Following: I: 2000:1
+CWE-59: Link Following: I: 2001:1
+CWE-59: Link Following: I: 2002:3
+CWE-59: Link Following: I: 2003:2
+CWE-59: Link Following: I: 2004:1
+CWE-59: Link Following: I: 2005:6
+CWE-59: Link Following: I: 2006:2
+CWE-59: Link Following: I: 2007:22
+CWE-59: Link Following: I: 2008:174
+CWE-59: Link Following: I: 2009:32
+CWE-59: Link Following: I: 2010:25
+CWE-59: Link Following: I: 2011:34
+CWE-59: Link Following: I: 2012:17
+CWE-59: Link Following: I: 2013:18
+CWE-59: Link Following: I: 2014:59
+CWE-59: Link Following: I: 2015:23
+CWE-59: Link Following: I: 2016:7
+CWE-1: Location: U: 1998:0
+CWE-1: Location: U: 1999:0
+CWE-1: Location: U: 2000:0
+CWE-1: Location: U: 2001:0
+CWE-1: Location: U: 2002:0
+CWE-1: Location: U: 2003:0
+CWE-1: Location: U: 2004:0
+CWE-1: Location: U: 2005:0
+CWE-1: Location: U: 2006:0
+CWE-1: Location: U: 2007:0
+CWE-1: Location: U: 2008:0
+CWE-1: Location: U: 2009:0
+CWE-1: Location: U: 2010:0
+CWE-1: Location: U: 2011:0
+CWE-1: Location: U: 2012:0
+CWE-1: Location: U: 2013:0
+CWE-1: Location: U: 2014:0
+CWE-1: Location: U: 2015:0
+CWE-1: Location: U: 2016:0
+CWE-306: Missing Authentication for Critical Function: U: 1998:0
+CWE-306: Missing Authentication for Critical Function: U: 1999:0
+CWE-306: Missing Authentication for Critical Function: U: 2000:0
+CWE-306: Missing Authentication for Critical Function: U: 2001:0
+CWE-306: Missing Authentication for Critical Function: U: 2002:0
+CWE-306: Missing Authentication for Critical Function: U: 2003:0
+CWE-306: Missing Authentication for Critical Function: U: 2004:0
+CWE-306: Missing Authentication for Critical Function: U: 2005:0
+CWE-306: Missing Authentication for Critical Function: U: 2006:0
+CWE-306: Missing Authentication for Critical Function: U: 2007:0
+CWE-306: Missing Authentication for Critical Function: U: 2008:0
+CWE-306: Missing Authentication for Critical Function: U: 2009:0
+CWE-306: Missing Authentication for Critical Function: U: 2010:0
+CWE-306: Missing Authentication for Critical Function: U: 2011:0
+CWE-306: Missing Authentication for Critical Function: U: 2012:0
+CWE-306: Missing Authentication for Critical Function: U: 2013:0
+CWE-306: Missing Authentication for Critical Function: U: 2014:0
+CWE-306: Missing Authentication for Critical Function: U: 2015:0
+CWE-306: Missing Authentication for Critical Function: U: 2016:0
+CWE-775: Missing Release of File Descriptor or Handle after Effective Lifetime: U: 1998:0
+CWE-775: Missing Release of File Descriptor or Handle after Effective Lifetime: U: 1999:0
+CWE-775: Missing Release of File Descriptor or Handle after Effective Lifetime: U: 2000:0
+CWE-775: Missing Release of File Descriptor or Handle after Effective Lifetime: U: 2001:0
+CWE-775: Missing Release of File Descriptor or Handle after Effective Lifetime: U: 2002:0
+CWE-775: Missing Release of File Descriptor or Handle after Effective Lifetime: U: 2003:0
+CWE-775: Missing Release of File Descriptor or Handle after Effective Lifetime: U: 2004:0
+CWE-775: Missing Release of File Descriptor or Handle after Effective Lifetime: U: 2005:0
+CWE-775: Missing Release of File Descriptor or Handle after Effective Lifetime: U: 2006:0
+CWE-775: Missing Release of File Descriptor or Handle after Effective Lifetime: U: 2007:0
+CWE-775: Missing Release of File Descriptor or Handle after Effective Lifetime: U: 2008:0
+CWE-775: Missing Release of File Descriptor or Handle after Effective Lifetime: U: 2009:0
+CWE-775: Missing Release of File Descriptor or Handle after Effective Lifetime: U: 2010:0
+CWE-775: Missing Release of File Descriptor or Handle after Effective Lifetime: U: 2011:0
+CWE-775: Missing Release of File Descriptor or Handle after Effective Lifetime: U: 2012:0
+CWE-775: Missing Release of File Descriptor or Handle after Effective Lifetime: U: 2013:0
+CWE-775: Missing Release of File Descriptor or Handle after Effective Lifetime: U: 2014:0
+CWE-775: Missing Release of File Descriptor or Handle after Effective Lifetime: U: 2015:0
+CWE-775: Missing Release of File Descriptor or Handle after Effective Lifetime: U: 2016:1
+CWE-471: Modification of Assumed-Immutable Data (MAID): U: 1998:0
+CWE-471: Modification of Assumed-Immutable Data (MAID): U: 1999:0
+CWE-471: Modification of Assumed-Immutable Data (MAID): U: 2000:0
+CWE-471: Modification of Assumed-Immutable Data (MAID): U: 2001:0
+CWE-471: Modification of Assumed-Immutable Data (MAID): U: 2002:0
+CWE-471: Modification of Assumed-Immutable Data (MAID): U: 2003:0
+CWE-471: Modification of Assumed-Immutable Data (MAID): U: 2004:0
+CWE-471: Modification of Assumed-Immutable Data (MAID): U: 2005:0
+CWE-471: Modification of Assumed-Immutable Data (MAID): U: 2006:0
+CWE-471: Modification of Assumed-Immutable Data (MAID): U: 2007:0
+CWE-471: Modification of Assumed-Immutable Data (MAID): U: 2008:0
+CWE-471: Modification of Assumed-Immutable Data (MAID): U: 2009:0
+CWE-471: Modification of Assumed-Immutable Data (MAID): U: 2010:0
+CWE-471: Modification of Assumed-Immutable Data (MAID): U: 2011:0
+CWE-471: Modification of Assumed-Immutable Data (MAID): U: 2012:0
+CWE-471: Modification of Assumed-Immutable Data (MAID): U: 2013:0
+CWE-471: Modification of Assumed-Immutable Data (MAID): U: 2014:0
+CWE-471: Modification of Assumed-Immutable Data (MAID): U: 2015:0
+CWE-471: Modification of Assumed-Immutable Data (MAID): U: 2016:0
+CWE-476: NULL Pointer Dereference: U: 1998:0
+CWE-476: NULL Pointer Dereference: U: 1999:0
+CWE-476: NULL Pointer Dereference: U: 2000:0
+CWE-476: NULL Pointer Dereference: U: 2001:0
+CWE-476: NULL Pointer Dereference: U: 2002:0
+CWE-476: NULL Pointer Dereference: U: 2003:0
+CWE-476: NULL Pointer Dereference: U: 2004:0
+CWE-476: NULL Pointer Dereference: U: 2005:1
+CWE-476: NULL Pointer Dereference: U: 2006:0
+CWE-476: NULL Pointer Dereference: U: 2007:2
+CWE-476: NULL Pointer Dereference: U: 2008:0
+CWE-476: NULL Pointer Dereference: U: 2009:0
+CWE-476: NULL Pointer Dereference: U: 2010:0
+CWE-476: NULL Pointer Dereference: U: 2011:0
+CWE-476: NULL Pointer Dereference: U: 2012:0
+CWE-476: NULL Pointer Dereference: U: 2013:0
+CWE-476: NULL Pointer Dereference: U: 2014:2
+CWE-476: NULL Pointer Dereference: U: 2015:1
+CWE-476: NULL Pointer Dereference: U: 2016:75
+CWE-189: Numeric Errors: I: 1998:0
+CWE-189: Numeric Errors: I: 1999:0
+CWE-189: Numeric Errors: I: 2000:0
+CWE-189: Numeric Errors: I: 2001:0
+CWE-189: Numeric Errors: I: 2002:6
+CWE-189: Numeric Errors: I: 2003:3
+CWE-189: Numeric Errors: I: 2004:1
+CWE-189: Numeric Errors: I: 2005:15
+CWE-189: Numeric Errors: I: 2006:35
+CWE-189: Numeric Errors: I: 2007:103
+CWE-189: Numeric Errors: I: 2008:159
+CWE-189: Numeric Errors: I: 2009:158
+CWE-189: Numeric Errors: I: 2010:161
+CWE-189: Numeric Errors: I: 2011:131
+CWE-189: Numeric Errors: I: 2012:151
+CWE-189: Numeric Errors: I: 2013:145
+CWE-189: Numeric Errors: I: 2014:115
+CWE-189: Numeric Errors: I: 2015:130
+CWE-189: Numeric Errors: I: 2016:49
+CWE-346: Origin Validation Error: U: 1998:0
+CWE-346: Origin Validation Error: U: 1999:0
+CWE-346: Origin Validation Error: U: 2000:0
+CWE-346: Origin Validation Error: U: 2001:0
+CWE-346: Origin Validation Error: U: 2002:0
+CWE-346: Origin Validation Error: U: 2003:0
+CWE-346: Origin Validation Error: U: 2004:0
+CWE-346: Origin Validation Error: U: 2005:0
+CWE-346: Origin Validation Error: U: 2006:0
+CWE-346: Origin Validation Error: U: 2007:0
+CWE-346: Origin Validation Error: U: 2008:0
+CWE-346: Origin Validation Error: U: 2009:0
+CWE-346: Origin Validation Error: U: 2010:0
+CWE-346: Origin Validation Error: U: 2011:0
+CWE-346: Origin Validation Error: U: 2012:0
+CWE-346: Origin Validation Error: U: 2013:0
+CWE-346: Origin Validation Error: U: 2014:0
+CWE-346: Origin Validation Error: U: 2015:0
+CWE-346: Origin Validation Error: U: 2016:0
+CWE-78: OS Command Injections: I: 1998:0
+CWE-78: OS Command Injections: I: 1999:0
+CWE-78: OS Command Injections: I: 2000:0
+CWE-78: OS Command Injections: I: 2001:0
+CWE-78: OS Command Injections: I: 2002:1
+CWE-78: OS Command Injections: I: 2003:0
+CWE-78: OS Command Injections: I: 2004:1
+CWE-78: OS Command Injections: I: 2005:1
+CWE-78: OS Command Injections: I: 2006:2
+CWE-78: OS Command Injections: I: 2007:6
+CWE-78: OS Command Injections: I: 2008:3
+CWE-78: OS Command Injections: I: 2009:18
+CWE-78: OS Command Injections: I: 2010:13
+CWE-78: OS Command Injections: I: 2011:14
+CWE-78: OS Command Injections: I: 2012:14
+CWE-78: OS Command Injections: I: 2013:33
+CWE-78: OS Command Injections: I: 2014:48
+CWE-78: OS Command Injections: I: 2015:34
+CWE-78: OS Command Injections: I: 2016:31
+CWE-125: Out-of-bounds Read: U: 1998:0
+CWE-125: Out-of-bounds Read: U: 1999:0
+CWE-125: Out-of-bounds Read: U: 2000:0
+CWE-125: Out-of-bounds Read: U: 2001:0
+CWE-125: Out-of-bounds Read: U: 2002:0
+CWE-125: Out-of-bounds Read: U: 2003:0
+CWE-125: Out-of-bounds Read: U: 2004:0
+CWE-125: Out-of-bounds Read: U: 2005:0
+CWE-125: Out-of-bounds Read: U: 2006:0
+CWE-125: Out-of-bounds Read: U: 2007:0
+CWE-125: Out-of-bounds Read: U: 2008:0
+CWE-125: Out-of-bounds Read: U: 2009:0
+CWE-125: Out-of-bounds Read: U: 2010:0
+CWE-125: Out-of-bounds Read: U: 2011:0
+CWE-125: Out-of-bounds Read: U: 2012:4
+CWE-125: Out-of-bounds Read: U: 2013:0
+CWE-125: Out-of-bounds Read: U: 2014:1
+CWE-125: Out-of-bounds Read: U: 2015:3
+CWE-125: Out-of-bounds Read: U: 2016:85
+CWE-787: Out-of-bounds Write: U: 1998:0
+CWE-787: Out-of-bounds Write: U: 1999:0
+CWE-787: Out-of-bounds Write: U: 2000:0
+CWE-787: Out-of-bounds Write: U: 2001:0
+CWE-787: Out-of-bounds Write: U: 2002:0
+CWE-787: Out-of-bounds Write: U: 2003:0
+CWE-787: Out-of-bounds Write: U: 2004:0
+CWE-787: Out-of-bounds Write: U: 2005:0
+CWE-787: Out-of-bounds Write: U: 2006:0
+CWE-787: Out-of-bounds Write: U: 2007:0
+CWE-787: Out-of-bounds Write: U: 2008:0
+CWE-787: Out-of-bounds Write: U: 2009:0
+CWE-787: Out-of-bounds Write: U: 2010:0
+CWE-787: Out-of-bounds Write: U: 2011:0
+CWE-787: Out-of-bounds Write: U: 2012:0
+CWE-787: Out-of-bounds Write: U: 2013:0
+CWE-787: Out-of-bounds Write: U: 2014:0
+CWE-787: Out-of-bounds Write: U: 2015:0
+CWE-787: Out-of-bounds Write: U: 2016:40
+CWE-21: Path Equivalence: U: 1998:0
+CWE-21: Path Equivalence: U: 1999:0
+CWE-21: Path Equivalence: U: 2000:0
+CWE-21: Path Equivalence: U: 2001:0
+CWE-21: Path Equivalence: U: 2002:0
+CWE-21: Path Equivalence: U: 2003:0
+CWE-21: Path Equivalence: U: 2004:0
+CWE-21: Path Equivalence: U: 2005:0
+CWE-21: Path Equivalence: U: 2006:0
+CWE-21: Path Equivalence: U: 2007:0
+CWE-21: Path Equivalence: U: 2008:0
+CWE-21: Path Equivalence: U: 2009:0
+CWE-21: Path Equivalence: U: 2010:0
+CWE-21: Path Equivalence: U: 2011:0
+CWE-21: Path Equivalence: U: 2012:0
+CWE-21: Path Equivalence: U: 2013:0
+CWE-21: Path Equivalence: U: 2014:1
+CWE-21: Path Equivalence: U: 2015:0
+CWE-21: Path Equivalence: U: 2016:1
+CWE-22: Path Traversal: I: 1998:0
+CWE-22: Path Traversal: I: 1999:0
+CWE-22: Path Traversal: I: 2000:0
+CWE-22: Path Traversal: I: 2001:4
+CWE-22: Path Traversal: I: 2002:14
+CWE-22: Path Traversal: I: 2003:17
+CWE-22: Path Traversal: I: 2004:12
+CWE-22: Path Traversal: I: 2005:11
+CWE-22: Path Traversal: I: 2006:23
+CWE-22: Path Traversal: I: 2007:160
+CWE-22: Path Traversal: I: 2008:352
+CWE-22: Path Traversal: I: 2009:319
+CWE-22: Path Traversal: I: 2010:273
+CWE-22: Path Traversal: I: 2011:105
+CWE-22: Path Traversal: I: 2012:118
+CWE-22: Path Traversal: I: 2013:103
+CWE-22: Path Traversal: I: 2014:197
+CWE-22: Path Traversal: I: 2015:141
+CWE-22: Path Traversal: I: 2016:78
+CWE-275: Permission Issues: U: 1998:0
+CWE-275: Permission Issues: U: 1999:0
+CWE-275: Permission Issues: U: 2000:0
+CWE-275: Permission Issues: U: 2001:0
+CWE-275: Permission Issues: U: 2002:0
+CWE-275: Permission Issues: U: 2003:0
+CWE-275: Permission Issues: U: 2004:0
+CWE-275: Permission Issues: U: 2005:0
+CWE-275: Permission Issues: U: 2006:0
+CWE-275: Permission Issues: U: 2007:0
+CWE-275: Permission Issues: U: 2008:0
+CWE-275: Permission Issues: U: 2009:0
+CWE-275: Permission Issues: U: 2010:0
+CWE-275: Permission Issues: U: 2011:0
+CWE-275: Permission Issues: U: 2012:0
+CWE-275: Permission Issues: U: 2013:0
+CWE-275: Permission Issues: U: 2014:0
+CWE-275: Permission Issues: U: 2015:0
+CWE-275: Permission Issues: U: 2016:6
+CWE-264: Permissions, Privileges, and Access Control: D: 1998:1
+CWE-264: Permissions, Privileges, and Access Control: D: 1999:6
+CWE-264: Permissions, Privileges, and Access Control: D: 2000:2
+CWE-264: Permissions, Privileges, and Access Control: D: 2001:3
+CWE-264: Permissions, Privileges, and Access Control: D: 2002:32
+CWE-264: Permissions, Privileges, and Access Control: D: 2003:18
+CWE-264: Permissions, Privileges, and Access Control: D: 2004:20
+CWE-264: Permissions, Privileges, and Access Control: D: 2005:39
+CWE-264: Permissions, Privileges, and Access Control: D: 2006:51
+CWE-264: Permissions, Privileges, and Access Control: D: 2007:221
+CWE-264: Permissions, Privileges, and Access Control: D: 2008:449
+CWE-264: Permissions, Privileges, and Access Control: D: 2009:436
+CWE-264: Permissions, Privileges, and Access Control: D: 2010:357
+CWE-264: Permissions, Privileges, and Access Control: D: 2011:283
+CWE-264: Permissions, Privileges, and Access Control: D: 2012:607
+CWE-264: Permissions, Privileges, and Access Control: D: 2013:579
+CWE-264: Permissions, Privileges, and Access Control: D: 2014:730
+CWE-264: Permissions, Privileges, and Access Control: D: 2015:575
+CWE-264: Permissions, Privileges, and Access Control: D: 2016:645
+CWE-693: Protection Mechanism Failure: U: 1998:0
+CWE-693: Protection Mechanism Failure: U: 1999:0
+CWE-693: Protection Mechanism Failure: U: 2000:0
+CWE-693: Protection Mechanism Failure: U: 2001:0
+CWE-693: Protection Mechanism Failure: U: 2002:0
+CWE-693: Protection Mechanism Failure: U: 2003:0
+CWE-693: Protection Mechanism Failure: U: 2004:0
+CWE-693: Protection Mechanism Failure: U: 2005:0
+CWE-693: Protection Mechanism Failure: U: 2006:0
+CWE-693: Protection Mechanism Failure: U: 2007:0
+CWE-693: Protection Mechanism Failure: U: 2008:0
+CWE-693: Protection Mechanism Failure: U: 2009:0
+CWE-693: Protection Mechanism Failure: U: 2010:0
+CWE-693: Protection Mechanism Failure: U: 2011:0
+CWE-693: Protection Mechanism Failure: U: 2012:0
+CWE-693: Protection Mechanism Failure: U: 2013:0
+CWE-693: Protection Mechanism Failure: U: 2014:0
+CWE-693: Protection Mechanism Failure: U: 2015:0
+CWE-693: Protection Mechanism Failure: U: 2016:1
+CWE-362: Race Conditions: I: 1998:0
+CWE-362: Race Conditions: I: 1999:1
+CWE-362: Race Conditions: I: 2000:1
+CWE-362: Race Conditions: I: 2001:0
+CWE-362: Race Conditions: I: 2002:2
+CWE-362: Race Conditions: I: 2003:2
+CWE-362: Race Conditions: I: 2004:2
+CWE-362: Race Conditions: I: 2005:1
+CWE-362: Race Conditions: I: 2006:7
+CWE-362: Race Conditions: I: 2007:16
+CWE-362: Race Conditions: I: 2008:23
+CWE-362: Race Conditions: I: 2009:35
+CWE-362: Race Conditions: I: 2010:32
+CWE-362: Race Conditions: I: 2011:17
+CWE-362: Race Conditions: I: 2012:69
+CWE-362: Race Conditions: I: 2013:63
+CWE-362: Race Conditions: I: 2014:41
+CWE-362: Race Conditions: I: 2015:49
+CWE-362: Race Conditions: I: 2016:48
+CWE-137: Representation Errors: U: 1998:0
+CWE-137: Representation Errors: U: 1999:0
+CWE-137: Representation Errors: U: 2000:0
+CWE-137: Representation Errors: U: 2001:0
+CWE-137: Representation Errors: U: 2002:0
+CWE-137: Representation Errors: U: 2003:0
+CWE-137: Representation Errors: U: 2004:0
+CWE-137: Representation Errors: U: 2005:0
+CWE-137: Representation Errors: U: 2006:0
+CWE-137: Representation Errors: U: 2007:0
+CWE-137: Representation Errors: U: 2008:0
+CWE-137: Representation Errors: U: 2009:0
+CWE-137: Representation Errors: U: 2010:0
+CWE-137: Representation Errors: U: 2011:0
+CWE-137: Representation Errors: U: 2012:0
+CWE-137: Representation Errors: U: 2013:0
+CWE-137: Representation Errors: U: 2014:0
+CWE-137: Representation Errors: U: 2015:0
+CWE-137: Representation Errors: U: 2016:0
+CWE-399: Resource Management Errors: I: 1998:0
+CWE-399: Resource Management Errors: I: 1999:0
+CWE-399: Resource Management Errors: I: 2000:1
+CWE-399: Resource Management Errors: I: 2001:1
+CWE-399: Resource Management Errors: I: 2002:5
+CWE-399: Resource Management Errors: I: 2003:7
+CWE-399: Resource Management Errors: I: 2004:3
+CWE-399: Resource Management Errors: I: 2005:36
+CWE-399: Resource Management Errors: I: 2006:78
+CWE-399: Resource Management Errors: I: 2007:97
+CWE-399: Resource Management Errors: I: 2008:310
+CWE-399: Resource Management Errors: I: 2009:239
+CWE-399: Resource Management Errors: I: 2010:241
+CWE-399: Resource Management Errors: I: 2011:377
+CWE-399: Resource Management Errors: I: 2012:311
+CWE-399: Resource Management Errors: I: 2013:289
+CWE-399: Resource Management Errors: I: 2014:262
+CWE-399: Resource Management Errors: I: 2015:355
+CWE-399: Resource Management Errors: I: 2016:203
+CWE-254: Security Features: U: 1998:0
+CWE-254: Security Features: U: 1999:0
+CWE-254: Security Features: U: 2000:1
+CWE-254: Security Features: U: 2001:0
+CWE-254: Security Features: U: 2002:1
+CWE-254: Security Features: U: 2003:0
+CWE-254: Security Features: U: 2004:0
+CWE-254: Security Features: U: 2005:1
+CWE-254: Security Features: U: 2006:1
+CWE-254: Security Features: U: 2007:1
+CWE-254: Security Features: U: 2008:0
+CWE-254: Security Features: U: 2009:0
+CWE-254: Security Features: U: 2010:0
+CWE-254: Security Features: U: 2011:1
+CWE-254: Security Features: U: 2012:0
+CWE-254: Security Features: U: 2013:0
+CWE-254: Security Features: U: 2014:7
+CWE-254: Security Features: U: 2015:105
+CWE-254: Security Features: U: 2016:176
+CWE-220: Sensitive Data Under FTP Root: U: 1998:0
+CWE-220: Sensitive Data Under FTP Root: U: 1999:0
+CWE-220: Sensitive Data Under FTP Root: U: 2000:0
+CWE-220: Sensitive Data Under FTP Root: U: 2001:0
+CWE-220: Sensitive Data Under FTP Root: U: 2002:0
+CWE-220: Sensitive Data Under FTP Root: U: 2003:0
+CWE-220: Sensitive Data Under FTP Root: U: 2004:0
+CWE-220: Sensitive Data Under FTP Root: U: 2005:0
+CWE-220: Sensitive Data Under FTP Root: U: 2006:0
+CWE-220: Sensitive Data Under FTP Root: U: 2007:0
+CWE-220: Sensitive Data Under FTP Root: U: 2008:0
+CWE-220: Sensitive Data Under FTP Root: U: 2009:0
+CWE-220: Sensitive Data Under FTP Root: U: 2010:0
+CWE-220: Sensitive Data Under FTP Root: U: 2011:0
+CWE-220: Sensitive Data Under FTP Root: U: 2012:0
+CWE-220: Sensitive Data Under FTP Root: U: 2013:0
+CWE-220: Sensitive Data Under FTP Root: U: 2014:0
+CWE-220: Sensitive Data Under FTP Root: U: 2015:0
+CWE-220: Sensitive Data Under FTP Root: U: 2016:0
+CWE-918: Server-Side Request Forgery (SSRF): U: 1998:0
+CWE-918: Server-Side Request Forgery (SSRF): U: 1999:0
+CWE-918: Server-Side Request Forgery (SSRF): U: 2000:0
+CWE-918: Server-Side Request Forgery (SSRF): U: 2001:0
+CWE-918: Server-Side Request Forgery (SSRF): U: 2002:0
+CWE-918: Server-Side Request Forgery (SSRF): U: 2003:0
+CWE-918: Server-Side Request Forgery (SSRF): U: 2004:0
+CWE-918: Server-Side Request Forgery (SSRF): U: 2005:0
+CWE-918: Server-Side Request Forgery (SSRF): U: 2006:0
+CWE-918: Server-Side Request Forgery (SSRF): U: 2007:0
+CWE-918: Server-Side Request Forgery (SSRF): U: 2008:0
+CWE-918: Server-Side Request Forgery (SSRF): U: 2009:0
+CWE-918: Server-Side Request Forgery (SSRF): U: 2010:0
+CWE-918: Server-Side Request Forgery (SSRF): U: 2011:0
+CWE-918: Server-Side Request Forgery (SSRF): U: 2012:0
+CWE-918: Server-Side Request Forgery (SSRF): U: 2013:0
+CWE-918: Server-Side Request Forgery (SSRF): U: 2014:0
+CWE-918: Server-Side Request Forgery (SSRF): U: 2015:0
+CWE-918: Server-Side Request Forgery (SSRF): U: 2016:6
+CWE-384: Session Fixation: U: 1998:0
+CWE-384: Session Fixation: U: 1999:0
+CWE-384: Session Fixation: U: 2000:0
+CWE-384: Session Fixation: U: 2001:0
+CWE-384: Session Fixation: U: 2002:0
+CWE-384: Session Fixation: U: 2003:0
+CWE-384: Session Fixation: U: 2004:0
+CWE-384: Session Fixation: U: 2005:0
+CWE-384: Session Fixation: U: 2006:0
+CWE-384: Session Fixation: U: 2007:0
+CWE-384: Session Fixation: U: 2008:0
+CWE-384: Session Fixation: U: 2009:0
+CWE-384: Session Fixation: U: 2010:0
+CWE-384: Session Fixation: U: 2011:0
+CWE-384: Session Fixation: U: 2012:0
+CWE-384: Session Fixation: U: 2013:0
+CWE-384: Session Fixation: U: 2014:1
+CWE-384: Session Fixation: U: 2015:0
+CWE-384: Session Fixation: U: 2016:0
+CWE-18: Source Code: U: 1998:0
+CWE-18: Source Code: U: 1999:0
+CWE-18: Source Code: U: 2000:0
+CWE-18: Source Code: U: 2001:0
+CWE-18: Source Code: U: 2002:0
+CWE-18: Source Code: U: 2003:0
+CWE-18: Source Code: U: 2004:0
+CWE-18: Source Code: U: 2005:0
+CWE-18: Source Code: U: 2006:0
+CWE-18: Source Code: U: 2007:0
+CWE-18: Source Code: U: 2008:0
+CWE-18: Source Code: U: 2009:0
+CWE-18: Source Code: U: 2010:0
+CWE-18: Source Code: U: 2011:0
+CWE-18: Source Code: U: 2012:0
+CWE-18: Source Code: U: 2013:0
+CWE-18: Source Code: U: 2014:1
+CWE-18: Source Code: U: 2015:3
+CWE-18: Source Code: U: 2016:1
+CWE-89: SQL Injection: I: 1998:0
+CWE-89: SQL Injection: I: 1999:0
+CWE-89: SQL Injection: I: 2000:0
+CWE-89: SQL Injection: I: 2001:0
+CWE-89: SQL Injection: I: 2002:7
+CWE-89: SQL Injection: I: 2003:11
+CWE-89: SQL Injection: I: 2004:9
+CWE-89: SQL Injection: I: 2005:50
+CWE-89: SQL Injection: I: 2006:98
+CWE-89: SQL Injection: I: 2007:255
+CWE-89: SQL Injection: I: 2008:1092
+CWE-89: SQL Injection: I: 2009:948
+CWE-89: SQL Injection: I: 2010:515
+CWE-89: SQL Injection: I: 2011:289
+CWE-89: SQL Injection: I: 2012:236
+CWE-89: SQL Injection: I: 2013:146
+CWE-89: SQL Injection: I: 2014:296
+CWE-89: SQL Injection: I: 2015:212
+CWE-89: SQL Injection: I: 2016:94
+CWE-371: State Issues: U: 1998:0
+CWE-371: State Issues: U: 1999:0
+CWE-371: State Issues: U: 2000:0
+CWE-371: State Issues: U: 2001:0
+CWE-371: State Issues: U: 2002:0
+CWE-371: State Issues: U: 2003:0
+CWE-371: State Issues: U: 2004:0
+CWE-371: State Issues: U: 2005:0
+CWE-371: State Issues: U: 2006:0
+CWE-371: State Issues: U: 2007:0
+CWE-371: State Issues: U: 2008:0
+CWE-371: State Issues: U: 2009:0
+CWE-371: State Issues: U: 2010:0
+CWE-371: State Issues: U: 2011:0
+CWE-371: State Issues: U: 2012:0
+CWE-371: State Issues: U: 2013:0
+CWE-371: State Issues: U: 2014:0
+CWE-371: State Issues: U: 2015:0
+CWE-371: State Issues: U: 2016:0
+CWE-361: Time and State: U: 1998:0
+CWE-361: Time and State: U: 1999:0
+CWE-361: Time and State: U: 2000:0
+CWE-361: Time and State: U: 2001:0
+CWE-361: Time and State: U: 2002:0
+CWE-361: Time and State: U: 2003:0
+CWE-361: Time and State: U: 2004:0
+CWE-361: Time and State: U: 2005:0
+CWE-361: Time and State: U: 2006:0
+CWE-361: Time and State: U: 2007:0
+CWE-361: Time and State: U: 2008:0
+CWE-361: Time and State: U: 2009:0
+CWE-361: Time and State: U: 2010:0
+CWE-361: Time and State: U: 2011:0
+CWE-361: Time and State: U: 2012:0
+CWE-361: Time and State: U: 2013:0
+CWE-361: Time and State: U: 2014:0
+CWE-361: Time and State: U: 2015:0
+CWE-361: Time and State: U: 2016:1
+CWE-400: Uncontrolled Resource Consumption (Resource Exhaustion): U: 1998:0
+CWE-400: Uncontrolled Resource Consumption (Resource Exhaustion): U: 1999:0
+CWE-400: Uncontrolled Resource Consumption (Resource Exhaustion): U: 2000:0
+CWE-400: Uncontrolled Resource Consumption (Resource Exhaustion): U: 2001:0
+CWE-400: Uncontrolled Resource Consumption (Resource Exhaustion): U: 2002:0
+CWE-400: Uncontrolled Resource Consumption (Resource Exhaustion): U: 2003:0
+CWE-400: Uncontrolled Resource Consumption (Resource Exhaustion): U: 2004:0
+CWE-400: Uncontrolled Resource Consumption (Resource Exhaustion): U: 2005:0
+CWE-400: Uncontrolled Resource Consumption (Resource Exhaustion): U: 2006:0
+CWE-400: Uncontrolled Resource Consumption (Resource Exhaustion): U: 2007:0
+CWE-400: Uncontrolled Resource Consumption (Resource Exhaustion): U: 2008:0
+CWE-400: Uncontrolled Resource Consumption (Resource Exhaustion): U: 2009:0
+CWE-400: Uncontrolled Resource Consumption (Resource Exhaustion): U: 2010:0
+CWE-400: Uncontrolled Resource Consumption (Resource Exhaustion): U: 2011:0
+CWE-400: Uncontrolled Resource Consumption (Resource Exhaustion): U: 2012:0
+CWE-400: Uncontrolled Resource Consumption (Resource Exhaustion): U: 2013:0
+CWE-400: Uncontrolled Resource Consumption (Resource Exhaustion): U: 2014:1
+CWE-400: Uncontrolled Resource Consumption (Resource Exhaustion): U: 2015:0
+CWE-400: Uncontrolled Resource Consumption (Resource Exhaustion): U: 2016:12
+CWE-427: Uncontrolled Search Path Element: U: 1998:0
+CWE-427: Uncontrolled Search Path Element: U: 1999:0
+CWE-427: Uncontrolled Search Path Element: U: 2000:0
+CWE-427: Uncontrolled Search Path Element: U: 2001:0
+CWE-427: Uncontrolled Search Path Element: U: 2002:0
+CWE-427: Uncontrolled Search Path Element: U: 2003:0
+CWE-427: Uncontrolled Search Path Element: U: 2004:0
+CWE-427: Uncontrolled Search Path Element: U: 2005:0
+CWE-427: Uncontrolled Search Path Element: U: 2006:0
+CWE-427: Uncontrolled Search Path Element: U: 2007:0
+CWE-427: Uncontrolled Search Path Element: U: 2008:0
+CWE-427: Uncontrolled Search Path Element: U: 2009:0
+CWE-427: Uncontrolled Search Path Element: U: 2010:0
+CWE-427: Uncontrolled Search Path Element: U: 2011:0
+CWE-427: Uncontrolled Search Path Element: U: 2012:0
+CWE-427: Uncontrolled Search Path Element: U: 2013:0
+CWE-427: Uncontrolled Search Path Element: U: 2014:0
+CWE-427: Uncontrolled Search Path Element: U: 2015:0
+CWE-427: Uncontrolled Search Path Element: U: 2016:1
+CWE-441: Unintended Proxy or Intermediary (Confused Deputy): U: 1998:0
+CWE-441: Unintended Proxy or Intermediary (Confused Deputy): U: 1999:0
+CWE-441: Unintended Proxy or Intermediary (Confused Deputy): U: 2000:0
+CWE-441: Unintended Proxy or Intermediary (Confused Deputy): U: 2001:0
+CWE-441: Unintended Proxy or Intermediary (Confused Deputy): U: 2002:0
+CWE-441: Unintended Proxy or Intermediary (Confused Deputy): U: 2003:0
+CWE-441: Unintended Proxy or Intermediary (Confused Deputy): U: 2004:0
+CWE-441: Unintended Proxy or Intermediary (Confused Deputy): U: 2005:0
+CWE-441: Unintended Proxy or Intermediary (Confused Deputy): U: 2006:0
+CWE-441: Unintended Proxy or Intermediary (Confused Deputy): U: 2007:0
+CWE-441: Unintended Proxy or Intermediary (Confused Deputy): U: 2008:0
+CWE-441: Unintended Proxy or Intermediary (Confused Deputy): U: 2009:0
+CWE-441: Unintended Proxy or Intermediary (Confused Deputy): U: 2010:0
+CWE-441: Unintended Proxy or Intermediary (Confused Deputy): U: 2011:0
+CWE-441: Unintended Proxy or Intermediary (Confused Deputy): U: 2012:0
+CWE-441: Unintended Proxy or Intermediary (Confused Deputy): U: 2013:0
+CWE-441: Unintended Proxy or Intermediary (Confused Deputy): U: 2014:0
+CWE-441: Unintended Proxy or Intermediary (Confused Deputy): U: 2015:0
+CWE-441: Unintended Proxy or Intermediary (Confused Deputy): U: 2016:0
+CWE-428: Unquoted Search Path or Element: U: 1998:0
+CWE-428: Unquoted Search Path or Element: U: 1999:0
+CWE-428: Unquoted Search Path or Element: U: 2000:0
+CWE-428: Unquoted Search Path or Element: U: 2001:0
+CWE-428: Unquoted Search Path or Element: U: 2002:0
+CWE-428: Unquoted Search Path or Element: U: 2003:0
+CWE-428: Unquoted Search Path or Element: U: 2004:0
+CWE-428: Unquoted Search Path or Element: U: 2005:0
+CWE-428: Unquoted Search Path or Element: U: 2006:0
+CWE-428: Unquoted Search Path or Element: U: 2007:0
+CWE-428: Unquoted Search Path or Element: U: 2008:0
+CWE-428: Unquoted Search Path or Element: U: 2009:0
+CWE-428: Unquoted Search Path or Element: U: 2010:0
+CWE-428: Unquoted Search Path or Element: U: 2011:0
+CWE-428: Unquoted Search Path or Element: U: 2012:0
+CWE-428: Unquoted Search Path or Element: U: 2013:0
+CWE-428: Unquoted Search Path or Element: U: 2014:1
+CWE-428: Unquoted Search Path or Element: U: 2015:0
+CWE-428: Unquoted Search Path or Element: U: 2016:2
+CWE-434: Unrestricted Upload of File with Dangerous Type: U: 1998:0
+CWE-434: Unrestricted Upload of File with Dangerous Type: U: 1999:0
+CWE-434: Unrestricted Upload of File with Dangerous Type: U: 2000:0
+CWE-434: Unrestricted Upload of File with Dangerous Type: U: 2001:0
+CWE-434: Unrestricted Upload of File with Dangerous Type: U: 2002:0
+CWE-434: Unrestricted Upload of File with Dangerous Type: U: 2003:0
+CWE-434: Unrestricted Upload of File with Dangerous Type: U: 2004:0
+CWE-434: Unrestricted Upload of File with Dangerous Type: U: 2005:0
+CWE-434: Unrestricted Upload of File with Dangerous Type: U: 2006:1
+CWE-434: Unrestricted Upload of File with Dangerous Type: U: 2007:0
+CWE-434: Unrestricted Upload of File with Dangerous Type: U: 2008:0
+CWE-434: Unrestricted Upload of File with Dangerous Type: U: 2009:0
+CWE-434: Unrestricted Upload of File with Dangerous Type: U: 2010:0
+CWE-434: Unrestricted Upload of File with Dangerous Type: U: 2011:0
+CWE-434: Unrestricted Upload of File with Dangerous Type: U: 2012:0
+CWE-434: Unrestricted Upload of File with Dangerous Type: U: 2013:0
+CWE-434: Unrestricted Upload of File with Dangerous Type: U: 2014:0
+CWE-434: Unrestricted Upload of File with Dangerous Type: U: 2015:2
+CWE-434: Unrestricted Upload of File with Dangerous Type: U: 2016:10
+CWE-426: Untrusted Search Path: U: 1998:0
+CWE-426: Untrusted Search Path: U: 1999:0
+CWE-426: Untrusted Search Path: U: 2000:0
+CWE-426: Untrusted Search Path: U: 2001:0
+CWE-426: Untrusted Search Path: U: 2002:0
+CWE-426: Untrusted Search Path: U: 2003:0
+CWE-426: Untrusted Search Path: U: 2004:0
+CWE-426: Untrusted Search Path: U: 2005:0
+CWE-426: Untrusted Search Path: U: 2006:0
+CWE-426: Untrusted Search Path: U: 2007:0
+CWE-426: Untrusted Search Path: U: 2008:0
+CWE-426: Untrusted Search Path: U: 2009:0
+CWE-426: Untrusted Search Path: U: 2010:0
+CWE-426: Untrusted Search Path: U: 2011:1
+CWE-426: Untrusted Search Path: U: 2012:0
+CWE-426: Untrusted Search Path: U: 2013:0
+CWE-426: Untrusted Search Path: U: 2014:0
+CWE-426: Untrusted Search Path: U: 2015:2
+CWE-426: Untrusted Search Path: U: 2016:4
+CWE-601: URL Redirection to Untrusted Site (Open Redirect): U: 1998:0
+CWE-601: URL Redirection to Untrusted Site (Open Redirect): U: 1999:0
+CWE-601: URL Redirection to Untrusted Site (Open Redirect): U: 2000:0
+CWE-601: URL Redirection to Untrusted Site (Open Redirect): U: 2001:0
+CWE-601: URL Redirection to Untrusted Site (Open Redirect): U: 2002:0
+CWE-601: URL Redirection to Untrusted Site (Open Redirect): U: 2003:0
+CWE-601: URL Redirection to Untrusted Site (Open Redirect): U: 2004:0
+CWE-601: URL Redirection to Untrusted Site (Open Redirect): U: 2005:0
+CWE-601: URL Redirection to Untrusted Site (Open Redirect): U: 2006:0
+CWE-601: URL Redirection to Untrusted Site (Open Redirect): U: 2007:0
+CWE-601: URL Redirection to Untrusted Site (Open Redirect): U: 2008:0
+CWE-601: URL Redirection to Untrusted Site (Open Redirect): U: 2009:0
+CWE-601: URL Redirection to Untrusted Site (Open Redirect): U: 2010:0
+CWE-601: URL Redirection to Untrusted Site (Open Redirect): U: 2011:0
+CWE-601: URL Redirection to Untrusted Site (Open Redirect): U: 2012:0
+CWE-601: URL Redirection to Untrusted Site (Open Redirect): U: 2013:0
+CWE-601: URL Redirection to Untrusted Site (Open Redirect): U: 2014:0
+CWE-601: URL Redirection to Untrusted Site (Open Redirect): U: 2015:1
+CWE-601: URL Redirection to Untrusted Site (Open Redirect): U: 2016:12
+CWE-416: Use After Free: U: 1998:0
+CWE-416: Use After Free: U: 1999:0
+CWE-416: Use After Free: U: 2000:0
+CWE-416: Use After Free: U: 2001:0
+CWE-416: Use After Free: U: 2002:0
+CWE-416: Use After Free: U: 2003:0
+CWE-416: Use After Free: U: 2004:0
+CWE-416: Use After Free: U: 2005:0
+CWE-416: Use After Free: U: 2006:0
+CWE-416: Use After Free: U: 2007:0
+CWE-416: Use After Free: U: 2008:0
+CWE-416: Use After Free: U: 2009:0
+CWE-416: Use After Free: U: 2010:0
+CWE-416: Use After Free: U: 2011:0
+CWE-416: Use After Free: U: 2012:8
+CWE-416: Use After Free: U: 2013:15
+CWE-416: Use After Free: U: 2014:9
+CWE-416: Use After Free: U: 2015:10
+CWE-416: Use After Free: U: 2016:110
+CWE-327: Use of a Broken or Risky Cryptographic Algorithm: U: 1998:0
+CWE-327: Use of a Broken or Risky Cryptographic Algorithm: U: 1999:0
+CWE-327: Use of a Broken or Risky Cryptographic Algorithm: U: 2000:0
+CWE-327: Use of a Broken or Risky Cryptographic Algorithm: U: 2001:0
+CWE-327: Use of a Broken or Risky Cryptographic Algorithm: U: 2002:0
+CWE-327: Use of a Broken or Risky Cryptographic Algorithm: U: 2003:0
+CWE-327: Use of a Broken or Risky Cryptographic Algorithm: U: 2004:0
+CWE-327: Use of a Broken or Risky Cryptographic Algorithm: U: 2005:0
+CWE-327: Use of a Broken or Risky Cryptographic Algorithm: U: 2006:0
+CWE-327: Use of a Broken or Risky Cryptographic Algorithm: U: 2007:0
+CWE-327: Use of a Broken or Risky Cryptographic Algorithm: U: 2008:0
+CWE-327: Use of a Broken or Risky Cryptographic Algorithm: U: 2009:0
+CWE-327: Use of a Broken or Risky Cryptographic Algorithm: U: 2010:0
+CWE-327: Use of a Broken or Risky Cryptographic Algorithm: U: 2011:0
+CWE-327: Use of a Broken or Risky Cryptographic Algorithm: U: 2012:0
+CWE-327: Use of a Broken or Risky Cryptographic Algorithm: U: 2013:0
+CWE-327: Use of a Broken or Risky Cryptographic Algorithm: U: 2014:0
+CWE-327: Use of a Broken or Risky Cryptographic Algorithm: U: 2015:0
+CWE-327: Use of a Broken or Risky Cryptographic Algorithm: U: 2016:1
+CWE-338: Use of Cryptographically Weak Pseudo-Random Number Generator (PRNG): U: 1998:0
+CWE-338: Use of Cryptographically Weak Pseudo-Random Number Generator (PRNG): U: 1999:0
+CWE-338: Use of Cryptographically Weak Pseudo-Random Number Generator (PRNG): U: 2000:0
+CWE-338: Use of Cryptographically Weak Pseudo-Random Number Generator (PRNG): U: 2001:0
+CWE-338: Use of Cryptographically Weak Pseudo-Random Number Generator (PRNG): U: 2002:0
+CWE-338: Use of Cryptographically Weak Pseudo-Random Number Generator (PRNG): U: 2003:0
+CWE-338: Use of Cryptographically Weak Pseudo-Random Number Generator (PRNG): U: 2004:0
+CWE-338: Use of Cryptographically Weak Pseudo-Random Number Generator (PRNG): U: 2005:0
+CWE-338: Use of Cryptographically Weak Pseudo-Random Number Generator (PRNG): U: 2006:0
+CWE-338: Use of Cryptographically Weak Pseudo-Random Number Generator (PRNG): U: 2007:0
+CWE-338: Use of Cryptographically Weak Pseudo-Random Number Generator (PRNG): U: 2008:0
+CWE-338: Use of Cryptographically Weak Pseudo-Random Number Generator (PRNG): U: 2009:0
+CWE-338: Use of Cryptographically Weak Pseudo-Random Number Generator (PRNG): U: 2010:0
+CWE-338: Use of Cryptographically Weak Pseudo-Random Number Generator (PRNG): U: 2011:0
+CWE-338: Use of Cryptographically Weak Pseudo-Random Number Generator (PRNG): U: 2012:0
+CWE-338: Use of Cryptographically Weak Pseudo-Random Number Generator (PRNG): U: 2013:0
+CWE-338: Use of Cryptographically Weak Pseudo-Random Number Generator (PRNG): U: 2014:0
+CWE-338: Use of Cryptographically Weak Pseudo-Random Number Generator (PRNG): U: 2015:0
+CWE-338: Use of Cryptographically Weak Pseudo-Random Number Generator (PRNG): U: 2016:0
+CWE-798: Use of Hard-coded Credentials: U: 1998:0
+CWE-798: Use of Hard-coded Credentials: U: 1999:0
+CWE-798: Use of Hard-coded Credentials: U: 2000:0
+CWE-798: Use of Hard-coded Credentials: U: 2001:0
+CWE-798: Use of Hard-coded Credentials: U: 2002:0
+CWE-798: Use of Hard-coded Credentials: U: 2003:0
+CWE-798: Use of Hard-coded Credentials: U: 2004:0
+CWE-798: Use of Hard-coded Credentials: U: 2005:0
+CWE-798: Use of Hard-coded Credentials: U: 2006:0
+CWE-798: Use of Hard-coded Credentials: U: 2007:1
+CWE-798: Use of Hard-coded Credentials: U: 2008:0
+CWE-798: Use of Hard-coded Credentials: U: 2009:0
+CWE-798: Use of Hard-coded Credentials: U: 2010:0
+CWE-798: Use of Hard-coded Credentials: U: 2011:0
+CWE-798: Use of Hard-coded Credentials: U: 2012:0
+CWE-798: Use of Hard-coded Credentials: U: 2013:0
+CWE-798: Use of Hard-coded Credentials: U: 2014:0
+CWE-798: Use of Hard-coded Credentials: U: 2015:0
+CWE-798: Use of Hard-coded Credentials: U: 2016:11
+CWE-330: Use of Insufficiently Random Values: U: 1998:0
+CWE-330: Use of Insufficiently Random Values: U: 1999:0
+CWE-330: Use of Insufficiently Random Values: U: 2000:0
+CWE-330: Use of Insufficiently Random Values: U: 2001:0
+CWE-330: Use of Insufficiently Random Values: U: 2002:0
+CWE-330: Use of Insufficiently Random Values: U: 2003:0
+CWE-330: Use of Insufficiently Random Values: U: 2004:0
+CWE-330: Use of Insufficiently Random Values: U: 2005:0
+CWE-330: Use of Insufficiently Random Values: U: 2006:0
+CWE-330: Use of Insufficiently Random Values: U: 2007:0
+CWE-330: Use of Insufficiently Random Values: U: 2008:0
+CWE-330: Use of Insufficiently Random Values: U: 2009:0
+CWE-330: Use of Insufficiently Random Values: U: 2010:0
+CWE-330: Use of Insufficiently Random Values: U: 2011:0
+CWE-330: Use of Insufficiently Random Values: U: 2012:0
+CWE-330: Use of Insufficiently Random Values: U: 2013:0
+CWE-330: Use of Insufficiently Random Values: U: 2014:0
+CWE-330: Use of Insufficiently Random Values: U: 2015:0
+CWE-330: Use of Insufficiently Random Values: U: 2016:1
+CWE-694: Use of Multiple Resources with Duplicate Identifier: U: 1998:0
+CWE-694: Use of Multiple Resources with Duplicate Identifier: U: 1999:0
+CWE-694: Use of Multiple Resources with Duplicate Identifier: U: 2000:0
+CWE-694: Use of Multiple Resources with Duplicate Identifier: U: 2001:0
+CWE-694: Use of Multiple Resources with Duplicate Identifier: U: 2002:0
+CWE-694: Use of Multiple Resources with Duplicate Identifier: U: 2003:0
+CWE-694: Use of Multiple Resources with Duplicate Identifier: U: 2004:0
+CWE-694: Use of Multiple Resources with Duplicate Identifier: U: 2005:0
+CWE-694: Use of Multiple Resources with Duplicate Identifier: U: 2006:0
+CWE-694: Use of Multiple Resources with Duplicate Identifier: U: 2007:0
+CWE-694: Use of Multiple Resources with Duplicate Identifier: U: 2008:0
+CWE-694: Use of Multiple Resources with Duplicate Identifier: U: 2009:0
+CWE-694: Use of Multiple Resources with Duplicate Identifier: U: 2010:0
+CWE-694: Use of Multiple Resources with Duplicate Identifier: U: 2011:0
+CWE-694: Use of Multiple Resources with Duplicate Identifier: U: 2012:0
+CWE-694: Use of Multiple Resources with Duplicate Identifier: U: 2013:0
+CWE-694: Use of Multiple Resources with Duplicate Identifier: U: 2014:0
+CWE-694: Use of Multiple Resources with Duplicate Identifier: U: 2015:0
+CWE-694: Use of Multiple Resources with Duplicate Identifier: U: 2016:0
+CWE-640: Weak Password Recovery Mechanism for Forgotten Password: U: 1998:0
+CWE-640: Weak Password Recovery Mechanism for Forgotten Password: U: 1999:0
+CWE-640: Weak Password Recovery Mechanism for Forgotten Password: U: 2000:0
+CWE-640: Weak Password Recovery Mechanism for Forgotten Password: U: 2001:0
+CWE-640: Weak Password Recovery Mechanism for Forgotten Password: U: 2002:0
+CWE-640: Weak Password Recovery Mechanism for Forgotten Password: U: 2003:0
+CWE-640: Weak Password Recovery Mechanism for Forgotten Password: U: 2004:0
+CWE-640: Weak Password Recovery Mechanism for Forgotten Password: U: 2005:0
+CWE-640: Weak Password Recovery Mechanism for Forgotten Password: U: 2006:0
+CWE-640: Weak Password Recovery Mechanism for Forgotten Password: U: 2007:0
+CWE-640: Weak Password Recovery Mechanism for Forgotten Password: U: 2008:0
+CWE-640: Weak Password Recovery Mechanism for Forgotten Password: U: 2009:0
+CWE-640: Weak Password Recovery Mechanism for Forgotten Password: U: 2010:0
+CWE-640: Weak Password Recovery Mechanism for Forgotten Password: U: 2011:0
+CWE-640: Weak Password Recovery Mechanism for Forgotten Password: U: 2012:0
+CWE-640: Weak Password Recovery Mechanism for Forgotten Password: U: 2013:0
+CWE-640: Weak Password Recovery Mechanism for Forgotten Password: U: 2014:0
+CWE-640: Weak Password Recovery Mechanism for Forgotten Password: U: 2015:0
+CWE-640: Weak Password Recovery Mechanism for Forgotten Password: U: 2016:3
+CWE-123: Write-what-where Condition: U: 1998:0
+CWE-123: Write-what-where Condition: U: 1999:0
+CWE-123: Write-what-where Condition: U: 2000:0
+CWE-123: Write-what-where Condition: U: 2001:0
+CWE-123: Write-what-where Condition: U: 2002:0
+CWE-123: Write-what-where Condition: U: 2003:0
+CWE-123: Write-what-where Condition: U: 2004:0
+CWE-123: Write-what-where Condition: U: 2005:0
+CWE-123: Write-what-where Condition: U: 2006:0
+CWE-123: Write-what-where Condition: U: 2007:0
+CWE-123: Write-what-where Condition: U: 2008:0
+CWE-123: Write-what-where Condition: U: 2009:0
+CWE-123: Write-what-where Condition: U: 2010:0
+CWE-123: Write-what-where Condition: U: 2011:0
+CWE-123: Write-what-where Condition: U: 2012:0
+CWE-123: Write-what-where Condition: U: 2013:0
+CWE-123: Write-what-where Condition: U: 2014:0
+CWE-123: Write-what-where Condition: U: 2015:0
+CWE-123: Write-what-where Condition: U: 2016:0
+CWE-91: XML Injection (aka Blind XPath Injection): U: 1998:0
+CWE-91: XML Injection (aka Blind XPath Injection): U: 1999:0
+CWE-91: XML Injection (aka Blind XPath Injection): U: 2000:0
+CWE-91: XML Injection (aka Blind XPath Injection): U: 2001:0
+CWE-91: XML Injection (aka Blind XPath Injection): U: 2002:0
+CWE-91: XML Injection (aka Blind XPath Injection): U: 2003:0
+CWE-91: XML Injection (aka Blind XPath Injection): U: 2004:0
+CWE-91: XML Injection (aka Blind XPath Injection): U: 2005:0
+CWE-91: XML Injection (aka Blind XPath Injection): U: 2006:0
+CWE-91: XML Injection (aka Blind XPath Injection): U: 2007:0
+CWE-91: XML Injection (aka Blind XPath Injection): U: 2008:0
+CWE-91: XML Injection (aka Blind XPath Injection): U: 2009:0
+CWE-91: XML Injection (aka Blind XPath Injection): U: 2010:0
+CWE-91: XML Injection (aka Blind XPath Injection): U: 2011:0
+CWE-91: XML Injection (aka Blind XPath Injection): U: 2012:0
+CWE-91: XML Injection (aka Blind XPath Injection): U: 2013:1
+CWE-91: XML Injection (aka Blind XPath Injection): U: 2014:0
+CWE-91: XML Injection (aka Blind XPath Injection): U: 2015:0
+CWE-91: XML Injection (aka Blind XPath Injection): U: 2016:1
+#===================================
