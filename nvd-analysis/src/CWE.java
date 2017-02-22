@@ -1,6 +1,6 @@
 import java.util.Map;
 import java.util.Set;
-import java.util.HashMap;
+import java.util.TreeMap;
 import java.util.HashSet;
 
 
@@ -24,7 +24,7 @@ public class CWE implements Comparable <CWE> {
 		CWE.setType(this); 
 		// this.oneOfNIST19 = isPartOfNist19(cweId);
 		this.numOfVulnTotal = 0;
-		this.vulnByYear = new HashMap<Integer, Integer>();
+		this.vulnByYear = new TreeMap<Integer, Integer>();
 	}
 
 	
@@ -71,14 +71,14 @@ public class CWE implements Comparable <CWE> {
 	 * Returns the string representation of this data
 	 */
 	public String toString(){
-		String str = "CWE-"+ getId() + "  " + getName() + " Type: " + getType();
+		String str = "CWE-"+ getId() + "  " + getName() + "  " + getType();
 		if ( isOneOfNIST19() )
-			str += "  PartOfNIST19"; 
+			str += " NIST19"; 
 		else
-			str += " Not_Nist19";
+			str += " Non_Nist19";
 		str += "\t\t";
 				
-		for( Integer year: vulnByYear.keySet() ){
+		for( Integer year: vulnByYear.keySet()){
 			str += "\t" + vulnByYear.get(year);
 		}
 
@@ -165,8 +165,10 @@ public class CWE implements Comparable <CWE> {
 			otherId = Integer.parseInt(otherCWE.getId());
 			return (thisId - otherId);
 		} catch (NumberFormatException nfe) {
-			System.out.println("PROBLEM COMPARING: " + this.toString() + "\n\n" + otherCWE.toString());
-			return 0;
+			if (this.getId().equalsIgnoreCase("other") || this.getId().equalsIgnoreCase("noinfo"))
+				return 1; //positive number  
+			else
+				return 0;
 		}
 	}
 	

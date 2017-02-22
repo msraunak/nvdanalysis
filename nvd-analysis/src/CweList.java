@@ -29,6 +29,7 @@ public class CweList {
 	public CweList(){
 		wknessListAll = new ArrayList<CWE>();
 		nistList = new ArrayList<CWE>();
+		populateList();
 	}
 	
 	// Getters
@@ -42,13 +43,20 @@ public class CweList {
 	/** 
 	 * Read the text file and populate the source text file. 
 	 */
-	public void populateList() throws IOException {
+	public void populateList() {
+		try {
+			bufReader = new BufferedReader(new FileReader(new File(catFileName)));
+			String line;
 		
-		bufReader = new BufferedReader(new FileReader(new File(catFileName)));
-		String line;
-		
-		while((line = bufReader.readLine()) != null) {
-			processAndAddToCweList(line);
+			while((line = bufReader.readLine()) != null) {
+				processAndAddToCweList(line);
+			}
+			
+		} catch (IOException ioe) {
+			System.out.println("Could not open file " + catFileName);
+			ioe.printStackTrace();
+			System.exit(-1);
+			
 		}
 	}
 	
@@ -104,11 +112,23 @@ public class CweList {
 	public void printAllCWEsToFile(String fileName){
 		
 		PrintWriter pw;
+		boolean isFirst = true;
 		try {
 			
 			 pw = new PrintWriter( new File(fileName) );
+			 // for all the CWE objects in the wknessList
 			 for (CWE cwe: wknessListAll){
-					pw.println( cwe.toString() );
+				 if (isFirst) {
+					String headerStr = "CWE-ID \tCWE-Name \tCWE-Type \tIsNIST19 \t"; 
+					for( Integer year: cwe.getVulnByYear().keySet()){
+							headerStr += "\t" + year;
+						}
+					System.out.println(headerStr);
+					pw.println(headerStr);
+					isFirst = false;
+				 }
+				 System.out.println(cwe.toString()); // the .toString() is opitonal
+				 pw.println( cwe.toString() );
 			 }
 			 pw.close();
 		} catch (IOException ioe){
@@ -136,7 +156,7 @@ public class CweList {
 	
 	//	Print the list of CWEs
 	public void printAllNISTCWEs(){
-
+		Collections.sort(nistList); // sort the list before printing
 		for (CWE cwe: nistList){
 			System.out.println(cwe);
 		}

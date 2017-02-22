@@ -1,0 +1,124 @@
+CWE-ID 	CWE-Name 	CWE-Type 	IsNIST19 		1998	1999	2000	2001	2002	2003	2004	2005	2006	2007	2008	2009	2010	2011	2012	2013	2014	2015	2016
+CWE-1  Location  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-2  Environment  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-16  Configuration  C NIST19			0	7	1	0	9	11	4	3	5	33	36	56	24	31	22	20	6	0	0
+CWE-17  Code  U Non_Nist19			0	0	0	0	0	0	0	2	1	0	0	0	1	0	0	1	21	127	13
+CWE-18  Source Code  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	3	1
+CWE-19  Data Handling  U Non_Nist19			0	0	0	0	0	0	0	1	0	1	0	0	1	0	1	0	16	61	61
+CWE-20  Input Validation  I NIST19			0	8	3	3	27	25	16	29	53	237	387	313	305	386	369	501	556	395	551
+CWE-21  Path Equivalence  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1
+CWE-22  Path Traversal  I NIST19			0	0	0	4	14	17	12	11	23	160	352	319	273	105	118	103	197	141	78
+CWE-59  Link Following  I NIST19			0	2	1	1	3	2	1	6	2	22	174	32	25	34	17	18	59	23	7
+CWE-74  Injection  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	16	10
+CWE-77  Command Injection  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	12	41	29
+CWE-78  OS Command Injections  I NIST19			0	0	0	0	1	0	1	1	2	6	3	18	13	14	14	33	48	34	31
+CWE-79  Cross-Site Scripting (XSS)  I NIST19			0	0	1	0	34	33	22	35	114	349	790	821	594	454	721	616	1028	724	472
+CWE-88  Argument Injection or Modification  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-89  SQL Injection  I NIST19			0	0	0	0	7	11	9	50	98	255	1092	948	515	289	236	146	296	212	94
+CWE-90  Improper Neutralization of Special Elements used in an LDAP Query (LDAP Injection)  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-91  XML Injection (aka Blind XPath Injection)  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1
+CWE-93  Improper Neutralization of CRLF Sequences (CRLF Injection)  U Non_Nist19			0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	3
+CWE-94  Code Injection  I NIST19			0	3	1	2	8	14	7	21	184	302	319	323	261	102	137	138	192	50	23
+CWE-99  Improper Control of Resource Identifiers (Resource Injection)  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-113  Improper Neutralization of CRLF Sequences in HTTP Headers (HTTP Response Splitting)  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	4
+CWE-116  Improper Encoding or Escaping of Output  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-118  Improper Access of Indexable Resource (Range Error)  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-119  Buffer Errors  I NIST19			2	5	1	10	42	56	28	73	142	440	564	564	537	662	723	759	769	986	1192
+CWE-123  Write-what-where Condition  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-125  Out-of-bounds Read  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	1	3	85
+CWE-129  Improper Validation of Array Index  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2
+CWE-134  Format String Vulnerability  I NIST19			0	0	0	0	1	2	3	3	17	30	24	28	15	10	11	9	7	4	2
+CWE-137  Representation Errors  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-171  Cleansing, Canonicalization, and Comparison Errors  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-172  Encoding Error  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4
+CWE-184  Incomplete Blacklist  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-185  Incorrect Regular Expression  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0
+CWE-189  Numeric Errors  I NIST19			0	0	0	0	6	3	1	15	35	103	159	158	161	131	151	145	115	130	49
+CWE-190  Integer Overflow or Wraparound  U Non_Nist19			0	0	0	0	0	0	0	0	1	0	0	0	0	0	1	2	2	1	55
+CWE-191  Integer Underflow (Wrap or Wraparound)  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	2
+CWE-199  Information Management Errors  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	2
+CWE-200  Information Leak / Disclosure  C NIST19			1	7	4	1	14	25	5	20	30	96	192	162	159	297	220	253	347	604	705
+CWE-216  Containment Errors (Container Errors)  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-220  Sensitive Data Under FTP Root  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-254  Security Features  U Non_Nist19			0	0	1	0	1	0	0	1	1	1	0	0	0	1	0	0	7	105	176
+CWE-255  Credentials Management  D NIST19			0	3	0	0	8	8	6	2	5	24	52	67	53	38	52	89	115	76	47
+CWE-264  Permissions, Privileges, and Access Control  D NIST19			1	6	2	3	32	18	20	39	51	221	449	436	357	283	607	579	730	575	645
+CWE-275  Permission Issues  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6
+CWE-284  Improper Access Control  U Non_Nist19			0	0	0	1	0	0	0	1	0	0	1	1	0	0	4	3	21	147	420
+CWE-285  Improper Authorization  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	16
+CWE-287  Authentication Issues  D NIST19			0	3	0	2	4	7	6	5	13	68	146	210	75	55	100	107	144	33	50
+CWE-295  Improper Certificate Validation  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	2
+CWE-297  Improper Validation of Certificate with Host Mismatch  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1
+CWE-306  Missing Authentication for Critical Function  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-310  Cryptographic Issues  D NIST19			0	0	1	4	3	9	2	3	6	28	46	93	71	62	99	130	1585	90	63
+CWE-320  Key Management Errors  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1
+CWE-326  Inadequate Encryption Strength  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3
+CWE-327  Use of a Broken or Risky Cryptographic Algorithm  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1
+CWE-330  Use of Insufficiently Random Values  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1
+CWE-331  Insufficient Entropy  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-332  Insufficient Entropy in PRNG  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1
+CWE-345  Insufficient Verification of Data Authenticity  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	11	13
+CWE-346  Origin Validation Error  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-435  Interaction Error  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-436  Interpretation Conflict  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-471  Modification of Assumed-Immutable Data (MAID)  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-476  NULL Pointer Dereference  U Non_Nist19			0	0	0	0	0	0	0	1	0	2	0	0	0	0	0	0	2	1	75
+CWE-485  Insufficient Encapsulation  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-532  Information Exposure Through Log Files  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5
+CWE-534  Information Exposure Through Debug Log Files  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-noinfo  Insufficient Information  U Non_Nist19		
+CWE-338  Use of Cryptographically Weak Pseudo-Random Number Generator (PRNG)  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-347  Improper Verification of Cryptographic Signature  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-352  Cross-Site Request Forgery (CSRF)  I NIST19			0	0	0	0	1	0	0	1	3	36	78	113	75	55	153	120	245	241	81
+CWE-358  Improperly Implemented Security Check for Standard  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-361  Time and State  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1
+CWE-362  Race Conditions  I NIST19			0	1	1	0	2	2	2	1	7	16	23	35	32	17	69	63	41	49	48
+CWE-369  Divide By Zero  U Non_Nist19			0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	8
+CWE-371  State Issues  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-384  Session Fixation  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+CWE-388  Error Handling  U Non_Nist19			0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	9
+CWE-398  Indicator of Poor Code Quality  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-399  Resource Management Errors  I NIST19			0	0	1	1	5	7	3	36	78	97	310	239	241	377	311	289	262	355	203
+CWE-400  Uncontrolled Resource Consumption (Resource Exhaustion)  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	12
+CWE-404  Improper Resource Shutdown or Release  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-405  Asymmetric Resource Consumption (Amplification)  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-407  Algorithmic Complexity  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-415  Double Free  U Non_Nist19			0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	3	0	6
+CWE-416  Use After Free  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	8	15	9	10	110
+CWE-417  Channel and Path Errors  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-426  Untrusted Search Path  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	2	4
+CWE-613  Insufficient Session Expiration  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-775  Missing Release of File Descriptor or Handle after Effective Lifetime  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1
+CWE-Other  Other  U Non_Nist19		
+CWE-427  Uncontrolled Search Path Element  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1
+CWE-428  Unquoted Search Path or Element  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	2
+CWE-434  Unrestricted Upload of File with Dangerous Type  U Non_Nist19			0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	2	10
+CWE-441  Unintended Proxy or Intermediary (Confused Deputy)  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-444  Inconsistent Interpretation of HTTP Requests (HTTP Request Smuggling)  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-472  External Control of Assumed-Immutable Web Parameter  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-502  Deserialization of Untrusted Data  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	8
+CWE-538  File and Directory Information Exposure  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-552  Files or Directories Accessible to External Parties  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-601  URL Redirection to Untrusted Site (Open Redirect)  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	12
+CWE-610  Externally Controlled Reference to a Resource in Another Sphere  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-611  Improper Restriction of XML External Entity Reference (XXE)  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	16
+CWE-640  Weak Password Recovery Mechanism for Forgotten Password  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3
+CWE-642  External Control of Critical State Data  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-664  Improper Control of a Resource Through its Lifetime  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-665  Improper Initialization  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-668  Exposure of Resource to Wrong Sphere  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-669  Incorrect Resource Transfer Between Spheres  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1
+CWE-682  Incorrect Calculation  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-693  Protection Mechanism Failure  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1
+CWE-694  Use of Multiple Resources with Duplicate Identifier  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-704  Incorrect Type Conversion or Cast  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5
+CWE-749  Exposed Dangerous Method or Function  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1
+CWE-754  Improper Check for Unusual or Exceptional Conditions  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-769  File Descriptor Exhaustion  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-774  Allocation of File Descriptors or Handles Without Limits or Throttling  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-787  Out-of-bounds Write  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	40
+CWE-798  Use of Hard-coded Credentials  U Non_Nist19			0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	11
+CWE-824  Access of Uninitialized Pointer  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1	0	0
+CWE-913  Improper Control of Dynamically-Managed Code Resources  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CWE-918  Server-Side Request Forgery (SSRF)  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6
+CWE-943  Improper Neutralization of Special Elements in Data Query Logic  U Non_Nist19			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
