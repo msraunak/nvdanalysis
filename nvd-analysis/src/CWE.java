@@ -13,7 +13,7 @@ public class CWE implements Comparable <CWE> {
 	private String id;
 	private String name;
 	private String type; // "C":Config, "I":Implementation, "D":Design, "U":Uncategorized
-	private boolean oneOfNIST19; // is this CWE part of the 19 used by
+	private boolean oneOfNIST19; // is this CWE part of the 19 used by NIST
 	private int numOfVulnTotal; // number of vulnerabilities under this category
 	private Map<Integer, Integer> vulnByYear;
 	

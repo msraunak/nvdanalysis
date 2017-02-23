@@ -73,18 +73,13 @@ public class CweList {
 	    Pattern pattern = Pattern.compile(patternRegEx);
 	    Matcher matcher = pattern.matcher(line);
 	    if (matcher.matches()) {
-	    	try {
-	    		id = matcher.group(2);
-	    		name = matcher.group(4);
-		    	cwe = new CWE(id, name);
-		    	this.wknessListAll.add(cwe); // add it to the weaknessList ArrayList
-		    	if (cwe.isOneOfNIST19())
-		    		this.nistList.add(cwe); // Additionally add it to the nistList
-
-	    	} catch (NumberFormatException nfe) {
-	    		System.out.println(line);
-	    		System.exit(1);
-	    	}
+	    	id = matcher.group(2);
+	    	name = matcher.group(4);
+		    cwe = new CWE(id, name);
+		    this.wknessListAll.add(cwe); // add it to the weaknessList ArrayList
+		    if (cwe.isOneOfNIST19()) {
+		    	this.nistList.add(cwe); // Additionally add it to the nistList
+		    }
 	    } else {
 	        System.out.println("NO MATCH in " + line);
 	    } 
