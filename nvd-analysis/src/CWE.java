@@ -15,7 +15,7 @@ public class CWE implements Comparable <CWE> {
 	private String type; // "C":Config, "I":Implementation, "D":Design, "U":Uncategorized
 	private boolean oneOfNIST19; // is this CWE part of the 19 used by NIST
 	private int numOfVulnTotal; // number of vulnerabilities under this category
-	private Map<Integer, Integer> vulnByYear;
+	private Map<Integer, Integer> vulnByYear; // key=year, value=numOfVuln
 	
 	// Constructor
 	public CWE (String cweId, String cweName){
@@ -63,7 +63,7 @@ public class CWE implements Comparable <CWE> {
 	}
 	// number of vulnerabilities in a year
 	public void addNumVulnInYear(int year, int numOfVuln){
-		assert(year>1992 && year<2017);
+		assert(year>1992 && year<=2017);
 		vulnByYear.put(year, numOfVuln);
 	}
 	
