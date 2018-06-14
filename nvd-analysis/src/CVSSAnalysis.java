@@ -30,7 +30,10 @@ public class CVSSAnalysis {
 		
 	} // end main
 
-	/* Print all vulnerabilities reported year by year */
+	/** Print all vulnerabilities reported year by year 
+	 *  @param Year the beggining year of the data beign printed
+	 *  @param Year the end year of the data being printed
+	 */
 	public static void printTotalVulnReportedInYear(int begYear, int endYear){
 	
 		Map <Integer,Integer> totalVulnPerYear = new TreeMap<Integer, Integer>();
@@ -51,7 +54,7 @@ public class CVSSAnalysis {
 		
 	}
 	
-		/**
+	/**
 	 * Search and find out the number of vulnerabilities reported in a year for a particular CWE type
 	 * @param cwe Common Weakness Enumeration
 	 * @param year Reporting Year

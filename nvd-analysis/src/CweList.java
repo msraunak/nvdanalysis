@@ -25,17 +25,23 @@ public class CweList {
 	private final static String catFileName="cwelist.txt";
 
 
-	//Default constructor
+	/** The default constrcutor that assings class attributes to default values*/
 	public CweList(){
 		wknessListAll = new ArrayList<CWE>();
 		nistList = new ArrayList<CWE>();
 		populateList();
 	}
 	
-	// Getters
+	/** Returns the array list of CWE attributes
+	 *  @return List list of all the CWEs
+	 */
 	public ArrayList<CWE> getWeaknessListAll(){
 		return wknessListAll;
-	}	
+	}
+
+	/** Returns the array list of the most common 19 CWEs
+	 *
+	 */	
 	public ArrayList<CWE> getNISTList(){
 		return nistList;
 	}
@@ -61,20 +67,21 @@ public class CweList {
 	}
 	
 	
-	/*
-	 * 	Example Line: <option value="CWE-824">Access of Uninitialized Pointer</option>
-	 */
+	/** Takes an string from the NVD and adds the ID and Name of the vulnerablity to the list of CWEs
+	 *  @param Line a line of input that contains identifying information of the CWE
+	*/
+	//Example Line: <option value="CWE-824">Access of Uninitialized Pointer</option>
 	public void processAndAddToCweList(String line) {
 		
 		CWE cwe;
 		String patternRegEx = "^.*(<option.*CWE-)(.*)(\">)(.*)(</option>).*$";
 		String id, name;
 
-	    Pattern pattern = Pattern.compile(patternRegEx);
-	    Matcher matcher = pattern.matcher(line);
-	    if (matcher.matches()) {
-	    	id = matcher.group(2);
-	    	name = matcher.group(4);
+	    Pattern pattern = Pattern.compile(patternRegEx); //creates a pattern from the specified input
+	    Matcher matcher = pattern.matcher(line); //creates a matcher object from the pattern
+	    if (matcher.matches()) {//checks to make sure the input is in the right format
+	    	id = matcher.group(2); //updates the ID of the CWE
+	    	name = matcher.group(4);//updates the name of the CWE
 		    cwe = new CWE(id, name);
 		    this.wknessListAll.add(cwe); // add it to the weaknessList ArrayList
 		    if (cwe.isOneOfNIST19()) {
@@ -85,7 +92,7 @@ public class CweList {
 	    } 
 	}
 
-	/* Sort the lists */
+	/** Sort the lists */
 	public void sortTheLists(){
 	
 		if ( !wknessListAll.isEmpty() )
@@ -95,7 +102,7 @@ public class CweList {
 			Collections.sort(nistList);
 	}
 
-	// 	Print the list of CWEs
+	/** Prints all the CWEs*/
 	public void printAllCWEs(){
 		for (CWE cwe: wknessListAll){
 			System.out.println(cwe);
@@ -103,7 +110,9 @@ public class CweList {
 	}
 
 	
-	// Output the list of CWEs with their number of Vulnerabilities by year in a text file 
+	/** Output the list of CWEs with their number of Vulnerabilities by year in a text file 
+	 *  @param File a file to which the output data will be written
+	 */
 	public void printAllCWEsToFile(String fileName){
 		
 		PrintWriter pw;
@@ -132,7 +141,9 @@ public class CweList {
 		
 	}
 	
-	// Output the list of 19 CWEs used by NIST with their number of Vulnerabilities by year in a text file
+	/** Output the list of 19 CWEs used by NIST with their number of Vulnerabilities by year in a text file
+	  * @param File the file to which the vulnerability data will be written
+	 */
 	public void printAllNistCWEsToFile(String fileName){
 		
 		PrintWriter pw;
@@ -149,7 +160,7 @@ public class CweList {
 		
 	}
 	
-	//	Print the list of CWEs
+	/**	Print the list of CWEs */
 	public void printAllNISTCWEs(){
 		Collections.sort(nistList); // sort the list before printing
 		for (CWE cwe: nistList){

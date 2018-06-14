@@ -17,7 +17,9 @@ public class CWE implements Comparable <CWE> {
 	private int numOfVulnTotal; // number of vulnerabilities under this category
 	private Map<Integer, Integer> vulnByYear; // key=year, value=numOfVuln
 	
-	// Constructor
+	/** Constructor that initializes CWE entries to a specified ID and name, setting other CWE characteristics to default values
+	 * @param a CWE Id along with its name
+	 */
 	public CWE (String cweId, String cweName){
 		this.id = cweId;
 		this.name = cweName;
@@ -27,41 +29,77 @@ public class CWE implements Comparable <CWE> {
 		this.vulnByYear = new TreeMap<Integer, Integer>();
 	}
 
-	
+	/**Gets the CWE ID
+         *@return CWE ID
+         */
 	public String getId(){
 		return this.id;
 	}
+
+	/**Gets the Name of the Vulnerability
+         *@return vulnerability name
+         */	
 	public String getName(){
 		return this.name;
 	}
+
+        /**Gets the Type of the Vulnerability
+         *@return vulnerability type
+         */
 	public String getType(){
 		return this.type;
 	}
+
+	/**Changes the type of the vulnerability
+         *@param vulnerability type
+         */
 	public void setType(String typeToSet){
 		this.type = typeToSet;
 	}
+
+        /**Checks whether the CWE is one of the 19 most common CWEs
+         *@return boolean 
+         */
 	public boolean isOneOfNIST19(){
 		return this.oneOfNIST19;
 	}
+
+        /**Sets whether a the CWE is one of the 19 most common
+         *@param boolean on whether the vulnerability is one of the 19 most common CWEs
+         */
 	public void setOneOfNIST19(boolean yesNo){
 		this.oneOfNIST19 = yesNo;
 	}
+
+        /**Gets the Name of the Vulnerability
+         *@return vulnerability name
+         */
 	public int getNumOfVulnTotal(){
 		return this.numOfVulnTotal;
 	}
+
+        /**Gets the number of vulnerabilities per year
+         *@return map of the vulnerability with its frequency per year
+         */
 	public Map<Integer,Integer> getVulnByYear(){
 		return this.vulnByYear;
 	}
 	
 	/**
 	 * Set the value of the number of vulnerabilities found under this CWE category
+         * @param Number number of vulnerabilities in this CWE
 	 */
 	public void setNumOfVuln(int num){
 		if (num > 0){
 			this.numOfVulnTotal = num;
 		}
 	}
-	// number of vulnerabilities in a year
+
+
+	/** inserts the number of vulnerabilities in a year into the map
+	 *  @param Year given year for the vulnerability
+	 *  @param Number number of vulnerabilities in a given year
+	 */
 	public void addNumVulnInYear(int year, int numOfVuln){
 		assert(year>1992 && year<=2017);
 		vulnByYear.put(year, numOfVuln);
@@ -69,6 +107,7 @@ public class CWE implements Comparable <CWE> {
 	
 	/**
 	 * Returns the string representation of this data
+	 * @return String sting representation of the data
 	 */
 	public String toString(){
 		String str = "CWE-"+ getId() + "  " + getName() + "  " + getType();
@@ -85,7 +124,7 @@ public class CWE implements Comparable <CWE> {
 		return str;
 	}
 
-	// Print the number of vulnerabilities by year
+	/** prints the number of vulnerabilities per year for a given CWE*/
 	public void printVulnByYear(){
 		String str = "CWE-"+ getId() + "  " + getName();
 		for( Integer year: vulnByYear.keySet() ){
@@ -155,7 +194,10 @@ public class CWE implements Comparable <CWE> {
 		}
 	}
 
-
+	/** Override of the comapareTo method of the object class that compares one CWE object to another
+	 *  @param Cwe CWE entry to be compared to
+	 *  @return Int depeding on the equality a given number will be returned 
+	 */
 	@Override
 	public int compareTo(CWE otherCWE) {
 
