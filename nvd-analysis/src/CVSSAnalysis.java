@@ -59,7 +59,7 @@ public class CVSSAnalysis {
 	 * @param cwe Common Weakness Enumeration
 	 * @param year Reporting Year
 	 */
-	public static void searchByCVSSLevelAndYear(, int year) {
+	public static void searchByCVSSLevelAndYear(CWE cwe, int year) {
 			
 	String urlString = "";
 		
