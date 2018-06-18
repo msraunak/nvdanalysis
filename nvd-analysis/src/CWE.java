@@ -18,13 +18,14 @@ public class CWE implements Comparable <CWE> {
 	private Map<Integer, Integer> vulnByYear; // key=year, value=numOfVuln
 	
 	/** Constructor that initializes CWE entries to a specified ID and name, setting other CWE characteristics to default values
-	 * @param a CWE Id along with its name
+	 * @param cweId CWE Id 
+	 * @param cweName The name of the CWE
 	 */
 	public CWE (String cweId, String cweName){
 		this.id = cweId;
 		this.name = cweName;
 		CWE.setType(this); 
-		// this.oneOfNIST19 = isPartOfNist19(cweId);
+		//this.oneOfNIST19 = isPartOfNist19(cweId);
 		this.numOfVulnTotal = 0;
 		this.vulnByYear = new TreeMap<Integer, Integer>();
 	}
@@ -51,7 +52,7 @@ public class CWE implements Comparable <CWE> {
 	}
 
 	/**Changes the type of the vulnerability
-         *@param vulnerability type
+         *@param typeToSet vulnerability type
          */
 	public void setType(String typeToSet){
 		this.type = typeToSet;
@@ -65,7 +66,7 @@ public class CWE implements Comparable <CWE> {
 	}
 
         /**Sets whether a the CWE is one of the 19 most common
-         *@param boolean on whether the vulnerability is one of the 19 most common CWEs
+         *@param yesNo boolean on whether the vulnerability is one of the 19 most common CWEs
          */
 	public void setOneOfNIST19(boolean yesNo){
 		this.oneOfNIST19 = yesNo;
@@ -87,7 +88,7 @@ public class CWE implements Comparable <CWE> {
 	
 	/**
 	 * Set the value of the number of vulnerabilities found under this CWE category
-         * @param Number number of vulnerabilities in this CWE
+         * @param num Number number of vulnerabilities in this CWE
 	 */
 	public void setNumOfVuln(int num){
 		if (num > 0){
@@ -97,8 +98,8 @@ public class CWE implements Comparable <CWE> {
 
 
 	/** inserts the number of vulnerabilities in a year into the map
-	 *  @param Year given year for the vulnerability
-	 *  @param Number number of vulnerabilities in a given year
+	 *  @param year given year for the vulnerability
+	 *  @param numOfVuln number of vulnerabilities in a given year
 	 */
 	public void addNumVulnInYear(int year, int numOfVuln){
 		assert(year>1992 && year<=2017);
@@ -174,7 +175,7 @@ public class CWE implements Comparable <CWE> {
 	
 	/**
 	 * Check if a particular CWE_ID is one of the 19 used by NIST 
-	 * @param cweId The id of the Common Weakness Enumeration
+	 * @param objCwe cweId The id of the Common Weakness Enumeration
 	 * @return
 	 */
 	public static void setType(CWE objCwe){
@@ -195,7 +196,7 @@ public class CWE implements Comparable <CWE> {
 	}
 
 	/** Override of the comapareTo method of the object class that compares one CWE object to another
-	 *  @param Cwe CWE entry to be compared to
+	 *  @param otherCWE CWE entry to be compared to
 	 *  @return Int depeding on the equality a given number will be returned 
 	 */
 	@Override

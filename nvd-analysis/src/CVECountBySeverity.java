@@ -19,10 +19,10 @@ public class CVECountBySeverity {
 		all = 0;
 	}
 	/** parameterized constructor, setting all the class attributes to desired presets
-	 * @param Count number of low level CVEs
-	 * @param Count number of medium level CVEs
-	 * @param Count number of high level CVEs
-	 * @param Count number of all CVEs
+	 * @param lowLevel number of low level CVEs
+	 * @param mediumLevel number of medium level CVEs
+	 * @param highLevel number of high level CVEs
+	 * @param allLevels number of all CVEs
 	*/
 	public CVECountBySeverity(int lowLevel, int mediumLevel, int highLevel, int allLevels){
 		low = lowLevel;

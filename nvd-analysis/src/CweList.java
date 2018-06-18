@@ -68,7 +68,7 @@ public class CweList {
 	
 	
 	/** Takes an string from the NVD and adds the ID and Name of the vulnerablity to the list of CWEs
-	 *  @param Line a line of input that contains identifying information of the CWE
+	 *  @param line a line of input that contains identifying information of the CWE
 	*/
 	//Example Line: <option value="CWE-824">Access of Uninitialized Pointer</option>
 	public void processAndAddToCweList(String line) {
@@ -111,7 +111,7 @@ public class CweList {
 
 	
 	/** Output the list of CWEs with their number of Vulnerabilities by year in a text file 
-	 *  @param File a file to which the output data will be written
+	 *  @param fileName a file to which the output data will be written
 	 */
 	public void printAllCWEsToFile(String fileName){
 		
@@ -142,7 +142,7 @@ public class CweList {
 	}
 	
 	/** Output the list of 19 CWEs used by NIST with their number of Vulnerabilities by year in a text file
-	  * @param File the file to which the vulnerability data will be written
+	  * @param fileName the file to which the vulnerability data will be written
 	 */
 	public void printAllNistCWEsToFile(String fileName){
 		
