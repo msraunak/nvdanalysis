@@ -15,25 +15,26 @@ import java.util.regex.Pattern;
 
 public class CweAnalysis {
 	
-	/**The main method to call the neccessary methods to collect CWE data
+	/**The main method to call the necessary methods to collect CWE data
 	 */
 	public static void main (String[] args){
 	
 		
 		int begYear, endYear; //declaration of search year parameters
-		String fileName = "NumOfVulnByYear_AllCWEs_1998_2016.txt"; //File name to store the number of vulnerabilities per CWE category
-		begYear=1998;
-		endYear=2016;
+		String fileName = "NumOfVulnByYear_AllCWEs_2014_2017.txt"; //File name to store the number of vulnerabilities per CWE category
+		begYear=2014;
+		endYear=2017;
 	
-		// printTotalVulnReportedInYear(begYear, endYear);
+		//printTotalVulnReportedInYear(begYear, endYear); 
 		gatherVulnForAllCwes(begYear, endYear, fileName); //call to method to collect the CWE data 
+		//vulnByNIST19CweAndYear(begYear, endYear);
 		
 		
 	} // end main
 
 	/** Print all vulnerabilities reported year by year 
-	 * @param Year beginning year of the search
-	 * @param Year end year of the search
+	 * @param begYear beginning year of the search
+	 * @param endYear end year of the search
 	 */
 	public static void printTotalVulnReportedInYear(int begYear, int endYear){
 	
@@ -58,32 +59,31 @@ public class CweAnalysis {
 	}
 	
 	/** Collect the vulnCount for every CWE by Year and print it 
-	 * @param Year the begginning year of the search 
-	 * @param Year the end year of the search
-	 * @param File the file name for data to be stored
+	 * @param begYear the beginning year of the search 
+	 * @param endYear the end year of the search
+	 * @param fileName the file name for data to be stored
 	 */
 	public static void gatherVulnForAllCwes(int begYear, int endYear, String fileName){
 		
 		CweList objCweList = new CweList(); //creates a CWE object list
 		
 		ArrayList<CWE> allCWEs = objCweList.getWeaknessListAll(); // creates an array list of all the CWE objects
-		
 		for (CWE objCwe: allCWEs ) { //loops through all the CWE entries in the CWE list 
 			for (int year=begYear; year<=endYear; year++){
 					// find the number of reported vulnerabilities and update the CWE object accordingly 
-					searchByCweIdAndYear(objCwe, year) ;
+					searchByCweIdAndYear(objCwe, year);
 			}
 		}
-
+		
 		objCweList.sortTheLists(); //sorts the CWE list
 		objCweList.printAllCWEsToFile(fileName); //prints all the CWE to the txt file after sorting 
 						
 	}
 	
 	/** Record the NIST19 vulnerabilities as reported in every year. 
-	 * More focused colleciton of CWEs than gatherVulnForAllCwes  
-	 * @param Year the beggining year of the search
-	 * @param Year the end year of the search
+	 * More focused collection of CWEs than gatherVulnForAllCwes  
+	 * @param begYear the beginning year of the search
+	 * @param endYear the end year of the search
 	 */
 	public static void vulnByNIST19CweAndYear(int begYear, int endYear){
 		
@@ -94,6 +94,7 @@ public class CweAnalysis {
 				// find the number of vulnerabilities and update the CWE object accordingly 
 				searchByCweIdAndYear(objCwe, year) ;
 			}
+			
 		}
 
 		System.out.print("CWE-ID\t CWE-Name\t Category \t Is Part Of NIST19"); //header for the list of CWEs
@@ -107,12 +108,12 @@ public class CweAnalysis {
 	}
 	
 	/**
-	 * Generate an URL for searching for a particular CWE-ID vulnerability
-	 * @param CWE a single CWE object, represeting a single CWE category
+	 * Generate a URL for searching for a particular CWE-ID vulnerability
+	 * @param cwe a single CWE object, representing a single CWE category
 	 */
 	public static void searchByCweId(CWE cwe){
 		
-		String urlString = "https://web.nvd.nist.gov/view/vuln/search-results?adv_search=true&cves=on&cwe_id=CWE-" + cwe.getId(); //url of the desrired CWE
+		String urlString = "https://nvd.nist.gov/vuln/search/results?form_type=Advanced&results_type=overview&search_type=all&cwe_id=CWE-" + cwe.getId(); //url of the desired CWE
 		
 		try {
 			URL url = new URL(urlString);
@@ -120,7 +121,7 @@ public class CweAnalysis {
 			BufferedReader br = new BufferedReader(new InputStreamReader(url.openStream())); //creates a stream from the URL of the CWE
 			
 			String strLine = "";
-			String patternRegEx = "(.*)There are <strong>(.*)</strong> matching records(.*)";
+			String patternRegEx = "(.*)There are <strong(.*)>(.*)</strong> matching records(.*)";
 			Pattern pattern = Pattern.compile(patternRegEx);//compiles the regular expression into a pattern;exception can be thrown
 		    Matcher matcher; //object that performs match operations on a pattern sequence
 		    
@@ -128,7 +129,7 @@ public class CweAnalysis {
 				
 				matcher = pattern.matcher(strLine);	//creates a matcher that will match the given input against this pattern 
 				if (matcher.matches()){ //this tries to match the entire region against the pattern
-					int numOfVuln = Integer.parseInt(matcher.group(2).replaceAll(",","")); //strip all commas in the matched group
+					int numOfVuln = Integer.parseInt(matcher.group(3).replaceAll(",","")); //strip all commas in the matched group
 					System.out.println("CWE-"+ cwe.getId() + ": " + cwe.getName() + ": " 
 											+ cwe.getType() + " : " + numOfVuln);//prints out the CWE along with its vulnerabilities
 					cwe.setNumOfVuln(numOfVuln);//updates the CWE object with its number of vulnerabilities
@@ -150,26 +151,28 @@ public class CweAnalysis {
 	String urlString = "";
 		
 		//the different parts of the URL string being concatenated for a certain CWE and year
-		urlString += "https://web.nvd.nist.gov/view/vuln/search-results?adv_search=true&cves=on&cwe_id=CWE-" + cwe.getId(); 
-		urlString += "&pub_date_start_month=0&pub_date_start_year=" + year;
-		urlString += "&pub_date_end_month=11&pub_date_end_year=" + year;
+		urlString += "https://nvd.nist.gov/vuln/search/results?form_type=Advanced&results_type=overview&search_type=all&cwe_id=CWE-" + cwe.getId(); 
+		urlString += "&pub_start_date=01%2F01%2F" + year;
+		urlString += "&pub_end_date=12%2F31%2F" + year;
 		
-		try {
+		try {                                                             
 
 			URL url = new URL(urlString);
 
 			BufferedReader br = new BufferedReader(new InputStreamReader(url.openStream()));//creates a stream for the URLof the CWE with its year
 			
 			String strLine = "";
-			String patternRegEx = "(.*)There are <strong>(.*)</strong> matching records(.*)";
+			String patternRegEx = "(.*)There are <strong(.*)>(.*)</strong> matching records(.*)";
 			Pattern pattern = Pattern.compile(patternRegEx);//compiles the string expression into a pattern;exception can be thrown
 		    Matcher matcher;//object that performs match operations on a pattern sequence 
 		    
 			while (null != (strLine = br.readLine())) {//loops through all the lines in a webpage 
-				
 				matcher = pattern.matcher(strLine);	//creates a matcher that will match the given input against the pattern 
+				
 				if (matcher.matches()){//test if the entire region matches against the pattern
-					int numOfVuln = Integer.parseInt(matcher.group(2).replaceAll(",","")); //strip all commas in the matched gropu
+					//System.out.println("Made it to updates num vulnerabilities");
+					
+					int numOfVuln = Integer.parseInt(matcher.group(3).replaceAll(",","")); //strip all commas in the matched group
 					System.out.println("CWE-"+ cwe.getId() + ": " + cwe.getName() 
 										+ ": " + cwe.getType() + ": " + year + ":" + numOfVuln);//prints out the CWE/Year with its frequency
 					
@@ -184,38 +187,35 @@ public class CweAnalysis {
 			
 	}
 
-	/* Given a particular year, find out the total number of vulnerabilities reported in that year
-	 * https://web.nvd.nist.gov/view/vuln/search-results?adv_search=true
-	 * &cves=on&pub_date_start_month=0&pub_date_start_year=2009&pub_date_end_month=11&pub_date_end_year=2009
-	 * &cvss_version=3&cve_id=
-	 * @param single calendar year
+	/** Given a particular year, find out the total number of vulnerabilities reported in that year
+	 * @param year single calendar year
 	 * @return the number of vulnerabilities in a year
 	 */
 	public static int vulnReportedInAYear(int year){
 		
 		//concatenation of the URL string for a given year
 		String urlString = "";
-		urlString += "https://web.nvd.nist.gov/view/vuln/search-results?adv_search=true&cves=on"; 
-		urlString += "&pub_date_start_month=0&pub_date_start_year=" + year;
-		urlString += "&pub_date_end_month=11&pub_date_end_year=" + year;
+		urlString += "https://nvd.nist.gov/vuln/search/results?form_type=Advanced&results_type=overview&search_type=all"; 
+		urlString += "&pub_start_date=01%2F01%2F" + year;
+		urlString += "&pub_end_date=12%2F31%2F" + year;
 				
 		try {
 				URL url = new URL(urlString);
 				BufferedReader br = new BufferedReader(new InputStreamReader(url.openStream()));//creates a stream given the URL
 				
 				String strLine = "";
-				String patternRegEx = "(.*)There are <strong>(.*)</strong> matching records(.*)";
+				String patternRegEx = "(.*)There are <strong(.*)>(.*)</strong> matching records(.*)";
 				Pattern pattern = Pattern.compile(patternRegEx);//compiles the string expression into a pattern;exception can be throw 
 			    Matcher matcher;//object that performs match operations on a pattern sequence 
 			    
 				while (null != (strLine = br.readLine())) {//loops through all the lines in the NVD for the given entry
 					
 					matcher = pattern.matcher(strLine);//creates a matcher object that will match the given input against a pattern	
-					if (matcher.matches()){ //tests if the entire region maps aginast a certain pattern
-						int numOfVuln = Integer.parseInt(matcher.group(2).replaceAll(",","")); //strip all commas in the matched gropu
+					if (matcher.matches()){ //tests if the entire region maps against a certain pattern
+						int numOfVuln = Integer.parseInt(matcher.group(3).replaceAll(",","")); //strip all commas in the matched gropu
 						System.out.println(year + ": " + numOfVuln);// outputs the number of vulnerabilities in a given year
 						
-						return numOfVuln; //returns the count of vulnerabilties for that year
+						return numOfVuln; //returns the count of vulnerabilities for that year
 					}
 				}
 			} catch (IOException ioe) {
