@@ -21,12 +21,15 @@ public class CweAnalysis {
 	
 		
 		int begYear, endYear; //declaration of search year parameters
-		String fileName = "NumOfVulnByYear_AllCWEs_2014_2017.txt"; //File name to store the number of vulnerabilities per CWE category
+		String fileName = "ChromeVuln2014-2017.txt"; //File name to store the number of vulnerabilities per CWE category
 		begYear=2014;
 		endYear=2017;
+		String product = "chrome";
+		String vendor = "google";
 	
 		//printTotalVulnReportedInYear(begYear, endYear); 
-		gatherVulnForAllCwes(begYear, endYear, fileName); //call to method to collect the CWE data 
+		gatherVulnPerVendorAndProduct(begYear, endYear, fileName, vendor, product);
+		//gatherVulnForAllCwes(begYear, endYear, fileName); //call to method to collect the CWE data 
 		//vulnByNIST19CweAndYear(begYear, endYear);
 		
 		
@@ -78,6 +81,30 @@ public class CweAnalysis {
 		objCweList.sortTheLists(); //sorts the CWE list
 		objCweList.printAllCWEsToFile(fileName); //prints all the CWE to the txt file after sorting 
 						
+	}
+	
+	
+	/** This will gather the number of vulnerabilities for a specific product associated with a specific vendor
+	 * @param begYear beginning year of the search
+	 * @param endYear end year of the search
+	 * @param fileName file to which the data will be written
+	 * @param Vendor the CPE vendor of the product
+	 * @param product the specific piece of software
+	 */
+	public static void gatherVulnPerVendorAndProduct(int begYear, int endYear, String fileName, String Vendor, String product)
+	{
+		CweList objCweList = new CweList();
+		
+		ArrayList<CWE> productCWEs = objCweList.getWeaknessListAll(); //creates an array list of all the CWE objects
+		for (CWE obj: productCWEs)
+		{
+			for(int year = begYear; year<=endYear; year++)
+			{
+				searchByProductAndYear(obj, Vendor, product, year);
+			}
+		}
+		objCweList.sortTheLists();
+		objCweList.printAllCWEsToFile(fileName);
 	}
 	
 	/** Record the NIST19 vulnerabilities as reported in every year. 
@@ -185,7 +212,48 @@ public class CweAnalysis {
 		}	
 			
 	}
+	
+	public static void searchByProductAndYear(CWE cwe, String vendor, String product, int year)
+	{
+		String urlString = "";
+		
+		//the different parts of the URL string being concatenated for a certain CWE and year
+		urlString += "https://nvd.nist.gov/vuln/search/results?form_type=Advanced&results_type=overview&search_type=all&cwe_id=CWE-" + cwe.getId(); 
+		urlString += "&cpe_vendor=cpe%3A%2F%3A" + vendor;
+		urlString += "&cpe_product=cpe%3A%2F%3A%3A" + product;
+		urlString += "&pub_start_date=01%2F01%2F" + year;
+		urlString += "&pub_end_date=12%2F31%2F" + year;
+		
+		try {                                                             
 
+			URL url = new URL(urlString);
+
+			BufferedReader br = new BufferedReader(new InputStreamReader(url.openStream()));//creates a stream for the URLof the CWE with its year
+			
+			String strLine = "";
+			String patternRegEx = "(.*)There are <strong(.*)>(.*)</strong> matching records(.*)";
+			Pattern pattern = Pattern.compile(patternRegEx);//compiles the string expression into a pattern;exception can be thrown
+		    Matcher matcher;//object that performs match operations on a pattern sequence 
+		    
+			while (null != (strLine = br.readLine())) {//loops through all the lines in a webpage 
+				matcher = pattern.matcher(strLine);	//creates a matcher that will match the given input against the pattern 
+				
+				if (matcher.matches()){//test if the entire region matches against the pattern
+					
+					int numOfVuln = Integer.parseInt(matcher.group(3).replaceAll(",","")); //strip all commas in the matched group
+					System.out.println("CWE-"+ cwe.getId() + ": " + cwe.getName() 
+										+ ": " + cwe.getType() + ": " + year + ":" + numOfVuln);//prints out the CWE/Year with its frequency
+					
+					//cwe.setNumOfVuln(numOfVuln);
+					cwe.addNumVulnInYear(year, numOfVuln);//updates the CWE object with its number of vulnerabilities
+					break;
+				}
+			}
+		} catch (IOException ioe) {
+			ioe.printStackTrace();
+		}	
+	}
+	
 	/** Given a particular year, find out the total number of vulnerabilities reported in that year
 	 * @param year single calendar year
 	 * @return the number of vulnerabilities in a year
