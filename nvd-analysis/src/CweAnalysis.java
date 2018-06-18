@@ -170,7 +170,6 @@ public class CweAnalysis {
 				matcher = pattern.matcher(strLine);	//creates a matcher that will match the given input against the pattern 
 				
 				if (matcher.matches()){//test if the entire region matches against the pattern
-					//System.out.println("Made it to updates num vulnerabilities");
 					
 					int numOfVuln = Integer.parseInt(matcher.group(3).replaceAll(",","")); //strip all commas in the matched group
 					System.out.println("CWE-"+ cwe.getId() + ": " + cwe.getName() 
