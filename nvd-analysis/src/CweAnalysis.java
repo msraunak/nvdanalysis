@@ -21,14 +21,15 @@ public class CweAnalysis {
 	
 		
 		int begYear, endYear; //declaration of search year parameters
-		String fileName = "ChromeVuln2014-2017.txt"; //File name to store the number of vulnerabilities per CWE category
-		begYear=2014;
-		endYear=2017;
-		String product = "chrome";
-		String vendor = "google";
+		String fileName = "IISVuln1998-2018Nist19.txt"; //File name to store the number of vulnerabilities per CWE category
+		begYear=1998;
+		endYear=2018;
+		String product = "iis";
+		String vendor = "microsoft";
 	
+		gatherVulnPerVendorAndProductNist19(begYear, endYear, fileName, vendor, product);
 		//printTotalVulnReportedInYear(begYear, endYear); 
-		gatherVulnPerVendorAndProduct(begYear, endYear, fileName, vendor, product);
+		//gatherVulnPerVendorAndProduct(begYear, endYear, fileName, vendor, product);
 		//gatherVulnForAllCwes(begYear, endYear, fileName); //call to method to collect the CWE data 
 		//vulnByNIST19CweAndYear(begYear, endYear);
 		
@@ -105,6 +106,29 @@ public class CweAnalysis {
 		}
 		objCweList.sortTheLists();
 		objCweList.printAllCWEsToFile(fileName);
+	}
+	
+	/** This will gather the number of vulnerabilities for a specific product associated with a specific vendor
+	 * @param begYear beginning year of the search
+	 * @param endYear end year of the search
+	 * @param fileName file to which the data will be written
+	 * @param Vendor the CPE vendor of the product
+	 * @param product the specific piece of software
+	 */
+	public static void gatherVulnPerVendorAndProductNist19(int begYear, int endYear, String fileName, String Vendor, String product)
+	{
+		CweList objCweList = new CweList();
+		
+		ArrayList<CWE> productCWEs = objCweList.getNISTList(); //creates an array list of all the CWE objects
+		for (CWE obj: productCWEs)
+		{
+			for(int year = begYear; year<=endYear; year++)
+			{
+				searchByProductAndYear(obj, Vendor, product, year);
+			}
+		}
+		objCweList.sortTheLists();
+		objCweList.printAllNistCWEsToFile(fileName);
 	}
 	
 	/** Record the NIST19 vulnerabilities as reported in every year. 
