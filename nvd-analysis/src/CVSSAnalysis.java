@@ -22,10 +22,12 @@ public class CVSSAnalysis {
 	public static void main (String[] args){
 		
 		int begYear, endYear;
-		begYear=2008;
-		endYear=2016;
-		String fileName = "NumOfVulnByYearAndSeverity.txt";
-		gatherCVSSScoresByYearRange(begYear, endYear, fileName);
+		begYear=1998;
+		endYear=2018;
+		String fileName = "NetscapeNumOfVulnByYearAndSeverity.txt";
+		String vendor = "netscape";
+		String product = "navigator";
+		gatherCVSSScoresQuery(begYear, endYear, fileName, vendor, product);
 		//Map <Integer, CVECountBySeverity> cvss2 = new TreeMap<Integer, CVECountBySeverity>(); 
 		
 	
@@ -164,6 +166,85 @@ public class CVSSAnalysis {
 		
 		printCVSSv2DataToFile(cvssv2, fileName);
 	}//end method gatherCVSSScoresByYearRange
+	
+	
+	/** Collects the CVSSv2 score with their different severities for each year and then prints them 
+	 * 
+	 * @param begYear the beginning year of the search
+	 * @param endYear the end year of the search
+	 * @param fileName the name of the file to be written to
+	 */
+	public static void gatherCVSSScoresQuery(int begYear, int endYear, String fileName, String vendor, String product)
+	{
+		Map <Integer, CVECountBySeverity> cvssv2 = new TreeMap<Integer, CVECountBySeverity>();
+		int low;
+		int medium;
+		int high;
+		int all;
+		CVECountBySeverity cve;
+		
+		for (int year=begYear; year<=endYear; year++)
+		{
+			// find the number of each severity of CVSSv2 for the given year
+			low = searchSeverityQeuryCVSSv2(year, "LOW", vendor, product);
+			medium = searchSeverityQeuryCVSSv2(year, "MEDIUM",vendor, product);
+			high = searchSeverityQeuryCVSSv2(year, "HIGH",vendor, product);
+			all = searchSeverityQeuryCVSSv2(year, "ALL",vendor, product);
+			cve = new CVECountBySeverity(low, medium, high, all);
+			System.out.println("Year: " + year + " Low: " + low + " Medium: " + medium + " High: " + high + " All: " + all);
+			cvssv2.put(year, cve);	
+		}	
+		
+		printCVSSv2DataToFile(cvssv2, fileName);
+	}//end method gatherCVSSScoresByYearRange
+	
+	/** Collects the number of severity type CVSSv2 entries for a given year
+	 * 
+	 * @param year the year for the query 
+	 * @return the amount of severity type CVE entries for a given year
+	 */
+	public static int searchSeverityQeuryCVSSv2(int year, String severity, String vendor, String product)
+	{
+		String urlString = "";
+		//the different parts of the URL string being concatenated for severity and year
+		urlString += "https://nvd.nist.gov/vuln/search/results?form_type=Advanced&results_type=overview&search_type=all&cpe_vendor=cpe%3A%2F%3A" + vendor;
+		urlString += "&cpe_product=cpe%3A%2F%3A%3A" + product;
+		if (severity.equals("ALL"))
+			urlString += "&cvss_version=2";
+		else
+			urlString += "&cvss_version=2&cvss_v2_severity=" + severity; 
+		urlString += "&pub_start_date=01%2F01%2F" + year;
+		urlString += "&pub_end_date=12%2F31%2F" + year;
+		
+		int numOfSeverity = -1; //set to -1 default value to ensure valid search
+		
+		try {                                                             
+
+			URL url = new URL(urlString);
+
+			BufferedReader br = new BufferedReader(new InputStreamReader(url.openStream()));//creates a stream for the URLof the CWE with its year
+			
+			String strLine = "";
+			String patternRegEx = "(.*)There are <strong(.*)>(.*)</strong> matching records(.*)";
+			Pattern pattern = Pattern.compile(patternRegEx);//compiles the string expression into a pattern;exception can be thrown
+		    Matcher matcher;//object that performs match operations on a pattern sequence 
+		    
+			while (null != (strLine = br.readLine())) {//loops through all the lines in a webpage 
+				matcher = pattern.matcher(strLine);	//creates a matcher that will match the given input against the pattern 
+				
+				if (matcher.matches()){//test if the entire region matches against the pattern
+					
+					numOfSeverity = Integer.parseInt(matcher.group(3).replaceAll(",","")); //strip all commas in the matched group
+					break;
+				}
+			}
+		} catch (IOException ioe) {
+			ioe.printStackTrace();
+		}
+		
+		return numOfSeverity;
+	}//end method searchSeverityCVSSv2
+	
 	
 	
 	/** Collects the number of severity type CVSSv2 entries for a given year
